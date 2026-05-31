@@ -6,6 +6,7 @@ P-Reinforce 자동 지식 구조화 엔진이 빌드하는 지식 베이스의 �
 
 ## 🛠️ Projects
 *현재 분류된 목록*
+- [AI_City_Master_Plan](10_Wiki/🛠️ Projects/AI_City_Master_Plan.md)
 - [노량진뉴타운_자동화_SEO_시스템_설계보고서](10_Wiki/🛠️ Projects/노량진뉴타운_자동화_SEO_시스템_설계보고서.md)
 
 ## 💡 Topics

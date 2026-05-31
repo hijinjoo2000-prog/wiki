@@ -142,6 +142,20 @@
       "updated": "2026-05-31"
     },
     {
+      "id": "e78b2734-d3a1-432a-bc91-2a1cb5b9f71c",
+      "label": "AI_City_Master_Plan",
+      "category": "10_Wiki/🛠️ Projects",
+      "path": "10_Wiki/🛠️ Projects/AI_City_Master_Plan.md",
+      "tags": [
+        "AI_City",
+        "Master_Plan",
+        "FastAPI",
+        "Veo",
+        "Gemini"
+      ],
+      "updated": "2026-05-31"
+    },
+    {
       "id": "886de565-c857-4d79-b26e-8af2c4c89550",
       "label": "노량진뉴타운_자동화_SEO_시스템_설계보고서",
       "category": "10_Wiki/🛠️ Projects",
@@ -374,6 +388,26 @@
     {
       "source": "115aee5e-6440-4282-8d1b-9f82dea65d03",
       "target": "2a5cf50b-4c01-4d3f-b257-a38d5e1d3577",
+      "type": "related"
+    },
+    {
+      "source": "e78b2734-d3a1-432a-bc91-2a1cb5b9f71c",
+      "target": "886de565-c857-4d79-b26e-8af2c4c89550",
+      "type": "related"
+    },
+    {
+      "source": "886de565-c857-4d79-b26e-8af2c4c89550",
+      "target": "e78b2734-d3a1-432a-bc91-2a1cb5b9f71c",
+      "type": "related"
+    },
+    {
+      "source": "e78b2734-d3a1-432a-bc91-2a1cb5b9f71c",
+      "target": "ca322028-bf6f-4a00-8ae6-8ab883a58652",
+      "type": "related"
+    },
+    {
+      "source": "ca322028-bf6f-4a00-8ae6-8ab883a58652",
+      "target": "e78b2734-d3a1-432a-bc91-2a1cb5b9f71c",
       "type": "related"
     },
     {
