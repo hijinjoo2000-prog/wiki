@@ -1,6 +1,6 @@
 ---
 id: 2b9d0c5b-73f7-442b-8e02-3099b008a1b6
-category: "[[10_Wiki/💡 Topics]]"
+category: "[[10_Wiki/💡 Topics/AI_RAG_기술]]"
 confidence_score: 0.95
 tags: ["법전", "재개발", "RAG"]
 last_reinforced: 2026-05-31

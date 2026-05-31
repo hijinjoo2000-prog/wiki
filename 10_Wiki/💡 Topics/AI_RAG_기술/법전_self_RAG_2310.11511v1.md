@@ -1,6 +1,6 @@
 ---
 id: 2a5cf50b-4c01-4d3f-b257-a38d5e1d3577
-category: "[[10_Wiki/💡 Topics]]"
+category: "[[10_Wiki/💡 Topics/AI_RAG_기술]]"
 confidence_score: 0.95
 tags: ["법전", "RAG"]
 last_reinforced: 2026-05-31

@@ -1,6 +1,6 @@
 ---
 id: 3f6d8232-e420-4051-a32f-d85460099300
-category: "[[10_Wiki/💡 Topics]]"
+category: "[[10_Wiki/💡 Topics/콘텐츠_전략_및_마케팅]]"
 confidence_score: 0.95
 tags: ["유튜브"]
 last_reinforced: 2026-05-31
