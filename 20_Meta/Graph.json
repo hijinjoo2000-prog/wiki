@@ -277,6 +277,46 @@
         "RAG"
       ],
       "updated": "2026-05-31"
+    },
+    {
+      "id": "b1eaceeb-b4ad-47f7-85c0-0f7a1d47d861",
+      "label": "강남_재건축_분석",
+      "category": "10_Wiki/Topics/부동산/재건축",
+      "path": "10_Wiki/Topics/부동산/재건축/강남_재건축_분석.md",
+      "tags": [
+        "강남",
+        "재건축",
+        "부동산",
+        "규제완화",
+        "공사비",
+        "신속통합기획",
+        "초과이익환수제"
+      ],
+      "updated": "2026-05-31"
+    },
+    {
+      "id": "1280634c-18c1-4037-ba70-f79ddd90694d",
+      "label": "부동산_정책",
+      "category": "10_Wiki/Topics/Uncategorized",
+      "path": "",
+      "tags": [],
+      "updated": "2026-05-31"
+    },
+    {
+      "id": "70a67214-677a-46d6-8e8e-dec8b30a9e79",
+      "label": "재개발_조합",
+      "category": "10_Wiki/Topics/Uncategorized",
+      "path": "",
+      "tags": [],
+      "updated": "2026-05-31"
+    },
+    {
+      "id": "e3362bc8-3d3a-4275-bca2-5524a7220ed9",
+      "label": "강남_부동산_마케팅",
+      "category": "10_Wiki/Topics/Uncategorized",
+      "path": "",
+      "tags": [],
+      "updated": "2026-05-31"
     }
   ],
   "links": [
@@ -588,6 +628,36 @@
     {
       "source": "2ca530fc-371a-4c1a-9f6f-9e6d251d4153",
       "target": "49052ecb-1794-438a-aa71-6881e1ed8a77",
+      "type": "related"
+    },
+    {
+      "source": "b1eaceeb-b4ad-47f7-85c0-0f7a1d47d861",
+      "target": "1280634c-18c1-4037-ba70-f79ddd90694d",
+      "type": "related"
+    },
+    {
+      "source": "1280634c-18c1-4037-ba70-f79ddd90694d",
+      "target": "b1eaceeb-b4ad-47f7-85c0-0f7a1d47d861",
+      "type": "related"
+    },
+    {
+      "source": "b1eaceeb-b4ad-47f7-85c0-0f7a1d47d861",
+      "target": "70a67214-677a-46d6-8e8e-dec8b30a9e79",
+      "type": "related"
+    },
+    {
+      "source": "70a67214-677a-46d6-8e8e-dec8b30a9e79",
+      "target": "b1eaceeb-b4ad-47f7-85c0-0f7a1d47d861",
+      "type": "related"
+    },
+    {
+      "source": "b1eaceeb-b4ad-47f7-85c0-0f7a1d47d861",
+      "target": "e3362bc8-3d3a-4275-bca2-5524a7220ed9",
+      "type": "related"
+    },
+    {
+      "source": "e3362bc8-3d3a-4275-bca2-5524a7220ed9",
+      "target": "b1eaceeb-b4ad-47f7-85c0-0f7a1d47d861",
       "type": "related"
     }
   ]

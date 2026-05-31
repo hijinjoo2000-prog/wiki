@@ -1,0 +1,1612 @@
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try brew install
+    xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a Python library that isn't in Homebrew,
+    use a virtual environment:
+    
+    python3 -m venv path/to/venv
+    source path/to/venv/bin/activate
+    python3 -m pip install xyz
+    
+    If you wish to install a Python application that isn't in Homebrew,
+    it may be easiest to use 'pipx install xyz', which will manage a
+    virtual environment for you. You can install pipx with
+    
+    brew install pipx
+    
+    You may restore the old behavior of pip by passing
+    the '--break-system-packages' flag to pip, or by adding
+    'break-system-packages = true' to your pip.conf file. The latter
+    will permanently disable this error.
+    
+    If you disable this error, we STRONGLY recommend that you additionally
+    pass the '--user' flag to pip, or set 'user = true' in your pip.conf
+    file. Failure to do this can result in a broken Homebrew installation.
+    
+    Read more about this behavior here: <https://peps.python.org/pep-0668/>
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/reinforce.py", line 15, in install_dependencies
+    __import__(package.replace("-", "_"))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'google_generativeai'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/watch_knowledge.py", line 9, in <module>
+    from reinforce import reinforce_main, log
+  File "/Users/seopro/위키에이전트/reinforce.py", line 20, in <module>
+    install_dependencies()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/seopro/위키에이전트/reinforce.py", line 18, in install_dependencies
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 420, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '-m', 'pip', 'install', 'google-generativeai']' returned non-zero exit status 1.
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try brew install
+    xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a Python library that isn't in Homebrew,
+    use a virtual environment:
+    
+    python3 -m venv path/to/venv
+    source path/to/venv/bin/activate
+    python3 -m pip install xyz
+    
+    If you wish to install a Python application that isn't in Homebrew,
+    it may be easiest to use 'pipx install xyz', which will manage a
+    virtual environment for you. You can install pipx with
+    
+    brew install pipx
+    
+    You may restore the old behavior of pip by passing
+    the '--break-system-packages' flag to pip, or by adding
+    'break-system-packages = true' to your pip.conf file. The latter
+    will permanently disable this error.
+    
+    If you disable this error, we STRONGLY recommend that you additionally
+    pass the '--user' flag to pip, or set 'user = true' in your pip.conf
+    file. Failure to do this can result in a broken Homebrew installation.
+    
+    Read more about this behavior here: <https://peps.python.org/pep-0668/>
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/reinforce.py", line 15, in install_dependencies
+    __import__(package.replace("-", "_"))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'google_generativeai'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/watch_knowledge.py", line 9, in <module>
+    from reinforce import reinforce_main, log
+  File "/Users/seopro/위키에이전트/reinforce.py", line 20, in <module>
+    install_dependencies()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/seopro/위키에이전트/reinforce.py", line 18, in install_dependencies
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 420, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '-m', 'pip', 'install', 'google-generativeai']' returned non-zero exit status 1.
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try brew install
+    xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a Python library that isn't in Homebrew,
+    use a virtual environment:
+    
+    python3 -m venv path/to/venv
+    source path/to/venv/bin/activate
+    python3 -m pip install xyz
+    
+    If you wish to install a Python application that isn't in Homebrew,
+    it may be easiest to use 'pipx install xyz', which will manage a
+    virtual environment for you. You can install pipx with
+    
+    brew install pipx
+    
+    You may restore the old behavior of pip by passing
+    the '--break-system-packages' flag to pip, or by adding
+    'break-system-packages = true' to your pip.conf file. The latter
+    will permanently disable this error.
+    
+    If you disable this error, we STRONGLY recommend that you additionally
+    pass the '--user' flag to pip, or set 'user = true' in your pip.conf
+    file. Failure to do this can result in a broken Homebrew installation.
+    
+    Read more about this behavior here: <https://peps.python.org/pep-0668/>
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/reinforce.py", line 15, in install_dependencies
+    __import__(package.replace("-", "_"))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'google_generativeai'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/watch_knowledge.py", line 9, in <module>
+    from reinforce import reinforce_main, log
+  File "/Users/seopro/위키에이전트/reinforce.py", line 20, in <module>
+    install_dependencies()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/seopro/위키에이전트/reinforce.py", line 18, in install_dependencies
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 420, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '-m', 'pip', 'install', 'google-generativeai']' returned non-zero exit status 1.
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try brew install
+    xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a Python library that isn't in Homebrew,
+    use a virtual environment:
+    
+    python3 -m venv path/to/venv
+    source path/to/venv/bin/activate
+    python3 -m pip install xyz
+    
+    If you wish to install a Python application that isn't in Homebrew,
+    it may be easiest to use 'pipx install xyz', which will manage a
+    virtual environment for you. You can install pipx with
+    
+    brew install pipx
+    
+    You may restore the old behavior of pip by passing
+    the '--break-system-packages' flag to pip, or by adding
+    'break-system-packages = true' to your pip.conf file. The latter
+    will permanently disable this error.
+    
+    If you disable this error, we STRONGLY recommend that you additionally
+    pass the '--user' flag to pip, or set 'user = true' in your pip.conf
+    file. Failure to do this can result in a broken Homebrew installation.
+    
+    Read more about this behavior here: <https://peps.python.org/pep-0668/>
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/reinforce.py", line 15, in install_dependencies
+    __import__(package.replace("-", "_"))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'google_generativeai'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/watch_knowledge.py", line 9, in <module>
+    from reinforce import reinforce_main, log
+  File "/Users/seopro/위키에이전트/reinforce.py", line 20, in <module>
+    install_dependencies()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/seopro/위키에이전트/reinforce.py", line 18, in install_dependencies
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 420, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '-m', 'pip', 'install', 'google-generativeai']' returned non-zero exit status 1.
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try brew install
+    xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a Python library that isn't in Homebrew,
+    use a virtual environment:
+    
+    python3 -m venv path/to/venv
+    source path/to/venv/bin/activate
+    python3 -m pip install xyz
+    
+    If you wish to install a Python application that isn't in Homebrew,
+    it may be easiest to use 'pipx install xyz', which will manage a
+    virtual environment for you. You can install pipx with
+    
+    brew install pipx
+    
+    You may restore the old behavior of pip by passing
+    the '--break-system-packages' flag to pip, or by adding
+    'break-system-packages = true' to your pip.conf file. The latter
+    will permanently disable this error.
+    
+    If you disable this error, we STRONGLY recommend that you additionally
+    pass the '--user' flag to pip, or set 'user = true' in your pip.conf
+    file. Failure to do this can result in a broken Homebrew installation.
+    
+    Read more about this behavior here: <https://peps.python.org/pep-0668/>
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/reinforce.py", line 15, in install_dependencies
+    __import__(package.replace("-", "_"))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'google_generativeai'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/watch_knowledge.py", line 9, in <module>
+    from reinforce import reinforce_main, log
+  File "/Users/seopro/위키에이전트/reinforce.py", line 20, in <module>
+    install_dependencies()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/seopro/위키에이전트/reinforce.py", line 18, in install_dependencies
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 420, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '-m', 'pip', 'install', 'google-generativeai']' returned non-zero exit status 1.
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try brew install
+    xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a Python library that isn't in Homebrew,
+    use a virtual environment:
+    
+    python3 -m venv path/to/venv
+    source path/to/venv/bin/activate
+    python3 -m pip install xyz
+    
+    If you wish to install a Python application that isn't in Homebrew,
+    it may be easiest to use 'pipx install xyz', which will manage a
+    virtual environment for you. You can install pipx with
+    
+    brew install pipx
+    
+    You may restore the old behavior of pip by passing
+    the '--break-system-packages' flag to pip, or by adding
+    'break-system-packages = true' to your pip.conf file. The latter
+    will permanently disable this error.
+    
+    If you disable this error, we STRONGLY recommend that you additionally
+    pass the '--user' flag to pip, or set 'user = true' in your pip.conf
+    file. Failure to do this can result in a broken Homebrew installation.
+    
+    Read more about this behavior here: <https://peps.python.org/pep-0668/>
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/reinforce.py", line 15, in install_dependencies
+    __import__(package.replace("-", "_"))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'google_generativeai'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/watch_knowledge.py", line 9, in <module>
+    from reinforce import reinforce_main, log
+  File "/Users/seopro/위키에이전트/reinforce.py", line 20, in <module>
+    install_dependencies()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/seopro/위키에이전트/reinforce.py", line 18, in install_dependencies
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 420, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '-m', 'pip', 'install', 'google-generativeai']' returned non-zero exit status 1.
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try brew install
+    xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a Python library that isn't in Homebrew,
+    use a virtual environment:
+    
+    python3 -m venv path/to/venv
+    source path/to/venv/bin/activate
+    python3 -m pip install xyz
+    
+    If you wish to install a Python application that isn't in Homebrew,
+    it may be easiest to use 'pipx install xyz', which will manage a
+    virtual environment for you. You can install pipx with
+    
+    brew install pipx
+    
+    You may restore the old behavior of pip by passing
+    the '--break-system-packages' flag to pip, or by adding
+    'break-system-packages = true' to your pip.conf file. The latter
+    will permanently disable this error.
+    
+    If you disable this error, we STRONGLY recommend that you additionally
+    pass the '--user' flag to pip, or set 'user = true' in your pip.conf
+    file. Failure to do this can result in a broken Homebrew installation.
+    
+    Read more about this behavior here: <https://peps.python.org/pep-0668/>
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/reinforce.py", line 15, in install_dependencies
+    __import__(package.replace("-", "_"))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'google_generativeai'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/watch_knowledge.py", line 9, in <module>
+    from reinforce import reinforce_main, log
+  File "/Users/seopro/위키에이전트/reinforce.py", line 20, in <module>
+    install_dependencies()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/seopro/위키에이전트/reinforce.py", line 18, in install_dependencies
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 420, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '-m', 'pip', 'install', 'google-generativeai']' returned non-zero exit status 1.
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try brew install
+    xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a Python library that isn't in Homebrew,
+    use a virtual environment:
+    
+    python3 -m venv path/to/venv
+    source path/to/venv/bin/activate
+    python3 -m pip install xyz
+    
+    If you wish to install a Python application that isn't in Homebrew,
+    it may be easiest to use 'pipx install xyz', which will manage a
+    virtual environment for you. You can install pipx with
+    
+    brew install pipx
+    
+    You may restore the old behavior of pip by passing
+    the '--break-system-packages' flag to pip, or by adding
+    'break-system-packages = true' to your pip.conf file. The latter
+    will permanently disable this error.
+    
+    If you disable this error, we STRONGLY recommend that you additionally
+    pass the '--user' flag to pip, or set 'user = true' in your pip.conf
+    file. Failure to do this can result in a broken Homebrew installation.
+    
+    Read more about this behavior here: <https://peps.python.org/pep-0668/>
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/reinforce.py", line 15, in install_dependencies
+    __import__(package.replace("-", "_"))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'google_generativeai'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/watch_knowledge.py", line 9, in <module>
+    from reinforce import reinforce_main, log
+  File "/Users/seopro/위키에이전트/reinforce.py", line 20, in <module>
+    install_dependencies()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/seopro/위키에이전트/reinforce.py", line 18, in install_dependencies
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 420, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '-m', 'pip', 'install', 'google-generativeai']' returned non-zero exit status 1.
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try brew install
+    xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a Python library that isn't in Homebrew,
+    use a virtual environment:
+    
+    python3 -m venv path/to/venv
+    source path/to/venv/bin/activate
+    python3 -m pip install xyz
+    
+    If you wish to install a Python application that isn't in Homebrew,
+    it may be easiest to use 'pipx install xyz', which will manage a
+    virtual environment for you. You can install pipx with
+    
+    brew install pipx
+    
+    You may restore the old behavior of pip by passing
+    the '--break-system-packages' flag to pip, or by adding
+    'break-system-packages = true' to your pip.conf file. The latter
+    will permanently disable this error.
+    
+    If you disable this error, we STRONGLY recommend that you additionally
+    pass the '--user' flag to pip, or set 'user = true' in your pip.conf
+    file. Failure to do this can result in a broken Homebrew installation.
+    
+    Read more about this behavior here: <https://peps.python.org/pep-0668/>
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/reinforce.py", line 15, in install_dependencies
+    __import__(package.replace("-", "_"))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'google_generativeai'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/watch_knowledge.py", line 9, in <module>
+    from reinforce import reinforce_main, log
+  File "/Users/seopro/위키에이전트/reinforce.py", line 20, in <module>
+    install_dependencies()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/seopro/위키에이전트/reinforce.py", line 18, in install_dependencies
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 420, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '-m', 'pip', 'install', 'google-generativeai']' returned non-zero exit status 1.
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try brew install
+    xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a Python library that isn't in Homebrew,
+    use a virtual environment:
+    
+    python3 -m venv path/to/venv
+    source path/to/venv/bin/activate
+    python3 -m pip install xyz
+    
+    If you wish to install a Python application that isn't in Homebrew,
+    it may be easiest to use 'pipx install xyz', which will manage a
+    virtual environment for you. You can install pipx with
+    
+    brew install pipx
+    
+    You may restore the old behavior of pip by passing
+    the '--break-system-packages' flag to pip, or by adding
+    'break-system-packages = true' to your pip.conf file. The latter
+    will permanently disable this error.
+    
+    If you disable this error, we STRONGLY recommend that you additionally
+    pass the '--user' flag to pip, or set 'user = true' in your pip.conf
+    file. Failure to do this can result in a broken Homebrew installation.
+    
+    Read more about this behavior here: <https://peps.python.org/pep-0668/>
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/reinforce.py", line 15, in install_dependencies
+    __import__(package.replace("-", "_"))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'google_generativeai'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/watch_knowledge.py", line 9, in <module>
+    from reinforce import reinforce_main, log
+  File "/Users/seopro/위키에이전트/reinforce.py", line 20, in <module>
+    install_dependencies()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/seopro/위키에이전트/reinforce.py", line 18, in install_dependencies
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 420, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '-m', 'pip', 'install', 'google-generativeai']' returned non-zero exit status 1.
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try brew install
+    xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a Python library that isn't in Homebrew,
+    use a virtual environment:
+    
+    python3 -m venv path/to/venv
+    source path/to/venv/bin/activate
+    python3 -m pip install xyz
+    
+    If you wish to install a Python application that isn't in Homebrew,
+    it may be easiest to use 'pipx install xyz', which will manage a
+    virtual environment for you. You can install pipx with
+    
+    brew install pipx
+    
+    You may restore the old behavior of pip by passing
+    the '--break-system-packages' flag to pip, or by adding
+    'break-system-packages = true' to your pip.conf file. The latter
+    will permanently disable this error.
+    
+    If you disable this error, we STRONGLY recommend that you additionally
+    pass the '--user' flag to pip, or set 'user = true' in your pip.conf
+    file. Failure to do this can result in a broken Homebrew installation.
+    
+    Read more about this behavior here: <https://peps.python.org/pep-0668/>
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/reinforce.py", line 15, in install_dependencies
+    __import__(package.replace("-", "_"))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'google_generativeai'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/watch_knowledge.py", line 9, in <module>
+    from reinforce import reinforce_main, log
+  File "/Users/seopro/위키에이전트/reinforce.py", line 20, in <module>
+    install_dependencies()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/seopro/위키에이전트/reinforce.py", line 18, in install_dependencies
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 420, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '-m', 'pip', 'install', 'google-generativeai']' returned non-zero exit status 1.
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try brew install
+    xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a Python library that isn't in Homebrew,
+    use a virtual environment:
+    
+    python3 -m venv path/to/venv
+    source path/to/venv/bin/activate
+    python3 -m pip install xyz
+    
+    If you wish to install a Python application that isn't in Homebrew,
+    it may be easiest to use 'pipx install xyz', which will manage a
+    virtual environment for you. You can install pipx with
+    
+    brew install pipx
+    
+    You may restore the old behavior of pip by passing
+    the '--break-system-packages' flag to pip, or by adding
+    'break-system-packages = true' to your pip.conf file. The latter
+    will permanently disable this error.
+    
+    If you disable this error, we STRONGLY recommend that you additionally
+    pass the '--user' flag to pip, or set 'user = true' in your pip.conf
+    file. Failure to do this can result in a broken Homebrew installation.
+    
+    Read more about this behavior here: <https://peps.python.org/pep-0668/>
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/reinforce.py", line 15, in install_dependencies
+    __import__(package.replace("-", "_"))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'google_generativeai'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/watch_knowledge.py", line 9, in <module>
+    from reinforce import reinforce_main, log
+  File "/Users/seopro/위키에이전트/reinforce.py", line 20, in <module>
+    install_dependencies()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/seopro/위키에이전트/reinforce.py", line 18, in install_dependencies
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 420, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '-m', 'pip', 'install', 'google-generativeai']' returned non-zero exit status 1.
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try brew install
+    xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a Python library that isn't in Homebrew,
+    use a virtual environment:
+    
+    python3 -m venv path/to/venv
+    source path/to/venv/bin/activate
+    python3 -m pip install xyz
+    
+    If you wish to install a Python application that isn't in Homebrew,
+    it may be easiest to use 'pipx install xyz', which will manage a
+    virtual environment for you. You can install pipx with
+    
+    brew install pipx
+    
+    You may restore the old behavior of pip by passing
+    the '--break-system-packages' flag to pip, or by adding
+    'break-system-packages = true' to your pip.conf file. The latter
+    will permanently disable this error.
+    
+    If you disable this error, we STRONGLY recommend that you additionally
+    pass the '--user' flag to pip, or set 'user = true' in your pip.conf
+    file. Failure to do this can result in a broken Homebrew installation.
+    
+    Read more about this behavior here: <https://peps.python.org/pep-0668/>
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/reinforce.py", line 15, in install_dependencies
+    __import__(package.replace("-", "_"))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'google_generativeai'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/watch_knowledge.py", line 9, in <module>
+    from reinforce import reinforce_main, log
+  File "/Users/seopro/위키에이전트/reinforce.py", line 20, in <module>
+    install_dependencies()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/seopro/위키에이전트/reinforce.py", line 18, in install_dependencies
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 420, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '-m', 'pip', 'install', 'google-generativeai']' returned non-zero exit status 1.
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try brew install
+    xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a Python library that isn't in Homebrew,
+    use a virtual environment:
+    
+    python3 -m venv path/to/venv
+    source path/to/venv/bin/activate
+    python3 -m pip install xyz
+    
+    If you wish to install a Python application that isn't in Homebrew,
+    it may be easiest to use 'pipx install xyz', which will manage a
+    virtual environment for you. You can install pipx with
+    
+    brew install pipx
+    
+    You may restore the old behavior of pip by passing
+    the '--break-system-packages' flag to pip, or by adding
+    'break-system-packages = true' to your pip.conf file. The latter
+    will permanently disable this error.
+    
+    If you disable this error, we STRONGLY recommend that you additionally
+    pass the '--user' flag to pip, or set 'user = true' in your pip.conf
+    file. Failure to do this can result in a broken Homebrew installation.
+    
+    Read more about this behavior here: <https://peps.python.org/pep-0668/>
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/reinforce.py", line 15, in install_dependencies
+    __import__(package.replace("-", "_"))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'google_generativeai'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/watch_knowledge.py", line 9, in <module>
+    from reinforce import reinforce_main, log
+  File "/Users/seopro/위키에이전트/reinforce.py", line 20, in <module>
+    install_dependencies()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/seopro/위키에이전트/reinforce.py", line 18, in install_dependencies
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 420, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '-m', 'pip', 'install', 'google-generativeai']' returned non-zero exit status 1.
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try brew install
+    xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a Python library that isn't in Homebrew,
+    use a virtual environment:
+    
+    python3 -m venv path/to/venv
+    source path/to/venv/bin/activate
+    python3 -m pip install xyz
+    
+    If you wish to install a Python application that isn't in Homebrew,
+    it may be easiest to use 'pipx install xyz', which will manage a
+    virtual environment for you. You can install pipx with
+    
+    brew install pipx
+    
+    You may restore the old behavior of pip by passing
+    the '--break-system-packages' flag to pip, or by adding
+    'break-system-packages = true' to your pip.conf file. The latter
+    will permanently disable this error.
+    
+    If you disable this error, we STRONGLY recommend that you additionally
+    pass the '--user' flag to pip, or set 'user = true' in your pip.conf
+    file. Failure to do this can result in a broken Homebrew installation.
+    
+    Read more about this behavior here: <https://peps.python.org/pep-0668/>
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/reinforce.py", line 15, in install_dependencies
+    __import__(package.replace("-", "_"))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'google_generativeai'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/watch_knowledge.py", line 9, in <module>
+    from reinforce import reinforce_main, log
+  File "/Users/seopro/위키에이전트/reinforce.py", line 20, in <module>
+    install_dependencies()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/seopro/위키에이전트/reinforce.py", line 18, in install_dependencies
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 420, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '-m', 'pip', 'install', 'google-generativeai']' returned non-zero exit status 1.
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try brew install
+    xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a Python library that isn't in Homebrew,
+    use a virtual environment:
+    
+    python3 -m venv path/to/venv
+    source path/to/venv/bin/activate
+    python3 -m pip install xyz
+    
+    If you wish to install a Python application that isn't in Homebrew,
+    it may be easiest to use 'pipx install xyz', which will manage a
+    virtual environment for you. You can install pipx with
+    
+    brew install pipx
+    
+    You may restore the old behavior of pip by passing
+    the '--break-system-packages' flag to pip, or by adding
+    'break-system-packages = true' to your pip.conf file. The latter
+    will permanently disable this error.
+    
+    If you disable this error, we STRONGLY recommend that you additionally
+    pass the '--user' flag to pip, or set 'user = true' in your pip.conf
+    file. Failure to do this can result in a broken Homebrew installation.
+    
+    Read more about this behavior here: <https://peps.python.org/pep-0668/>
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/reinforce.py", line 15, in install_dependencies
+    __import__(package.replace("-", "_"))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'google_generativeai'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/watch_knowledge.py", line 9, in <module>
+    from reinforce import reinforce_main, log
+  File "/Users/seopro/위키에이전트/reinforce.py", line 20, in <module>
+    install_dependencies()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/seopro/위키에이전트/reinforce.py", line 18, in install_dependencies
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 420, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '-m', 'pip', 'install', 'google-generativeai']' returned non-zero exit status 1.
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try brew install
+    xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a Python library that isn't in Homebrew,
+    use a virtual environment:
+    
+    python3 -m venv path/to/venv
+    source path/to/venv/bin/activate
+    python3 -m pip install xyz
+    
+    If you wish to install a Python application that isn't in Homebrew,
+    it may be easiest to use 'pipx install xyz', which will manage a
+    virtual environment for you. You can install pipx with
+    
+    brew install pipx
+    
+    You may restore the old behavior of pip by passing
+    the '--break-system-packages' flag to pip, or by adding
+    'break-system-packages = true' to your pip.conf file. The latter
+    will permanently disable this error.
+    
+    If you disable this error, we STRONGLY recommend that you additionally
+    pass the '--user' flag to pip, or set 'user = true' in your pip.conf
+    file. Failure to do this can result in a broken Homebrew installation.
+    
+    Read more about this behavior here: <https://peps.python.org/pep-0668/>
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/reinforce.py", line 15, in install_dependencies
+    __import__(package.replace("-", "_"))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'google_generativeai'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/watch_knowledge.py", line 9, in <module>
+    from reinforce import reinforce_main, log
+  File "/Users/seopro/위키에이전트/reinforce.py", line 20, in <module>
+    install_dependencies()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/seopro/위키에이전트/reinforce.py", line 18, in install_dependencies
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 420, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '-m', 'pip', 'install', 'google-generativeai']' returned non-zero exit status 1.
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try brew install
+    xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a Python library that isn't in Homebrew,
+    use a virtual environment:
+    
+    python3 -m venv path/to/venv
+    source path/to/venv/bin/activate
+    python3 -m pip install xyz
+    
+    If you wish to install a Python application that isn't in Homebrew,
+    it may be easiest to use 'pipx install xyz', which will manage a
+    virtual environment for you. You can install pipx with
+    
+    brew install pipx
+    
+    You may restore the old behavior of pip by passing
+    the '--break-system-packages' flag to pip, or by adding
+    'break-system-packages = true' to your pip.conf file. The latter
+    will permanently disable this error.
+    
+    If you disable this error, we STRONGLY recommend that you additionally
+    pass the '--user' flag to pip, or set 'user = true' in your pip.conf
+    file. Failure to do this can result in a broken Homebrew installation.
+    
+    Read more about this behavior here: <https://peps.python.org/pep-0668/>
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/reinforce.py", line 15, in install_dependencies
+    __import__(package.replace("-", "_"))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'google_generativeai'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/watch_knowledge.py", line 9, in <module>
+    from reinforce import reinforce_main, log
+  File "/Users/seopro/위키에이전트/reinforce.py", line 20, in <module>
+    install_dependencies()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/seopro/위키에이전트/reinforce.py", line 18, in install_dependencies
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 420, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '-m', 'pip', 'install', 'google-generativeai']' returned non-zero exit status 1.
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try brew install
+    xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a Python library that isn't in Homebrew,
+    use a virtual environment:
+    
+    python3 -m venv path/to/venv
+    source path/to/venv/bin/activate
+    python3 -m pip install xyz
+    
+    If you wish to install a Python application that isn't in Homebrew,
+    it may be easiest to use 'pipx install xyz', which will manage a
+    virtual environment for you. You can install pipx with
+    
+    brew install pipx
+    
+    You may restore the old behavior of pip by passing
+    the '--break-system-packages' flag to pip, or by adding
+    'break-system-packages = true' to your pip.conf file. The latter
+    will permanently disable this error.
+    
+    If you disable this error, we STRONGLY recommend that you additionally
+    pass the '--user' flag to pip, or set 'user = true' in your pip.conf
+    file. Failure to do this can result in a broken Homebrew installation.
+    
+    Read more about this behavior here: <https://peps.python.org/pep-0668/>
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/reinforce.py", line 15, in install_dependencies
+    __import__(package.replace("-", "_"))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'google_generativeai'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/watch_knowledge.py", line 9, in <module>
+    from reinforce import reinforce_main, log
+  File "/Users/seopro/위키에이전트/reinforce.py", line 20, in <module>
+    install_dependencies()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/seopro/위키에이전트/reinforce.py", line 18, in install_dependencies
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 420, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '-m', 'pip', 'install', 'google-generativeai']' returned non-zero exit status 1.
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try brew install
+    xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a Python library that isn't in Homebrew,
+    use a virtual environment:
+    
+    python3 -m venv path/to/venv
+    source path/to/venv/bin/activate
+    python3 -m pip install xyz
+    
+    If you wish to install a Python application that isn't in Homebrew,
+    it may be easiest to use 'pipx install xyz', which will manage a
+    virtual environment for you. You can install pipx with
+    
+    brew install pipx
+    
+    You may restore the old behavior of pip by passing
+    the '--break-system-packages' flag to pip, or by adding
+    'break-system-packages = true' to your pip.conf file. The latter
+    will permanently disable this error.
+    
+    If you disable this error, we STRONGLY recommend that you additionally
+    pass the '--user' flag to pip, or set 'user = true' in your pip.conf
+    file. Failure to do this can result in a broken Homebrew installation.
+    
+    Read more about this behavior here: <https://peps.python.org/pep-0668/>
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/reinforce.py", line 15, in install_dependencies
+    __import__(package.replace("-", "_"))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'google_generativeai'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/watch_knowledge.py", line 9, in <module>
+    from reinforce import reinforce_main, log
+  File "/Users/seopro/위키에이전트/reinforce.py", line 20, in <module>
+    install_dependencies()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/seopro/위키에이전트/reinforce.py", line 18, in install_dependencies
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 420, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '-m', 'pip', 'install', 'google-generativeai']' returned non-zero exit status 1.
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try brew install
+    xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a Python library that isn't in Homebrew,
+    use a virtual environment:
+    
+    python3 -m venv path/to/venv
+    source path/to/venv/bin/activate
+    python3 -m pip install xyz
+    
+    If you wish to install a Python application that isn't in Homebrew,
+    it may be easiest to use 'pipx install xyz', which will manage a
+    virtual environment for you. You can install pipx with
+    
+    brew install pipx
+    
+    You may restore the old behavior of pip by passing
+    the '--break-system-packages' flag to pip, or by adding
+    'break-system-packages = true' to your pip.conf file. The latter
+    will permanently disable this error.
+    
+    If you disable this error, we STRONGLY recommend that you additionally
+    pass the '--user' flag to pip, or set 'user = true' in your pip.conf
+    file. Failure to do this can result in a broken Homebrew installation.
+    
+    Read more about this behavior here: <https://peps.python.org/pep-0668/>
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/reinforce.py", line 15, in install_dependencies
+    __import__(package.replace("-", "_"))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'google_generativeai'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/watch_knowledge.py", line 9, in <module>
+    from reinforce import reinforce_main, log
+  File "/Users/seopro/위키에이전트/reinforce.py", line 20, in <module>
+    install_dependencies()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/seopro/위키에이전트/reinforce.py", line 18, in install_dependencies
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 420, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '-m', 'pip', 'install', 'google-generativeai']' returned non-zero exit status 1.
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try brew install
+    xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a Python library that isn't in Homebrew,
+    use a virtual environment:
+    
+    python3 -m venv path/to/venv
+    source path/to/venv/bin/activate
+    python3 -m pip install xyz
+    
+    If you wish to install a Python application that isn't in Homebrew,
+    it may be easiest to use 'pipx install xyz', which will manage a
+    virtual environment for you. You can install pipx with
+    
+    brew install pipx
+    
+    You may restore the old behavior of pip by passing
+    the '--break-system-packages' flag to pip, or by adding
+    'break-system-packages = true' to your pip.conf file. The latter
+    will permanently disable this error.
+    
+    If you disable this error, we STRONGLY recommend that you additionally
+    pass the '--user' flag to pip, or set 'user = true' in your pip.conf
+    file. Failure to do this can result in a broken Homebrew installation.
+    
+    Read more about this behavior here: <https://peps.python.org/pep-0668/>
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/reinforce.py", line 15, in install_dependencies
+    __import__(package.replace("-", "_"))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'google_generativeai'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/watch_knowledge.py", line 9, in <module>
+    from reinforce import reinforce_main, log
+  File "/Users/seopro/위키에이전트/reinforce.py", line 20, in <module>
+    install_dependencies()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/seopro/위키에이전트/reinforce.py", line 18, in install_dependencies
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 420, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '-m', 'pip', 'install', 'google-generativeai']' returned non-zero exit status 1.
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try brew install
+    xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a Python library that isn't in Homebrew,
+    use a virtual environment:
+    
+    python3 -m venv path/to/venv
+    source path/to/venv/bin/activate
+    python3 -m pip install xyz
+    
+    If you wish to install a Python application that isn't in Homebrew,
+    it may be easiest to use 'pipx install xyz', which will manage a
+    virtual environment for you. You can install pipx with
+    
+    brew install pipx
+    
+    You may restore the old behavior of pip by passing
+    the '--break-system-packages' flag to pip, or by adding
+    'break-system-packages = true' to your pip.conf file. The latter
+    will permanently disable this error.
+    
+    If you disable this error, we STRONGLY recommend that you additionally
+    pass the '--user' flag to pip, or set 'user = true' in your pip.conf
+    file. Failure to do this can result in a broken Homebrew installation.
+    
+    Read more about this behavior here: <https://peps.python.org/pep-0668/>
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/reinforce.py", line 15, in install_dependencies
+    __import__(package.replace("-", "_"))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'google_generativeai'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/watch_knowledge.py", line 9, in <module>
+    from reinforce import reinforce_main, log
+  File "/Users/seopro/위키에이전트/reinforce.py", line 20, in <module>
+    install_dependencies()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/seopro/위키에이전트/reinforce.py", line 18, in install_dependencies
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 420, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '-m', 'pip', 'install', 'google-generativeai']' returned non-zero exit status 1.
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try brew install
+    xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a Python library that isn't in Homebrew,
+    use a virtual environment:
+    
+    python3 -m venv path/to/venv
+    source path/to/venv/bin/activate
+    python3 -m pip install xyz
+    
+    If you wish to install a Python application that isn't in Homebrew,
+    it may be easiest to use 'pipx install xyz', which will manage a
+    virtual environment for you. You can install pipx with
+    
+    brew install pipx
+    
+    You may restore the old behavior of pip by passing
+    the '--break-system-packages' flag to pip, or by adding
+    'break-system-packages = true' to your pip.conf file. The latter
+    will permanently disable this error.
+    
+    If you disable this error, we STRONGLY recommend that you additionally
+    pass the '--user' flag to pip, or set 'user = true' in your pip.conf
+    file. Failure to do this can result in a broken Homebrew installation.
+    
+    Read more about this behavior here: <https://peps.python.org/pep-0668/>
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/reinforce.py", line 15, in install_dependencies
+    __import__(package.replace("-", "_"))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'google_generativeai'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/watch_knowledge.py", line 9, in <module>
+    from reinforce import reinforce_main, log
+  File "/Users/seopro/위키에이전트/reinforce.py", line 20, in <module>
+    install_dependencies()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/seopro/위키에이전트/reinforce.py", line 18, in install_dependencies
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 420, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '-m', 'pip', 'install', 'google-generativeai']' returned non-zero exit status 1.
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try brew install
+    xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a Python library that isn't in Homebrew,
+    use a virtual environment:
+    
+    python3 -m venv path/to/venv
+    source path/to/venv/bin/activate
+    python3 -m pip install xyz
+    
+    If you wish to install a Python application that isn't in Homebrew,
+    it may be easiest to use 'pipx install xyz', which will manage a
+    virtual environment for you. You can install pipx with
+    
+    brew install pipx
+    
+    You may restore the old behavior of pip by passing
+    the '--break-system-packages' flag to pip, or by adding
+    'break-system-packages = true' to your pip.conf file. The latter
+    will permanently disable this error.
+    
+    If you disable this error, we STRONGLY recommend that you additionally
+    pass the '--user' flag to pip, or set 'user = true' in your pip.conf
+    file. Failure to do this can result in a broken Homebrew installation.
+    
+    Read more about this behavior here: <https://peps.python.org/pep-0668/>
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/reinforce.py", line 15, in install_dependencies
+    __import__(package.replace("-", "_"))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'google_generativeai'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/watch_knowledge.py", line 9, in <module>
+    from reinforce import reinforce_main, log
+  File "/Users/seopro/위키에이전트/reinforce.py", line 20, in <module>
+    install_dependencies()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/seopro/위키에이전트/reinforce.py", line 18, in install_dependencies
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 420, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '-m', 'pip', 'install', 'google-generativeai']' returned non-zero exit status 1.
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try brew install
+    xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a Python library that isn't in Homebrew,
+    use a virtual environment:
+    
+    python3 -m venv path/to/venv
+    source path/to/venv/bin/activate
+    python3 -m pip install xyz
+    
+    If you wish to install a Python application that isn't in Homebrew,
+    it may be easiest to use 'pipx install xyz', which will manage a
+    virtual environment for you. You can install pipx with
+    
+    brew install pipx
+    
+    You may restore the old behavior of pip by passing
+    the '--break-system-packages' flag to pip, or by adding
+    'break-system-packages = true' to your pip.conf file. The latter
+    will permanently disable this error.
+    
+    If you disable this error, we STRONGLY recommend that you additionally
+    pass the '--user' flag to pip, or set 'user = true' in your pip.conf
+    file. Failure to do this can result in a broken Homebrew installation.
+    
+    Read more about this behavior here: <https://peps.python.org/pep-0668/>
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/reinforce.py", line 15, in install_dependencies
+    __import__(package.replace("-", "_"))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'google_generativeai'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/watch_knowledge.py", line 9, in <module>
+    from reinforce import reinforce_main, log
+  File "/Users/seopro/위키에이전트/reinforce.py", line 20, in <module>
+    install_dependencies()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/seopro/위키에이전트/reinforce.py", line 18, in install_dependencies
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 420, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '-m', 'pip', 'install', 'google-generativeai']' returned non-zero exit status 1.
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try brew install
+    xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a Python library that isn't in Homebrew,
+    use a virtual environment:
+    
+    python3 -m venv path/to/venv
+    source path/to/venv/bin/activate
+    python3 -m pip install xyz
+    
+    If you wish to install a Python application that isn't in Homebrew,
+    it may be easiest to use 'pipx install xyz', which will manage a
+    virtual environment for you. You can install pipx with
+    
+    brew install pipx
+    
+    You may restore the old behavior of pip by passing
+    the '--break-system-packages' flag to pip, or by adding
+    'break-system-packages = true' to your pip.conf file. The latter
+    will permanently disable this error.
+    
+    If you disable this error, we STRONGLY recommend that you additionally
+    pass the '--user' flag to pip, or set 'user = true' in your pip.conf
+    file. Failure to do this can result in a broken Homebrew installation.
+    
+    Read more about this behavior here: <https://peps.python.org/pep-0668/>
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/reinforce.py", line 15, in install_dependencies
+    __import__(package.replace("-", "_"))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'google_generativeai'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/watch_knowledge.py", line 9, in <module>
+    from reinforce import reinforce_main, log
+  File "/Users/seopro/위키에이전트/reinforce.py", line 20, in <module>
+    install_dependencies()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/seopro/위키에이전트/reinforce.py", line 18, in install_dependencies
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 420, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '-m', 'pip', 'install', 'google-generativeai']' returned non-zero exit status 1.
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try brew install
+    xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a Python library that isn't in Homebrew,
+    use a virtual environment:
+    
+    python3 -m venv path/to/venv
+    source path/to/venv/bin/activate
+    python3 -m pip install xyz
+    
+    If you wish to install a Python application that isn't in Homebrew,
+    it may be easiest to use 'pipx install xyz', which will manage a
+    virtual environment for you. You can install pipx with
+    
+    brew install pipx
+    
+    You may restore the old behavior of pip by passing
+    the '--break-system-packages' flag to pip, or by adding
+    'break-system-packages = true' to your pip.conf file. The latter
+    will permanently disable this error.
+    
+    If you disable this error, we STRONGLY recommend that you additionally
+    pass the '--user' flag to pip, or set 'user = true' in your pip.conf
+    file. Failure to do this can result in a broken Homebrew installation.
+    
+    Read more about this behavior here: <https://peps.python.org/pep-0668/>
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/reinforce.py", line 15, in install_dependencies
+    __import__(package.replace("-", "_"))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'google_generativeai'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/watch_knowledge.py", line 9, in <module>
+    from reinforce import reinforce_main, log
+  File "/Users/seopro/위키에이전트/reinforce.py", line 20, in <module>
+    install_dependencies()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/seopro/위키에이전트/reinforce.py", line 18, in install_dependencies
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 420, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '-m', 'pip', 'install', 'google-generativeai']' returned non-zero exit status 1.
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try brew install
+    xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a Python library that isn't in Homebrew,
+    use a virtual environment:
+    
+    python3 -m venv path/to/venv
+    source path/to/venv/bin/activate
+    python3 -m pip install xyz
+    
+    If you wish to install a Python application that isn't in Homebrew,
+    it may be easiest to use 'pipx install xyz', which will manage a
+    virtual environment for you. You can install pipx with
+    
+    brew install pipx
+    
+    You may restore the old behavior of pip by passing
+    the '--break-system-packages' flag to pip, or by adding
+    'break-system-packages = true' to your pip.conf file. The latter
+    will permanently disable this error.
+    
+    If you disable this error, we STRONGLY recommend that you additionally
+    pass the '--user' flag to pip, or set 'user = true' in your pip.conf
+    file. Failure to do this can result in a broken Homebrew installation.
+    
+    Read more about this behavior here: <https://peps.python.org/pep-0668/>
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/reinforce.py", line 15, in install_dependencies
+    __import__(package.replace("-", "_"))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'google_generativeai'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/seopro/위키에이전트/watch_knowledge.py", line 9, in <module>
+    from reinforce import reinforce_main, log
+  File "/Users/seopro/위키에이전트/reinforce.py", line 20, in <module>
+    install_dependencies()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/seopro/위키에이전트/reinforce.py", line 18, in install_dependencies
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 420, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '-m', 'pip', 'install', 'google-generativeai']' returned non-zero exit status 1.
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try brew install
+    xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a Python library that isn't in Homebrew,
+    use a virtual environment:
+    
+    python3 -m venv path/to/venv
+    source path/to/venv/bin/activate
+    python3 -m pip install xyz
+    
+    If you wish to install a Python application that isn't in Homebrew,
+    it may be easiest to use 'pipx install xyz', which will manage a
+    virtual environment for you. You can install pipx with
+    
+    brew install pipx
+    
+    You may restore the old behavior of pip by passing
+    the '--break-system-packages' flag to pip, or by adding
+    'break-system-packages = true' to your pip.conf file. The latter
+    will permanently disable this error.
+    
+    If you disable this error, we STRONGLY recommend that you additionally
+    pass the '--user' flag to pip, or set 'user = true' in your pip.conf
+    file. Failure to do this can result in a broken Homebrew installation.
+    
+    Read more about this behavior here: <https://peps.python.org/pep-0668/>
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try brew install
+    xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a Python library that isn't in Homebrew,
+    use a virtual environment:
+    
+    python3 -m venv path/to/venv
+    source path/to/venv/bin/activate
+    python3 -m pip install xyz
+    
+    If you wish to install a Python application that isn't in Homebrew,
+    it may be easiest to use 'pipx install xyz', which will manage a
+    virtual environment for you. You can install pipx with
+    
+    brew install pipx
+    
+    You may restore the old behavior of pip by passing
+    the '--break-system-packages' flag to pip, or by adding
+    'break-system-packages = true' to your pip.conf file. The latter
+    will permanently disable this error.
+    
+    If you disable this error, we STRONGLY recommend that you additionally
+    pass the '--user' flag to pip, or set 'user = true' in your pip.conf
+    file. Failure to do this can result in a broken Homebrew installation.
+    
+    Read more about this behavior here: <https://peps.python.org/pep-0668/>
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+/Users/seopro/위키에이전트/reinforce.py:26: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai

@@ -15,7 +15,11 @@ def install_dependencies():
             __import__(package.replace("-", "_"))
         except ImportError:
             print(f"📦 패키지 설치 중: {package}...")
-            subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+            try:
+                subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+            except subprocess.CalledProcessError:
+                # PEP 668 externally-managed-environment 우회용 --break-system-packages 추가 시도
+                subprocess.check_call([sys.executable, "-m", "pip", "install", package, "--break-system-packages"])
 
 install_dependencies()
 
@@ -553,6 +557,20 @@ updated: {today_str}
         
     # 폴더 구조 한계치(12개) 초과 시 재구조화 트리거
     check_and_refactor_folders()
+    
+    # 11. 최종 Git Push 및 남은 변경사항 커밋
+    status = run_git_command(["status", "--porcelain"])
+    if status:
+        log("🔄 재구조화 또는 메타데이터 변경 사항을 추가 커밋합니다...")
+        run_git_command(["add", "."])
+        run_git_command(["commit", "-m", "Reinforce: Update metadata and refactor folder structure"])
+        
+    log("🚀 GitHub 원격 저장소(origin main)로 동기화를 진행합니다...")
+    push_result = run_git_command(["push", "origin", "main"])
+    if push_result is not None:
+        log("✅ GitHub 동기화(git push) 성공!")
+    else:
+        log("❌ GitHub 동기화(git push) 실패. 로컬 커밋은 완료되었으나, 원격 저장소 권한 또는 네트워크 상태를 확인해주세요.")
 
 if __name__ == "__main__":
     reinforce_main()
