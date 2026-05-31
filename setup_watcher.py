@@ -22,6 +22,7 @@ def create_plist():
     <key>ProgramArguments</key>
     <array>
         <string>{PYTHON_PATH}</string>
+        <string>-u</string>
         <string>{WATCHER_SCRIPT}</string>
     </array>
     <key>RunAtLoad</key>

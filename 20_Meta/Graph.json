@@ -475,6 +475,55 @@
       "path": "",
       "tags": [],
       "updated": "2026-05-31"
+    },
+    {
+      "id": "db312792-6961-4ebf-abc3-b8a8e3251a14",
+      "label": "재개발_아파트_투자_전략",
+      "category": "10_Wiki/Topics/부동산/재개발",
+      "path": "10_Wiki/Topics/부동산/재개발/재개발_아파트_투자_전략.md",
+      "tags": [
+        "재개발",
+        "아파트_투자",
+        "부동산_투자",
+        "분양가_분석",
+        "비례율",
+        "권리가액",
+        "이주비대출",
+        "중도금"
+      ],
+      "updated": "2026-05-31"
+    },
+    {
+      "id": "c35f29e6-8dd7-469c-8393-11ad0c9bc25e",
+      "label": "부동산_투자",
+      "category": "10_Wiki/Topics/Uncategorized",
+      "path": "",
+      "tags": [],
+      "updated": "2026-05-31"
+    },
+    {
+      "id": "e5dd37b5-150e-471e-93e9-9d2b34096c3e",
+      "label": "재건축",
+      "category": "10_Wiki/Topics/Uncategorized",
+      "path": "",
+      "tags": [],
+      "updated": "2026-05-31"
+    },
+    {
+      "id": "b24d1f92-3e9d-4d90-a6d0-775d7b7f14eb",
+      "label": "부동산_금융",
+      "category": "10_Wiki/Topics/Uncategorized",
+      "path": "",
+      "tags": [],
+      "updated": "2026-05-31"
+    },
+    {
+      "id": "fdb79535-a5bc-4f19-aa9a-80af9e64cdbf",
+      "label": "분양_전략",
+      "category": "10_Wiki/Topics/Uncategorized",
+      "path": "",
+      "tags": [],
+      "updated": "2026-05-31"
     }
   ],
   "links": [
@@ -986,6 +1035,46 @@
     {
       "source": "e1477566-6c9a-4a34-886e-db3a4a9b2589",
       "target": "6f36d579-1f3e-4dd1-ab4d-63dc31eba0e6",
+      "type": "related"
+    },
+    {
+      "source": "db312792-6961-4ebf-abc3-b8a8e3251a14",
+      "target": "c35f29e6-8dd7-469c-8393-11ad0c9bc25e",
+      "type": "related"
+    },
+    {
+      "source": "c35f29e6-8dd7-469c-8393-11ad0c9bc25e",
+      "target": "db312792-6961-4ebf-abc3-b8a8e3251a14",
+      "type": "related"
+    },
+    {
+      "source": "db312792-6961-4ebf-abc3-b8a8e3251a14",
+      "target": "e5dd37b5-150e-471e-93e9-9d2b34096c3e",
+      "type": "related"
+    },
+    {
+      "source": "e5dd37b5-150e-471e-93e9-9d2b34096c3e",
+      "target": "db312792-6961-4ebf-abc3-b8a8e3251a14",
+      "type": "related"
+    },
+    {
+      "source": "db312792-6961-4ebf-abc3-b8a8e3251a14",
+      "target": "b24d1f92-3e9d-4d90-a6d0-775d7b7f14eb",
+      "type": "related"
+    },
+    {
+      "source": "b24d1f92-3e9d-4d90-a6d0-775d7b7f14eb",
+      "target": "db312792-6961-4ebf-abc3-b8a8e3251a14",
+      "type": "related"
+    },
+    {
+      "source": "db312792-6961-4ebf-abc3-b8a8e3251a14",
+      "target": "fdb79535-a5bc-4f19-aa9a-80af9e64cdbf",
+      "type": "related"
+    },
+    {
+      "source": "fdb79535-a5bc-4f19-aa9a-80af9e64cdbf",
+      "target": "db312792-6961-4ebf-abc3-b8a8e3251a14",
       "type": "related"
     }
   ]
