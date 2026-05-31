@@ -23,7 +23,7 @@ P-Reinforce 자동 지식 구조화 엔진이 빌드하는 지식 베이스의 �
 - [법전_블로그상위노출_논문](10_Wiki/💡 Topics/법전_블로그상위노출_논문.md)
 - [법전_2강내용_종합](10_Wiki/💡 Topics/법전_2강내용_종합.md)
 - [법전_self_RAG_2310.11511v1](10_Wiki/💡 Topics/법전_self_RAG_2310.11511v1.md)
-- [AI_City_Master_Plan](10_Wiki/🛠️ Projects/AI_City_Master_Plan.md)
+- [AI_City_Master_Plan](10_Wiki/Topics/AI_Applications/Automated_Video_Production/AI_City_Master_Plan.md)
 - [노량진뉴타운_자동화_SEO_시스템_설계보고서](10_Wiki/🛠️ Projects/노량진뉴타운_자동화_SEO_시스템_설계보고서.md)
 - [V11_Beta_투트랙_파이프라인_마스터스킬](10_Wiki/🚀 Skills/V11_Beta_투트랙_파이프라인_마스터스킬.md)
 - [Self-RAG_인가일_환각방지_프롬프트](10_Wiki/🚀 Skills/Self-RAG_인가일_환각방지_프롬프트.md)

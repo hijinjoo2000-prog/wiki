@@ -142,16 +142,19 @@
       "updated": "2026-05-31"
     },
     {
-      "id": "e78b2734-d3a1-432a-bc91-2a1cb5b9f71c",
+      "id": "6f36d579-1f3e-4dd1-ab4d-63dc31eba0e6",
       "label": "AI_City_Master_Plan",
-      "category": "10_Wiki/🛠️ Projects",
-      "path": "10_Wiki/🛠️ Projects/AI_City_Master_Plan.md",
+      "category": "10_Wiki/Topics/AI_Applications/Automated_Video_Production",
+      "path": "10_Wiki/Topics/AI_Applications/Automated_Video_Production/AI_City_Master_Plan.md",
       "tags": [
-        "AI_City",
-        "Master_Plan",
-        "FastAPI",
+        "Automated Video Production",
+        "Generative AI",
+        "Gemini",
         "Veo",
-        "Gemini"
+        "FastAPI",
+        "React",
+        "System Design",
+        "Master Plan"
       ],
       "updated": "2026-05-31"
     },
@@ -388,6 +391,86 @@
     {
       "id": "3f3a9466-d53f-4a7f-a1fb-ddcb2dac41b1",
       "label": "Connect AI v2.1.30",
+      "category": "10_Wiki/Topics/Uncategorized",
+      "path": "",
+      "tags": [],
+      "updated": "2026-05-31"
+    },
+    {
+      "id": "949d559c-36f1-44d5-9710-a23b33b54cc1",
+      "label": "Generative AI",
+      "category": "10_Wiki/Topics/Uncategorized",
+      "path": "",
+      "tags": [],
+      "updated": "2026-05-31"
+    },
+    {
+      "id": "2c62f4c4-be44-49b7-b61d-ed1f89ad8569",
+      "label": "Video Synthesis",
+      "category": "10_Wiki/Topics/Uncategorized",
+      "path": "",
+      "tags": [],
+      "updated": "2026-05-31"
+    },
+    {
+      "id": "cef0da49-f856-4088-a4d0-bb366be1835c",
+      "label": "FastAPI",
+      "category": "10_Wiki/Topics/Uncategorized",
+      "path": "",
+      "tags": [],
+      "updated": "2026-05-31"
+    },
+    {
+      "id": "b0c4c2f2-17ea-4cbb-a682-a688e1835aa5",
+      "label": "React",
+      "category": "10_Wiki/Topics/Uncategorized",
+      "path": "",
+      "tags": [],
+      "updated": "2026-05-31"
+    },
+    {
+      "id": "a9d33518-a75f-443c-9c00-1fa8e2dd3099",
+      "label": "Vertex AI",
+      "category": "10_Wiki/Topics/Uncategorized",
+      "path": "",
+      "tags": [],
+      "updated": "2026-05-31"
+    },
+    {
+      "id": "e8e6cff0-b74a-4ca4-8307-e78515340a60",
+      "label": "System Architecture",
+      "category": "10_Wiki/Topics/Uncategorized",
+      "path": "",
+      "tags": [],
+      "updated": "2026-05-31"
+    },
+    {
+      "id": "9467950d-dd2c-4f5a-90b6-609f3002ef28",
+      "label": "API Design",
+      "category": "10_Wiki/Topics/Uncategorized",
+      "path": "",
+      "tags": [],
+      "updated": "2026-05-31"
+    },
+    {
+      "id": "4364029a-84b9-4a0d-838b-25f893e11746",
+      "label": "Data Pipelines",
+      "category": "10_Wiki/Topics/Uncategorized",
+      "path": "",
+      "tags": [],
+      "updated": "2026-05-31"
+    },
+    {
+      "id": "e5689752-6542-4a11-893a-d371ff5fd720",
+      "label": "Prompt Engineering",
+      "category": "10_Wiki/Topics/Uncategorized",
+      "path": "",
+      "tags": [],
+      "updated": "2026-05-31"
+    },
+    {
+      "id": "e1477566-6c9a-4a34-886e-db3a4a9b2589",
+      "label": "AI_City_Project",
       "category": "10_Wiki/Topics/Uncategorized",
       "path": "",
       "tags": [],
@@ -803,6 +886,106 @@
     {
       "source": "3f3a9466-d53f-4a7f-a1fb-ddcb2dac41b1",
       "target": "079c12b6-a20e-4d0a-bece-2a389954189b",
+      "type": "related"
+    },
+    {
+      "source": "6f36d579-1f3e-4dd1-ab4d-63dc31eba0e6",
+      "target": "949d559c-36f1-44d5-9710-a23b33b54cc1",
+      "type": "related"
+    },
+    {
+      "source": "949d559c-36f1-44d5-9710-a23b33b54cc1",
+      "target": "6f36d579-1f3e-4dd1-ab4d-63dc31eba0e6",
+      "type": "related"
+    },
+    {
+      "source": "6f36d579-1f3e-4dd1-ab4d-63dc31eba0e6",
+      "target": "2c62f4c4-be44-49b7-b61d-ed1f89ad8569",
+      "type": "related"
+    },
+    {
+      "source": "2c62f4c4-be44-49b7-b61d-ed1f89ad8569",
+      "target": "6f36d579-1f3e-4dd1-ab4d-63dc31eba0e6",
+      "type": "related"
+    },
+    {
+      "source": "6f36d579-1f3e-4dd1-ab4d-63dc31eba0e6",
+      "target": "cef0da49-f856-4088-a4d0-bb366be1835c",
+      "type": "related"
+    },
+    {
+      "source": "cef0da49-f856-4088-a4d0-bb366be1835c",
+      "target": "6f36d579-1f3e-4dd1-ab4d-63dc31eba0e6",
+      "type": "related"
+    },
+    {
+      "source": "6f36d579-1f3e-4dd1-ab4d-63dc31eba0e6",
+      "target": "b0c4c2f2-17ea-4cbb-a682-a688e1835aa5",
+      "type": "related"
+    },
+    {
+      "source": "b0c4c2f2-17ea-4cbb-a682-a688e1835aa5",
+      "target": "6f36d579-1f3e-4dd1-ab4d-63dc31eba0e6",
+      "type": "related"
+    },
+    {
+      "source": "6f36d579-1f3e-4dd1-ab4d-63dc31eba0e6",
+      "target": "a9d33518-a75f-443c-9c00-1fa8e2dd3099",
+      "type": "related"
+    },
+    {
+      "source": "a9d33518-a75f-443c-9c00-1fa8e2dd3099",
+      "target": "6f36d579-1f3e-4dd1-ab4d-63dc31eba0e6",
+      "type": "related"
+    },
+    {
+      "source": "6f36d579-1f3e-4dd1-ab4d-63dc31eba0e6",
+      "target": "e8e6cff0-b74a-4ca4-8307-e78515340a60",
+      "type": "related"
+    },
+    {
+      "source": "e8e6cff0-b74a-4ca4-8307-e78515340a60",
+      "target": "6f36d579-1f3e-4dd1-ab4d-63dc31eba0e6",
+      "type": "related"
+    },
+    {
+      "source": "6f36d579-1f3e-4dd1-ab4d-63dc31eba0e6",
+      "target": "9467950d-dd2c-4f5a-90b6-609f3002ef28",
+      "type": "related"
+    },
+    {
+      "source": "9467950d-dd2c-4f5a-90b6-609f3002ef28",
+      "target": "6f36d579-1f3e-4dd1-ab4d-63dc31eba0e6",
+      "type": "related"
+    },
+    {
+      "source": "6f36d579-1f3e-4dd1-ab4d-63dc31eba0e6",
+      "target": "4364029a-84b9-4a0d-838b-25f893e11746",
+      "type": "related"
+    },
+    {
+      "source": "4364029a-84b9-4a0d-838b-25f893e11746",
+      "target": "6f36d579-1f3e-4dd1-ab4d-63dc31eba0e6",
+      "type": "related"
+    },
+    {
+      "source": "6f36d579-1f3e-4dd1-ab4d-63dc31eba0e6",
+      "target": "e5689752-6542-4a11-893a-d371ff5fd720",
+      "type": "related"
+    },
+    {
+      "source": "e5689752-6542-4a11-893a-d371ff5fd720",
+      "target": "6f36d579-1f3e-4dd1-ab4d-63dc31eba0e6",
+      "type": "related"
+    },
+    {
+      "source": "6f36d579-1f3e-4dd1-ab4d-63dc31eba0e6",
+      "target": "e1477566-6c9a-4a34-886e-db3a4a9b2589",
+      "type": "related"
+    },
+    {
+      "source": "e1477566-6c9a-4a34-886e-db3a4a9b2589",
+      "target": "6f36d579-1f3e-4dd1-ab4d-63dc31eba0e6",
       "type": "related"
     }
   ]
