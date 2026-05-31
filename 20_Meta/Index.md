@@ -35,6 +35,7 @@ P-Reinforce 자동 지식 구조화 엔진이 빌드하는 지식 베이스의 �
 - [P-Reinforce_Skill](10_Wiki/🚀 Skills/P-Reinforce_Skill.md)
 - [법전_자체검증도입3](10_Wiki/🚀 Skills/법전_자체검증도입3.md)
 - [강남_재건축_분석](10_Wiki/Topics/부동산/재건축/강남_재건축_분석.md)
+- [P-Reinforce_Architecture](10_Wiki/Topics/AI_Architectures/P_Reinforce/P-Reinforce_Architecture.md)
 
 ## ⚖️ Decisions
 *현재 분류된 목록*

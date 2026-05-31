@@ -317,6 +317,81 @@
       "path": "",
       "tags": [],
       "updated": "2026-05-31"
+    },
+    {
+      "id": "079c12b6-a20e-4d0a-bece-2a389954189b",
+      "label": "P-Reinforce_Architecture",
+      "category": "10_Wiki/Topics/AI_Architectures/P_Reinforce",
+      "path": "10_Wiki/Topics/AI_Architectures/P_Reinforce/P-Reinforce_Architecture.md",
+      "tags": [
+        "P-Reinforce",
+        "Connect AI",
+        "AI Agent",
+        "Autonomous System",
+        "Knowledge Management",
+        "Local Inference",
+        "Git Synchronization",
+        "Ollama",
+        "LM Studio",
+        "Agent University"
+      ],
+      "updated": "2026-05-31"
+    },
+    {
+      "id": "fd24785a-6cb7-427f-9708-5417b1c990b8",
+      "label": "AI_Agents",
+      "category": "10_Wiki/Topics/Uncategorized",
+      "path": "",
+      "tags": [],
+      "updated": "2026-05-31"
+    },
+    {
+      "id": "9b5edf1a-2aaf-4241-b974-9853bf08e6b1",
+      "label": "Autonomous_Systems",
+      "category": "10_Wiki/Topics/Uncategorized",
+      "path": "",
+      "tags": [],
+      "updated": "2026-05-31"
+    },
+    {
+      "id": "bca01622-2b66-4efb-a69b-3b0773efb98a",
+      "label": "Knowledge_Management_Systems",
+      "category": "10_Wiki/Topics/Uncategorized",
+      "path": "",
+      "tags": [],
+      "updated": "2026-05-31"
+    },
+    {
+      "id": "0ec60c11-e97b-4084-bc80-aa4b8667a43e",
+      "label": "Local_LLMs",
+      "category": "10_Wiki/Topics/Uncategorized",
+      "path": "",
+      "tags": [],
+      "updated": "2026-05-31"
+    },
+    {
+      "id": "dd061868-0fae-4b24-b724-f98c69be8077",
+      "label": "GitOps",
+      "category": "10_Wiki/Topics/Uncategorized",
+      "path": "",
+      "tags": [],
+      "updated": "2026-05-31"
+    },
+    {
+      "id": "32cabf34-8f99-4482-8f68-7f5c3ba151a2",
+      "label": "Software_Architecture",
+      "category": "10_Wiki/Topics/Uncategorized",
+      "path": "",
+      "tags": [],
+      "updated": "2026-05-31"
+    },
+    {
+      "id": "3f3a9466-d53f-4a7f-a1fb-ddcb2dac41b1",
+      "label": "Connect AI v2.1.30",
+      "category": "10_Wiki/Topics/Uncategorized",
+      "path": "",
+      "tags": [],
+      "updated": "2026-05-31"
     }
   ],
   "links": [
@@ -658,6 +733,76 @@
     {
       "source": "e3362bc8-3d3a-4275-bca2-5524a7220ed9",
       "target": "b1eaceeb-b4ad-47f7-85c0-0f7a1d47d861",
+      "type": "related"
+    },
+    {
+      "source": "079c12b6-a20e-4d0a-bece-2a389954189b",
+      "target": "fd24785a-6cb7-427f-9708-5417b1c990b8",
+      "type": "related"
+    },
+    {
+      "source": "fd24785a-6cb7-427f-9708-5417b1c990b8",
+      "target": "079c12b6-a20e-4d0a-bece-2a389954189b",
+      "type": "related"
+    },
+    {
+      "source": "079c12b6-a20e-4d0a-bece-2a389954189b",
+      "target": "9b5edf1a-2aaf-4241-b974-9853bf08e6b1",
+      "type": "related"
+    },
+    {
+      "source": "9b5edf1a-2aaf-4241-b974-9853bf08e6b1",
+      "target": "079c12b6-a20e-4d0a-bece-2a389954189b",
+      "type": "related"
+    },
+    {
+      "source": "079c12b6-a20e-4d0a-bece-2a389954189b",
+      "target": "bca01622-2b66-4efb-a69b-3b0773efb98a",
+      "type": "related"
+    },
+    {
+      "source": "bca01622-2b66-4efb-a69b-3b0773efb98a",
+      "target": "079c12b6-a20e-4d0a-bece-2a389954189b",
+      "type": "related"
+    },
+    {
+      "source": "079c12b6-a20e-4d0a-bece-2a389954189b",
+      "target": "0ec60c11-e97b-4084-bc80-aa4b8667a43e",
+      "type": "related"
+    },
+    {
+      "source": "0ec60c11-e97b-4084-bc80-aa4b8667a43e",
+      "target": "079c12b6-a20e-4d0a-bece-2a389954189b",
+      "type": "related"
+    },
+    {
+      "source": "079c12b6-a20e-4d0a-bece-2a389954189b",
+      "target": "dd061868-0fae-4b24-b724-f98c69be8077",
+      "type": "related"
+    },
+    {
+      "source": "dd061868-0fae-4b24-b724-f98c69be8077",
+      "target": "079c12b6-a20e-4d0a-bece-2a389954189b",
+      "type": "related"
+    },
+    {
+      "source": "079c12b6-a20e-4d0a-bece-2a389954189b",
+      "target": "32cabf34-8f99-4482-8f68-7f5c3ba151a2",
+      "type": "related"
+    },
+    {
+      "source": "32cabf34-8f99-4482-8f68-7f5c3ba151a2",
+      "target": "079c12b6-a20e-4d0a-bece-2a389954189b",
+      "type": "related"
+    },
+    {
+      "source": "079c12b6-a20e-4d0a-bece-2a389954189b",
+      "target": "3f3a9466-d53f-4a7f-a1fb-ddcb2dac41b1",
+      "type": "related"
+    },
+    {
+      "source": "3f3a9466-d53f-4a7f-a1fb-ddcb2dac41b1",
+      "target": "079c12b6-a20e-4d0a-bece-2a389954189b",
       "type": "related"
     }
   ]
