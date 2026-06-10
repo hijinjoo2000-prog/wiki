@@ -1,0 +1,6 @@
+{
+  "name": "부동산 전단지 이미지 생성기",
+  "description": "재개발·재건축 매물의 핵심 투자지표와 홍보 요약을 한눈에 가독성 넓은 고화질 이미지 카드로 조립하고 내보내는 이미지 전단 생성 워크스페이스입니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
