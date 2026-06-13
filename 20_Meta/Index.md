@@ -38,6 +38,7 @@ P-Reinforce 자동 지식 구조화 엔진이 빌드하는 지식 베이스의 �
 - [P-Reinforce_Architecture](10_Wiki/Topics/AI_Architectures/P_Reinforce/P-Reinforce_Architecture.md)
 - [재개발_아파트_투자_전략](10_Wiki/Topics/부동산/재개발/재개발_아파트_투자_전략.md)
 - [Git_Auto_Sync_Test_2](10_Wiki/Topics/P_Reinforce_Operations/Git_Auto_Sync_Test_2.md)
+- [Git_Auto_Sync_Test_Concept](10_Wiki/Topics/P_Reinforce_Operations/Git_Auto_Sync_Test_Concept.md)
 
 ## ⚖️ Decisions
 *현재 분류된 목록*
