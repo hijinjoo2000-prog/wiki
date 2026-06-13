@@ -9,8 +9,13 @@ PLIST_LABEL = "com.seopro.wikiwatcher"
 LAUNCH_AGENTS_DIR = Path(os.path.expanduser("~/Library/LaunchAgents"))
 PLIST_PATH = LAUNCH_AGENTS_DIR / f"{PLIST_LABEL}.plist"
 
-# 현재 사용 중인 Python 실행 파일 경로 획득
-PYTHON_PATH = sys.executable
+# 현재 사용 중인 Python 또는 기존 Blog Factory의 가상환경 Python 경로를 획득하여 사용
+# 블로그 팩토리 가상환경 파이썬이 존재한다면, 외부 의존성(google-generativeai, dotenv)이 구비되어 있으므로 우선권 부여
+factory_venv_python = "/Users/seopro/내 지식 쌓이는곳/테스트프로젝트/venv/bin/python"
+if os.path.exists(factory_venv_python):
+    PYTHON_PATH = factory_venv_python
+else:
+    PYTHON_PATH = sys.executable
 
 def create_plist():
     plist_content = f"""<?xml version="1.0" encoding="UTF-8"?>

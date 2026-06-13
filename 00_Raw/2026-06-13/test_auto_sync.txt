@@ -1,0 +1,5 @@
+# Git Auto Sync Test Concept
+이 문서는 백그라운드 지식 동기화 데몬 및 깃 푸시(osxkeychain 연동)를 검증하기 위한 임시 지식 파일입니다.
+- 자동 분류 확인
+- 마크다운 템플릿화 확인
+- 깃 자동 push 확인

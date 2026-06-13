@@ -1,4 +1,8 @@
 import os
+import sys
+# Python 3.14 + protobuf C-extension 호환성 문제(tp_new TypeError) 우회 패치
+sys.modules['google._upb._message'] = None
+os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
 import time
 import datetime
 import shutil

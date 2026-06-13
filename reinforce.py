@@ -1,5 +1,8 @@
 import os
 import sys
+# Python 3.14 + protobuf C-extension 호환성 문제(tp_new TypeError) 우회 패치
+sys.modules['google._upb._message'] = None
+os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
 import json
 import uuid
 import datetime
@@ -21,7 +24,7 @@ def install_dependencies():
                 # PEP 668 externally-managed-environment 우회용 --break-system-packages 추가 시도
                 subprocess.check_call([sys.executable, "-m", "pip", "install", package, "--break-system-packages"])
 
-install_dependencies()
+# install_dependencies()
 
 import google.generativeai as genai
 from dotenv import load_dotenv
@@ -36,7 +39,8 @@ if not GEMINI_API_KEY:
     # 없으면 사용자에게 경고를 하지만, 백그라운드 구동을 위해 기본값/빈값 에러 방지
     print("⚠️ 경고: GEMINI_API_KEY 환경변수가 설정되지 않았습니다. .env 파일을 만들거나 환경변수를 설정해주세요.")
 
-genai.configure(api_key=GEMINI_API_KEY)
+# gRPC 연결 hang 및 403 프록시 터널 에러 방지를 위해 rest(HTTP) 전송 방식 강제 지정
+genai.configure(api_key=GEMINI_API_KEY, transport='rest')
 
 # 2. 경로 설정
 BASE_DIR = Path(__file__).parent.resolve()
@@ -464,7 +468,12 @@ def reinforce_main():
         content = read_file(full_path)
         
         # LLM을 통한 분석 및 구조화 데이터 획득
-        meta = determine_category_and_metadata(full_path.name, content)
+        try:
+            meta = determine_category_and_metadata(full_path.name, content)
+        except Exception as e:
+            log(f"❌ {full_path.name} 처리 중 에러 발생: {e}")
+            log("💡 API 키 설정을 확인하거나 인터넷 연결 상태를 점검해주세요. 다음 파일로 넘어갑니다.")
+            continue
         
         # UUID 및 시간 생성
         doc_id = str(uuid.uuid4())
@@ -472,8 +481,20 @@ def reinforce_main():
         
         # 저장 경로 생성
         target_dir = BASE_DIR / meta["suggested_category_path"]
-        target_dir.mkdir(parents=True, exist_ok=True)
-        
+        try:
+            target_dir.mkdir(parents=True, exist_ok=True)
+        except PermissionError:
+            log(f"⚠️ 샌드박스로 인해 새 디렉토리 생성이 거부되었습니다: {meta['suggested_category_path']}")
+            # 이미 존재하는 최상위 표준 대분류로 fallback (기본값: 10_Wiki/Topics)
+            fallback_category = "10_Wiki/Topics"
+            for cat in ["Projects", "Topics", "Decisions", "Skills"]:
+                if cat in meta["suggested_category_path"]:
+                    fallback_category = f"10_Wiki/{cat}"
+                    break
+            log(f"🔄 이미 존재하는 표준 디렉토리로 우회하여 저장합니다: {fallback_category}")
+            target_dir = BASE_DIR / fallback_category
+            meta['suggested_category_path'] = fallback_category
+            
         # 템플릿 마크다운 문서 생성
         concept_name = meta["concept_name"]
         # 파일명을 개념명에 맞추어 생성 (공백 제거 등 안전한 파일명화)

