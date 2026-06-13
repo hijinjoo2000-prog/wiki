@@ -659,6 +659,62 @@
       "path": "",
       "tags": [],
       "updated": "2026-06-13"
+    },
+    {
+      "id": "b3051700-8a93-4c36-88b4-779c1dcd0afb",
+      "label": "AI_Agent_Autonomous_Knowledge_Gardening",
+      "category": "10_Wiki/Topics/P_Reinforce_Operations",
+      "path": "10_Wiki/Topics/P_Reinforce_Operations/AI_Agent_Autonomous_Knowledge_Gardening.md",
+      "tags": [
+        "AI_Agent",
+        "Autonomous_Knowledge_Management",
+        "LLM",
+        "Reinforcement_Learning",
+        "Knowledge_Classification",
+        "LLM_Wiki_Architecture",
+        "P_Reinforce_Operations"
+      ],
+      "updated": "2026-06-13"
+    },
+    {
+      "id": "0673c428-73ad-4302-800f-3c62fa20b17c",
+      "label": "LLM_Wiki_Architecture",
+      "category": "10_Wiki/Topics/Uncategorized",
+      "path": "",
+      "tags": [],
+      "updated": "2026-06-13"
+    },
+    {
+      "id": "987beb58-e0dd-4b85-bc21-1f20bc95f841",
+      "label": "Reinforcement_Learning",
+      "category": "10_Wiki/Topics/Uncategorized",
+      "path": "",
+      "tags": [],
+      "updated": "2026-06-13"
+    },
+    {
+      "id": "7bc0bb52-6b3b-441c-ac43-82a678fa8627",
+      "label": "Knowledge_Management_System",
+      "category": "10_Wiki/Topics/Uncategorized",
+      "path": "",
+      "tags": [],
+      "updated": "2026-06-13"
+    },
+    {
+      "id": "61664564-b687-4ecd-a521-ced13a41f5be",
+      "label": "Autonomous_Agents",
+      "category": "10_Wiki/Topics/Uncategorized",
+      "path": "",
+      "tags": [],
+      "updated": "2026-06-13"
+    },
+    {
+      "id": "ea889b52-0fee-4650-93bd-9837bcae9bce",
+      "label": "Natural_Language_Processing",
+      "category": "10_Wiki/Topics/Uncategorized",
+      "path": "",
+      "tags": [],
+      "updated": "2026-06-13"
     }
   ],
   "links": [
@@ -1350,6 +1406,66 @@
     {
       "source": "13c5008c-fbe0-446a-a2a7-8b4d8c072091",
       "target": "d76df0ac-cc86-4946-8d75-f5f82e7fc689",
+      "type": "related"
+    },
+    {
+      "source": "b3051700-8a93-4c36-88b4-779c1dcd0afb",
+      "target": "0673c428-73ad-4302-800f-3c62fa20b17c",
+      "type": "related"
+    },
+    {
+      "source": "0673c428-73ad-4302-800f-3c62fa20b17c",
+      "target": "b3051700-8a93-4c36-88b4-779c1dcd0afb",
+      "type": "related"
+    },
+    {
+      "source": "b3051700-8a93-4c36-88b4-779c1dcd0afb",
+      "target": "987beb58-e0dd-4b85-bc21-1f20bc95f841",
+      "type": "related"
+    },
+    {
+      "source": "987beb58-e0dd-4b85-bc21-1f20bc95f841",
+      "target": "b3051700-8a93-4c36-88b4-779c1dcd0afb",
+      "type": "related"
+    },
+    {
+      "source": "b3051700-8a93-4c36-88b4-779c1dcd0afb",
+      "target": "7bc0bb52-6b3b-441c-ac43-82a678fa8627",
+      "type": "related"
+    },
+    {
+      "source": "7bc0bb52-6b3b-441c-ac43-82a678fa8627",
+      "target": "b3051700-8a93-4c36-88b4-779c1dcd0afb",
+      "type": "related"
+    },
+    {
+      "source": "b3051700-8a93-4c36-88b4-779c1dcd0afb",
+      "target": "61664564-b687-4ecd-a521-ced13a41f5be",
+      "type": "related"
+    },
+    {
+      "source": "61664564-b687-4ecd-a521-ced13a41f5be",
+      "target": "b3051700-8a93-4c36-88b4-779c1dcd0afb",
+      "type": "related"
+    },
+    {
+      "source": "b3051700-8a93-4c36-88b4-779c1dcd0afb",
+      "target": "ea889b52-0fee-4650-93bd-9837bcae9bce",
+      "type": "related"
+    },
+    {
+      "source": "ea889b52-0fee-4650-93bd-9837bcae9bce",
+      "target": "b3051700-8a93-4c36-88b4-779c1dcd0afb",
+      "type": "related"
+    },
+    {
+      "source": "b3051700-8a93-4c36-88b4-779c1dcd0afb",
+      "target": "1edad56d-1aa2-4c24-995c-7fbcbefb530f",
+      "type": "related"
+    },
+    {
+      "source": "1edad56d-1aa2-4c24-995c-7fbcbefb530f",
+      "target": "b3051700-8a93-4c36-88b4-779c1dcd0afb",
       "type": "related"
     }
   ]

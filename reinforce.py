@@ -90,6 +90,57 @@ def run_git_command(args):
         log(f"Git 명령 오류 (git {' '.join(args)}): {e.stderr}")
         return None
 
+def sync_with_remote():
+    log("🚀 GitHub 원격 저장소(origin main)로 동기화를 진행합니다...")
+    
+    # 1. 1차 push 시도
+    push_result = run_git_command(["push", "origin", "main"])
+    if push_result is not None:
+        log("✅ GitHub 동기화(git push) 성공!")
+        return True
+        
+    log("⚠️ Git push 실패. 원격 저장소 변경 사항 반영 및 자동 Rebase를 시도합니다...")
+    
+    # 2. Unstaged 변경 사항이 있는지 확인
+    status = run_git_command(["status", "--porcelain"])
+    has_unstaged = False
+    if status:
+        has_unstaged = True
+        log("📦 로컬 작업 공간의 변경 사항을 임시 보관(stash)합니다...")
+        run_git_command(["stash"])
+        
+    # 3. Pull rebase 시도
+    pull_result = run_git_command(["pull", "--rebase", "origin", "main"])
+    
+    rebase_success = True
+    if pull_result is None:
+        log("❌ Git pull --rebase 실패. 충돌(Conflict)이 발생했거나 네트워크 오류일 수 있습니다.")
+        rebase_status = run_git_command(["status"])
+        if rebase_status and ("rebase in progress" in rebase_status or "rebasing" in rebase_status):
+            log("🔄 진행 중인 Rebase를 취소(abort)합니다.")
+            run_git_command(["rebase", "--abort"])
+        rebase_success = False
+        
+    # 4. Stash 복구
+    if has_unstaged:
+        log("📦 임시 보관된 변경 사항을 다시 복구(stash pop)합니다...")
+        pop_result = run_git_command(["stash", "pop"])
+        if pop_result is None:
+            log("⚠️ stash pop 중 충돌 또는 경고가 발생했습니다.")
+            
+    if not rebase_success:
+        return False
+        
+    # 5. 2차 push 시도
+    log("🚀 Rebase 후 다시 GitHub로 push를 시도합니다...")
+    push_result = run_git_command(["push", "origin", "main"])
+    if push_result is not None:
+        log("✅ GitHub 동기화(git push) 성공!")
+        return True
+    else:
+        log("❌ GitHub 동기화(git push) 최종 실패. 권한 설정 또는 네트워크 상태를 확인해주세요.")
+        return False
+
 # 6. LLM 도우미 함수
 def call_gemini(prompt, system_instruction=None):
     if not GEMINI_API_KEY:
@@ -586,12 +637,7 @@ updated: {today_str}
         run_git_command(["add", "."])
         run_git_command(["commit", "-m", "Reinforce: Update metadata and refactor folder structure"])
         
-    log("🚀 GitHub 원격 저장소(origin main)로 동기화를 진행합니다...")
-    push_result = run_git_command(["push", "origin", "main"])
-    if push_result is not None:
-        log("✅ GitHub 동기화(git push) 성공!")
-    else:
-        log("❌ GitHub 동기화(git push) 실패. 로컬 커밋은 완료되었으나, 원격 저장소 권한 또는 네트워크 상태를 확인해주세요.")
+    sync_with_remote()
 
 if __name__ == "__main__":
     reinforce_main()
