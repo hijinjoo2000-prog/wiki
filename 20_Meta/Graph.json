@@ -612,6 +612,53 @@
       "path": "",
       "tags": [],
       "updated": "2026-06-13"
+    },
+    {
+      "id": "d76df0ac-cc86-4946-8d75-f5f82e7fc689",
+      "label": "AI_Studio_App_Local_Deployment",
+      "category": "10_Wiki/Topics/AI_Applications/Deployment_Guides",
+      "path": "10_Wiki/Topics/AI_Applications/Deployment_Guides/AI_Studio_App_Local_Deployment.md",
+      "tags": [
+        "AI_Studio",
+        "Gemini_API",
+        "Deployment",
+        "Local_Development",
+        "Node.js",
+        "AI_Applications"
+      ],
+      "updated": "2026-06-13"
+    },
+    {
+      "id": "d1cb9096-3e8b-4bb7-beb7-0cca2f4ee169",
+      "label": "AI_Studio",
+      "category": "10_Wiki/Topics/Uncategorized",
+      "path": "",
+      "tags": [],
+      "updated": "2026-06-13"
+    },
+    {
+      "id": "caacae2e-f3fc-485a-b0bc-8201dc6b8230",
+      "label": "Gemini_API",
+      "category": "10_Wiki/Topics/Uncategorized",
+      "path": "",
+      "tags": [],
+      "updated": "2026-06-13"
+    },
+    {
+      "id": "496d9612-621c-4cc4-b849-b97630fe8c96",
+      "label": "Node.js_Development",
+      "category": "10_Wiki/Topics/Uncategorized",
+      "path": "",
+      "tags": [],
+      "updated": "2026-06-13"
+    },
+    {
+      "id": "13c5008c-fbe0-446a-a2a7-8b4d8c072091",
+      "label": "Application_Deployment",
+      "category": "10_Wiki/Topics/Uncategorized",
+      "path": "",
+      "tags": [],
+      "updated": "2026-06-13"
     }
   ],
   "links": [
@@ -1263,6 +1310,46 @@
     {
       "source": "1192cbc6-b423-4f8d-8904-5a7fb2b98298",
       "target": "108a742c-4826-49b1-9d2d-ea650308bb17",
+      "type": "related"
+    },
+    {
+      "source": "d76df0ac-cc86-4946-8d75-f5f82e7fc689",
+      "target": "d1cb9096-3e8b-4bb7-beb7-0cca2f4ee169",
+      "type": "related"
+    },
+    {
+      "source": "d1cb9096-3e8b-4bb7-beb7-0cca2f4ee169",
+      "target": "d76df0ac-cc86-4946-8d75-f5f82e7fc689",
+      "type": "related"
+    },
+    {
+      "source": "d76df0ac-cc86-4946-8d75-f5f82e7fc689",
+      "target": "caacae2e-f3fc-485a-b0bc-8201dc6b8230",
+      "type": "related"
+    },
+    {
+      "source": "caacae2e-f3fc-485a-b0bc-8201dc6b8230",
+      "target": "d76df0ac-cc86-4946-8d75-f5f82e7fc689",
+      "type": "related"
+    },
+    {
+      "source": "d76df0ac-cc86-4946-8d75-f5f82e7fc689",
+      "target": "496d9612-621c-4cc4-b849-b97630fe8c96",
+      "type": "related"
+    },
+    {
+      "source": "496d9612-621c-4cc4-b849-b97630fe8c96",
+      "target": "d76df0ac-cc86-4946-8d75-f5f82e7fc689",
+      "type": "related"
+    },
+    {
+      "source": "d76df0ac-cc86-4946-8d75-f5f82e7fc689",
+      "target": "13c5008c-fbe0-446a-a2a7-8b4d8c072091",
+      "type": "related"
+    },
+    {
+      "source": "13c5008c-fbe0-446a-a2a7-8b4d8c072091",
+      "target": "d76df0ac-cc86-4946-8d75-f5f82e7fc689",
       "type": "related"
     }
   ]
