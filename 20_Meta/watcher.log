@@ -156,3 +156,5 @@ Requirement already satisfied: python-dotenv in /opt/homebrew/Caskroom/miniforge
 🤖 [P-Reinforce]: 발견된 새 파일 개수: 3개
 🤖 [P-Reinforce]: 📄 처리 중: test_auto_sync_2.txt
 🤖 [P-Reinforce]: ❌ 지식 구조화 실행 중 에러 발생: GEMINI_API_KEY가 없습니다. API 키를 설정해주세요.
+🤖 [P-Reinforce]: 👀 '내 지식 쌓이는곳' 감시 서비스가 시작되었습니다. (5초 간격 폴링)
+🤖 [P-Reinforce]: 📍 감시 폴더: /Users/seopro/테스트프로젝트/내 지식 쌓이는곳
