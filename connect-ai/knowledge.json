@@ -4069,5 +4069,174 @@
     "category": "coding",
     "source": "me",
     "verified": true
+  },
+  {
+    "id": "n17813174766307836",
+    "text": "# AI 에이전트 기반 자율 지식 가드닝 기법\n# AI 에이전트 기반 자율 지식 가드닝 기법\n\n로컬 LLM (Ollama, LM Studio 등)과 마크다운의 쌍방향 링크([[Topic_Name]])를 결합하여 개발자가 수동으로 정리하지 않아도 입력된 날것의 텍스트(Raw Data)를 스스로 분류하고 최적의 디렉토리에 정제된 지식 카드로 빌드하는 기법입니다.\n이 시스템은 Andre Karpathy의 LLM-Wiki 아키텍처에 기반을 두고 있으며, 지식의 연결성(Graph Density)과 분류 정확도를 극대화하는 보상 함수를 통해 지속적으로 피드백 정책을 개선합니다.\n\n- 주요 구성 요소:\n  1. Raw 데이터 보관소 (00_Raw)\n  2. 자율 지식 베이스 (10_Wiki)\n  3. 시각화 및 두뇌 데이터 인덱스 (20_Meta)",
+    "tags": [
+      "Topic_Name",
+      "지식",
+      "자율",
+      "raw",
+      "에이전트",
+      "기반",
+      "가드닝"
+    ],
+    "ts": 1781317476630,
+    "category": "coding",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17813174766305469",
+    "text": "# Git Auto Sync Test Concept\n# Git Auto Sync Test Concept\n이 문서는 백그라운드 지식 동기화 데몬 및 깃 푸시(osxkeychain 연동)를 검증하기 위한 임시 지식 파일입니다.\n- 자동 분류 확인\n- 마크다운 템플릿화 확인\n- 깃 자동 push 확인",
+    "tags": [
+      "확인",
+      "git",
+      "auto",
+      "sync",
+      "test",
+      "concept"
+    ],
+    "ts": 1781317476630,
+    "category": "coding",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17813174766308827",
+    "text": "# Git Auto Sync Test 2\n# Git Auto Sync Test 2\n이 문서는 백그라운드 지식 동기화 데몬 및 깃 푸시(osxkeychain 연동)의 2차 검증을 위한 임시 지식 파일입니다.\n- 두 번째 감지 확인\n- LLM 요약 확인\n- 깃 푸시 결과 확인",
+    "tags": [
+      "확인",
+      "git",
+      "auto",
+      "sync",
+      "test",
+      "지식"
+    ],
+    "ts": 1781317476633,
+    "category": "coding",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17813174766335510",
+    "text": "# [[AI_Studio_App_Local_Deployment]]\n# [[AI_Studio_App_Local_Deployment]]\n\n## 📌 한 줄 포착 (The Karpathy Summary)\n> 이 문서는 AI Studio 애플리케이션을 로컬 환경에서 실행하고 배포하는 방법에 대한 가이드로, Node.js 설치 및 Gemini API 키 설정을 포함한 필수 단계를 설명합니다.\n\n## 📊 구조화된 지식 (Synthesized Content)\n- AI Studio 앱을 로컬 환경에서 실행 및 배포하는 방법을 제공합니다.\n- 필수 전제 조건으로 Node.js 설치를 명시합니다.\n- `npm install`을 통해 의존성 설치, `.env.local` 파일에 `GEMINI_API_KEY` 설정, `npm run dev` 명령으로 앱 실행 단계를 안내합니다.\n- AI Studio에서 앱을 볼 수 있는 직접 링크를 포함합니다.\n\n## 🔗 지식 연결망 (Knowledge Connections)\n- **Related Topics:** [[AI_Studio]], [[Gemini_API]], [[Node.js_Development]], [[Application_Deployment]]\n- **Projects/Contexts:** 없음\n- **Contradictions/Notes:** \n\nupdated: 2026-06-13",
+    "tags": [
+      "AI_Studio_App_Local_Deployment",
+      "AI_Studio",
+      "Gemini_API",
+      "Node.js_Development",
+      "Application_Deployment",
+      "studio",
+      "local",
+      "deployment",
+      "node",
+      "gemini",
+      "api"
+    ],
+    "ts": 1781317476633,
+    "category": "coding",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17813174766338200",
+    "text": "# [[AI_Agent_Autonomous_Knowledge_Gardening]]\n# [[AI_Agent_Autonomous_Knowledge_Gardening]]\n\n## 📌 한 줄 포착 (The Karpathy Summary)\n> AI 에이전트 기반 자율 지식 가드닝 기법은 로컬 LLM과 마크다운 쌍방향 링크를 활용하여 날것의 텍스트를 스스로 분류하고 최적의 디렉토리에 정제된 지식 카드로 빌드하는 시스템입니다. 이 시스템은 Andre Karpathy의 LLM-Wiki 아키텍처를 기반으로 하며, 지식 연결성 및 분류 정확도를 극대화하는 보상 함수를 통해 지속적으로 정책을 개선합니다.\n\n## 📊 구조화된 지식 (Synthesized Content)\n- 로컬 LLM(Ollama, LM Studio 등)과 마크다운 쌍방향 링크를 결합하여 지식을 자율적으로 분류 및 정제합니다.\n- Andre Karpathy의 LLM-Wiki 아키텍처에 기반을 둡니다.\n- 지식의 연결성(Graph Density)과 분류 정확도를 극대화하는 보상 함수를 통해 피드백 정책을 개선합니다.\n- 주요 구성 요소는 Raw 데이터 보관소 (00_Raw), 자율 지식 베이스 (10_Wiki), 시각화 및 두뇌 데이터 인덱스 (20_Meta)입니다.\n\n## 🔗 지식 연결망 (Knowledge Connections)\n- **Related Topics:** [[LLM_Wiki_Architecture]], [[Reinforcement_Learning]], [[Knowledge_Management_System]], [[Autonomous_Agents]], [[Natural_Language_Processing]]\n- **Projects/Contexts:** [[P_Reinforce_Knowledge_Engine]]\n- **Contradictions/Notes:** None\n\nupdated: 2026-06-13",
+    "tags": [
+      "AI_Agent_Autonomous_Knowledge_Gardening",
+      "LLM_Wiki_Architecture",
+      "Reinforcement_Learning",
+      "Knowledge_Management_System",
+      "Autonomous_Agents",
+      "Natural_Language_Processing",
+      "P_Reinforce_Knowledge_Engine",
+      "지식",
+      "knowledge",
+      "llm",
+      "wiki",
+      "autonomous",
+      "karpathy"
+    ],
+    "ts": 1781317476633,
+    "category": "marketing",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17813174766332310",
+    "text": "# [[Git_Auto_Sync_Test_2]]\n# [[Git_Auto_Sync_Test_2]]\n\n## 📌 한 줄 포착 (The Karpathy Summary)\n> 이 문서는 P-Reinforce 지식 엔진의 백그라운드 지식 동기화 데몬 및 osxkeychain 연동 깃 푸시 기능에 대한 2차 검증을 위한 임시 파일입니다.\n\n## 📊 구조화된 지식 (Synthesized Content)\n- 두 번째 감지 확인\n- LLM 요약 확인\n- 깃 푸시 결과 확인\n\n## 🔗 지식 연결망 (Knowledge Connections)\n- **Related Topics:** [[Git_Integration]], [[Automated_Knowledge_Sync]], [[System_Testing]], [[P_Reinforce_Operations]]\n- **Projects/Contexts:** [[P_Reinforce_Knowledge_Engine]]\n- **Contradictions/Notes:** 본 문서는 2차 검증을 위한 임시 지식 파일로, 최종 구현 및 운영 정책과는 차이가 있을 수 있음.\n\nupdated: 2026-06-13",
+    "tags": [
+      "Git_Auto_Sync_Test_2",
+      "Git_Integration",
+      "Automated_Knowledge_Sync",
+      "System_Testing",
+      "P_Reinforce_Operations",
+      "P_Reinforce_Knowledge_Engine",
+      "지식",
+      "git",
+      "sync",
+      "reinforce",
+      "확인",
+      "knowledge"
+    ],
+    "ts": 1781317476633,
+    "category": "marketing",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17813174766335354",
+    "text": "# [[Git_Auto_Sync_Test_Concept]]\n# [[Git_Auto_Sync_Test_Concept]]\n\n## 📌 한 줄 포착 (The Karpathy Summary)\n> P-Reinforce 지식 엔진의 백그라운드 동기화 데몬과 Git 푸시(osxkeychain 연동) 기능을 검증하기 위한 임시 문서로, 자동 분류, 마크다운 템플릿화, 깃 자동 푸시 확인을 목적으로 합니다.\n\n## 📊 구조화된 지식 (Synthesized Content)\n- 자동 분류 확인\n- 마크다운 템플릿화 확인\n- 깃 자동 push 확인\n\n## 🔗 지식 연결망 (Knowledge Connections)\n- **Related Topics:** [[P_Reinforce_Operations]], [[Knowledge_Management]], [[Git_Integration]], [[System_Testing]]\n- **Projects/Contexts:** [[P_Reinforce_Infrastructure_Development]]\n- **Contradictions/Notes:** 이 문서는 백그라운드 지식 동기화 데몬 및 깃 푸시 기능을 검증하기 위한 임시 지식 파일입니다.\n\nupdated: 2026-06-13",
+    "tags": [
+      "Git_Auto_Sync_Test_Concept",
+      "P_Reinforce_Operations",
+      "Knowledge_Management",
+      "Git_Integration",
+      "System_Testing",
+      "P_Reinforce_Infrastructure_Development",
+      "지식",
+      "git",
+      "자동",
+      "reinforce",
+      "푸시",
+      "확인"
+    ],
+    "ts": 1781317476633,
+    "category": "marketing",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17813174766338156",
+    "text": "# GIS GeoJSON Integration Architecture\nupdated: 2024-06-19",
+    "tags": [
+      "2024",
+      "gis",
+      "geojson",
+      "integration",
+      "architecture",
+      "updated"
+    ],
+    "ts": 1781317476635,
+    "category": "general",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17813174766358876",
+    "text": "# P-Reinforce Wiki Index\n# 🌐 P-Reinforce Wiki Index\n\nP-Reinforce 자동 지식 구조화 엔진이 빌드하는 지식 베이스의 입구입니다. 아래 카테고리별로 실시간 분류된 지식 문서들이 연결됩니다.\n\n---\n\n## 🛠️ Projects\n*현재 분류된 목록*\n- (아직 등록된 문서가 없습니다.)\n\n## 💡 Topics\n*현재 분류된 목록*\n- [MrBeast_유튜브_전략](10_Wiki/💡 Topics/콘텐츠_전략_및_마케팅/MrBeast_유튜브_전략.md)\n- [법전_Natural_Language_Processing_with_Transformers](10_Wiki/💡 Topics/AI_RAG_기술/법전_Natural_Language_Processing_with_Transformers.md)\n- [토지거래허가_노량진뉴타운_주의사항](10_Wiki/💡 Topics/부동산_법률_및_규제/토지거래허가_노량진뉴타운_주의사항.md)\n- [AI_1인_기업_자동화_챕터_1](10_Wiki/💡 Topics/AI_RAG_기술/AI_1인_기업_자동화_챕터_1.md)\n- [MrBeast_후킹_로직](10_Wiki/💡 Topics/콘텐츠_전략_및_마케팅/MrBeast_후킹_로직.md)\n- [법전_동작구청자료](10_Wiki/💡 Topics/부동산_법률_및_규제/법전_동작구청자료.md)\n- [법전_마스터](10_Wiki/💡 Topics/콘텐츠_전략_및_마케팅/법전_마스터.md)\n- [재개발도_토지거래허가_받아야_되나요](10_Wiki/💡 Topics/부동산_법률_및_규제/재개발도_토지거래허가_받아야_되나요.md)\n- [법전_Graph_RAG_2404.16130v2](10_Wiki/💡 Topics/AI_RAG_기술/법전_Graph_RAG_2404.16130v2.md)\n- [테스트_브레인_팩](10_Wiki/💡 Topics/AI_RAG_기술/테스트_브레인_팩.md)\n- [법전_블로그상위노출_논문](10_Wiki/💡 Topics/콘텐츠_전략_및_마케팅/법전_블로그상위노출_논문.md)\n- [법전_2강내용_종합](10_Wiki/💡 Topics/AI_RAG_기술/법전_2강내용_종합.md)\n- [법전_self_RAG_2310.11511v1](10_Wiki/💡 Topics/AI_RAG_기술/법전_self_RAG_2310.11511v1.md)\n- [AI_City_Master_Plan](10_Wiki/Topics/AI_Applications/Automated_Video_Production/AI_City_Master_Plan.md)\n- [노량진뉴타운_자동화_SEO_시스템_설계보고서](10_Wiki/🛠️ Projects/노량진뉴타운_자동화_SEO_시스템_설계보고서.md)\n- [V11_Beta_투트랙_파이프라인_마스터스킬](10_Wiki/🚀 Skills/V11_Beta_투트랙_파이프라인_마스터스킬.md)\n- [Self-RAG_인가일_환각방지_프롬프트](10_Wiki/🚀 Skills/Self-RAG_인가일_환각방지_프롬프트.md)\n- [법전_자동블로그_계획(제미나이)](10_Wiki/🚀 Skills/법전_자동블로그_계획(제미나이).md)\n- [V11_Beta_법전_마스터베이스_스튜디오_메모](10_Wiki/🚀 Skills/V11_Beta_법전_마스터베이스_스튜디오_메모.md)\n- [마스터_SEO_프롬프트](10_Wiki/🚀 Skills/마스터_SEO_프롬프트.md)\n- [법전_rag추가_프롬프트](10_Wiki/🚀 Skills/법전_rag추가_프롬프트.md)\n- [네이버_DIA플러스_블로그_SEO_논문요약](10_Wiki/🚀 Skills/네이버_DIA플러스_블로그_SEO_논문요약.md)\n- [P-Reinforce_Skill](10_Wiki/🚀 Skills/P-Reinforce_Skill.md)\n- [법전_자체검증도입3](10_Wiki/🚀 Skills/법전_자체검증도입3.md)\n- [강남_재건축_분석](10_Wiki/Topics/부동산/재건축/강남_재건축_분석.md)\n- [P-Reinforce_Architecture](10_Wiki/Topics/AI_Architectures/P_Reinforce/P-Reinforce_Architecture.md)\n- [재개발_아파트_투자_전략](10_Wiki/Topics/부동산/재개발/재개발_아파트_투자_전략.md)\n- [Git_Auto_Sync_Test_2](10_Wiki/Topics/P_Reinforce_Operations/Git_Auto_Sync_Test_2.md)\n- [Git_Auto_Sync_Test_Concept](10_Wiki/Topics/P_Reinforce_Operations/Git_Auto_Sync_Test_Concept.md)\n- [AI_Studio_App_Local_Deployment](10_Wiki/Topics/AI_Applications/Deployment_Guides/AI_Studio_App_Local_Deployment.md)\n- [AI_Agent_Autonomous_Knowledge_Gardening](10_Wiki/Topics/P_Reinforce_Operations/AI_Agent_Autonomous_Knowledge_Gardening.md)\n\n## ⚖️ Decisions\n*현재 분류된 목록*\n- (아직 등록된 문서가 없습니다.)\n\n## 🚀 Skills\n*현재 분류된 목록*\n- (아직 등록된 문서가 없습니다.)",
+    "tags": [
+      "wiki",
+      "topics",
+      "법전",
+      "rag",
+      "reinforce",
+      "skills"
+    ],
+    "ts": 1781317476635,
+    "category": "marketing",
+    "source": "me",
+    "verified": true
   }
 ]
