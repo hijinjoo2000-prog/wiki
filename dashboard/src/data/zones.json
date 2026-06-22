@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "금호16구역 재개발",
+        "type": "redevelopment",
+        "fillColor": "rgba(255, 204, 0, 0.5)",
+        "strokeColor": "#FF8A00"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [127.0205, 37.5501],
+            [127.0225, 37.5525],
+            [127.0250, 37.5510],
+            [127.0230, 37.5485],
+            [127.0205, 37.5501]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "가정 개발 구역 B",
+        "type": "development",
+        "fillColor": "rgba(255, 160, 0, 0.4)",
+        "strokeColor": "#FF8A00"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [127.0300, 37.5400],
+            [127.0320, 37.5410],
+            [127.0305, 37.5420],
+            [127.0290, 37.5395],
+            [127.0300, 37.5400]
+          ]
+        ]
+      }
+    }
+  ]
+}
