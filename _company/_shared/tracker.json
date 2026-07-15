@@ -560,6 +560,397 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-06-26T10-25/_report.md\n- 코다리: 핵심 시각 자료 파일(`designer.md`)의 존재 여부와 접근 권한 문제를 즉시 해결하고, 모든 관련 파일이 최상위 경로에 접근 가능하도록\n- Designer: 최종적으로 생성된 시각 자료 파일(`designer.md`)이 완벽하게 존재하며, 코다리와 현빈이 참조할 수 있도록 모든 리소스가 정리되었는지 \n- 현빈: 파일 접근 문제가 해결되는 즉시, 수익 목표(+200만 원)와 KPI에 대한 연계성 검증 작업을 재개하여 실행 전략의 정확도를 확보하라.\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 핵심 시각 자료 파일(`designer.md`)의 존재 여부와 접근 권한 문제를 즉시 해결하고, 모든 관련 파일이 최상위 경로에 접근 가능하도록 환경을 최종 점검하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵",
       "completedAt": "2026-06-26T10:30:04.334Z"
+    },
+    {
+      "id": "20260627022836-ycv4",
+      "title": "경쟁사 (예: 토지공인 SaaS, 부동산 플랫폼) 가격 비교 분석 및 틈새시장 공백 도출",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-27T02:28:36.427Z",
+      "status": "done",
+      "sessionDir": "2026-06-27T02-24",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-27T02-24/_report.md\n- 현빈: Researcher가 제공한 타겟팅 데이터와 Designer의 마케팅 자료를 기반으로, 번들 요금제 B의 최종 가격 전략 및 100건 목표 달성\n- Researcher: 공인중개사 타겟팅 데이터 기반으로 광고 캠페인에 필요한 핵심 인사이트와 시장 진입 전략을 분석하여 Business 에이전트의 로드맵 수립을 지원\n- Designer: Business 및 Researcher가 확정한 실행 로드맵을 바탕으로, 초기 고객 확보를 위한 가장 강력한 마케팅 문구와 시각적 구체안(Moc\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: Researcher가 제공한 타겟팅 데이터와 Designer의 마케팅 자료를 기반으로, 번들 요금제 B의 최종 가격 전략 및 100건 목표 달성을 위한 구체적인 실행 로드맵을 확정하라.\n> 🔧 **도구 실행**: _",
+      "completedAt": "2026-06-27T02:33:41.428Z"
+    },
+    {
+      "id": "20260627022836-rlo6",
+      "title": "타겟팅 데이터 기반으로 광고 캠페인 최적화 (지역별, 중개사 규모별 맞춤형 메시지)",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-27T02:28:36.430Z",
+      "status": "done",
+      "sessionDir": "2026-06-27T02-24",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-27T02-24/_report.md\n- 현빈: Researcher가 제공한 타겟팅 데이터와 Designer의 마케팅 자료를 기반으로, 번들 요금제 B의 최종 가격 전략 및 100건 목표 달성\n- Researcher: 공인중개사 타겟팅 데이터 기반으로 광고 캠페인에 필요한 핵심 인사이트와 시장 진입 전략을 분석하여 Business 에이전트의 로드맵 수립을 지원\n- Designer: Business 및 Researcher가 확정한 실행 로드맵을 바탕으로, 초기 고객 확보를 위한 가장 강력한 마케팅 문구와 시각적 구체안(Moc\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: Researcher가 제공한 타겟팅 데이터와 Designer의 마케팅 자료를 기반으로, 번들 요금제 B의 최종 가격 전략 및 100건 목표 달성을 위한 구체적인 실행 로드맵을 확정하라.\n> 🔧 **도구 실행**: _",
+      "completedAt": "2026-06-27T02:33:41.430Z"
+    },
+    {
+      "id": "20260627022836-xrke",
+      "title": "번들 요금제 B의 시각적 구체안 (Mockup) 완성 및 마케팅 자료 배포용 제작",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-27T02:28:36.431Z",
+      "status": "done",
+      "sessionDir": "2026-06-27T02-24",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-27T02-24/_report.md\n- 현빈: Researcher가 제공한 타겟팅 데이터와 Designer의 마케팅 자료를 기반으로, 번들 요금제 B의 최종 가격 전략 및 100건 목표 달성\n- Researcher: 공인중개사 타겟팅 데이터 기반으로 광고 캠페인에 필요한 핵심 인사이트와 시장 진입 전략을 분석하여 Business 에이전트의 로드맵 수립을 지원\n- Designer: Business 및 Researcher가 확정한 실행 로드맵을 바탕으로, 초기 고객 확보를 위한 가장 강력한 마케팅 문구와 시각적 구체안(Moc\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: Researcher가 제공한 타겟팅 데이터와 Designer의 마케팅 자료를 기반으로, 번들 요금제 B의 최종 가격 전략 및 100건 목표 달성을 위한 구체적인 실행 로드맵을 확정하라.\n> 🔧 **도구 실행**: _",
+      "completedAt": "2026-06-27T02:33:41.431Z"
+    },
+    {
+      "id": "20260627022836-5in0",
+      "title": "AI 채팅봇/문서 자동화 기능의 사용자 경험(UX) 개선 제안",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-27T02:28:36.431Z",
+      "status": "done",
+      "sessionDir": "2026-06-27T02-24",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-27T02-24/_report.md\n- 현빈: Researcher가 제공한 타겟팅 데이터와 Designer의 마케팅 자료를 기반으로, 번들 요금제 B의 최종 가격 전략 및 100건 목표 달성\n- Researcher: 공인중개사 타겟팅 데이터 기반으로 광고 캠페인에 필요한 핵심 인사이트와 시장 진입 전략을 분석하여 Business 에이전트의 로드맵 수립을 지원\n- Designer: Business 및 Researcher가 확정한 실행 로드맵을 바탕으로, 초기 고객 확보를 위한 가장 강력한 마케팅 문구와 시각적 구체안(Moc\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: Researcher가 제공한 타겟팅 데이터와 Designer의 마케팅 자료를 기반으로, 번들 요금제 B의 최종 가격 전략 및 100건 목표 달성을 위한 구체적인 실행 로드맵을 확정하라.\n> 🔧 **도구 실행**: _",
+      "completedAt": "2026-06-27T02:33:41.432Z"
+    },
+    {
+      "id": "20260627022836-utad",
+      "title": "초기 30건 결제 목표 달성 후 전략 수정 여부 검토",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-27T02:28:36.433Z",
+      "status": "done",
+      "sessionDir": "2026-06-27T02-24",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-27T02-24/_report.md\n- 현빈: Researcher가 제공한 타겟팅 데이터와 Designer의 마케팅 자료를 기반으로, 번들 요금제 B의 최종 가격 전략 및 100건 목표 달성\n- Researcher: 공인중개사 타겟팅 데이터 기반으로 광고 캠페인에 필요한 핵심 인사이트와 시장 진입 전략을 분석하여 Business 에이전트의 로드맵 수립을 지원\n- Designer: Business 및 Researcher가 확정한 실행 로드맵을 바탕으로, 초기 고객 확보를 위한 가장 강력한 마케팅 문구와 시각적 구체안(Moc\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: Researcher가 제공한 타겟팅 데이터와 Designer의 마케팅 자료를 기반으로, 번들 요금제 B의 최종 가격 전략 및 100건 목표 달성을 위한 구체적인 실행 로드맵을 확정하라.\n> 🔧 **도구 실행**: _",
+      "completedAt": "2026-06-27T02:33:41.433Z"
+    },
+    {
+      "id": "20260629010806-wlar",
+      "title": "로컬 API 서버가 정상 응답하는지 확인",
+      "description": "자동 등록 (Researcher 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "researcher"
+      ],
+      "createdAt": "2026-06-29T01:08:06.997Z",
+      "status": "done",
+      "sessionDir": "2026-06-29T01-03",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-29T01-03/_report.md\n- 코다리: Researcher가 확정한 `target_audience.csv` 기반의 실제 데이터 수집 자동화 스크립트(`api_collector.py`)\n- Researcher: 데이터 수집 자동화 과정에서 발생할 수 있는 API 의존도 문제 및 AI 가치 평가 모델 학습을 위한 레이블 데이터 확보 계획에 대한 구체적인 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Researcher가 확정한 `target_audience.csv` 기반의 실제 데이터 수집 자동화 스크립트(`api_collector.py`)를 작성하고 실행 환경을 구축하여 데이터 확보를 즉시 시작할 것.\n> 🔧 **도구 실행**: _(",
+      "completedAt": "2026-06-29T01:08:42.818Z"
+    },
+    {
+      "id": "20260629010806-93vt",
+      "title": "`target_audience.csv` 의 `specific_keyword` 로 데이터 수집이 실행되는지 테스트",
+      "description": "자동 등록 (Researcher 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "researcher"
+      ],
+      "createdAt": "2026-06-29T01:08:06.998Z",
+      "status": "done",
+      "sessionDir": "2026-06-29T01-03",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-29T01-03/_report.md\n- 코다리: Researcher가 확정한 `target_audience.csv` 기반의 실제 데이터 수집 자동화 스크립트(`api_collector.py`)\n- Researcher: 데이터 수집 자동화 과정에서 발생할 수 있는 API 의존도 문제 및 AI 가치 평가 모델 학습을 위한 레이블 데이터 확보 계획에 대한 구체적인 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Researcher가 확정한 `target_audience.csv` 기반의 실제 데이터 수집 자동화 스크립트(`api_collector.py`)를 작성하고 실행 환경을 구축하여 데이터 확보를 즉시 시작할 것.\n> 🔧 **도구 실행**: _(",
+      "completedAt": "2026-06-29T01:08:42.820Z"
+    },
+    {
+      "id": "20260629010806-5s7d",
+      "title": "API 의존도 없이 오프라인으로만 작동하는지 검증",
+      "description": "자동 등록 (Researcher 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "researcher"
+      ],
+      "createdAt": "2026-06-29T01:08:06.999Z",
+      "status": "done",
+      "sessionDir": "2026-06-29T01-03",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-29T01-03/_report.md\n- 코다리: Researcher가 확정한 `target_audience.csv` 기반의 실제 데이터 수집 자동화 스크립트(`api_collector.py`)\n- Researcher: 데이터 수집 자동화 과정에서 발생할 수 있는 API 의존도 문제 및 AI 가치 평가 모델 학습을 위한 레이블 데이터 확보 계획에 대한 구체적인 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Researcher가 확정한 `target_audience.csv` 기반의 실제 데이터 수집 자동화 스크립트(`api_collector.py`)를 작성하고 실행 환경을 구축하여 데이터 확보를 즉시 시작할 것.\n> 🔧 **도구 실행**: _(",
+      "completedAt": "2026-06-29T01:08:42.821Z"
+    },
+    {
+      "id": "20260629023837-q5oo",
+      "title": "절대 경로를 사용한 모든 파일 경로가 검증되었습니다.",
+      "description": "자동 등록 (Researcher 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "researcher"
+      ],
+      "createdAt": "2026-06-29T02:38:37.572Z",
+      "status": "done",
+      "sessionDir": "2026-06-29T02-33",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-29T02-33/_report.md\n- 코다리: Researcher가 제공한 크롤러 개발 가이드라인과 파일 경로 규칙(`{region}/{property_type}/{date}.json`)을 \n- Researcher: 코다리가 데이터 수집 스크립트를 실행하는 과정에서 발생할 수 있는 모든 파일 경로 및 선택자 관련 오류 처리 로직(Error Handling &\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Researcher가 제공한 크롤러 개발 가이드라인과 파일 경로 규칙(`{region}/{property_type}/{date}.json`)을 100% 반영하여 데이터 수집 스크립트(`data_collector_selenium.py` 또는 `",
+      "completedAt": "2026-06-29T02:39:35.754Z"
+    },
+    {
+      "id": "20260629023837-1vhq",
+      "title": "디렉토리 생성 로직이 `parents=True, exist_ok=True` 로 설정되어 있습니다.",
+      "description": "자동 등록 (Researcher 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "researcher"
+      ],
+      "createdAt": "2026-06-29T02:38:37.573Z",
+      "status": "done",
+      "sessionDir": "2026-06-29T02-33",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-29T02-33/_report.md\n- 코다리: Researcher가 제공한 크롤러 개발 가이드라인과 파일 경로 규칙(`{region}/{property_type}/{date}.json`)을 \n- Researcher: 코다리가 데이터 수집 스크립트를 실행하는 과정에서 발생할 수 있는 모든 파일 경로 및 선택자 관련 오류 처리 로직(Error Handling &\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Researcher가 제공한 크롤러 개발 가이드라인과 파일 경로 규칙(`{region}/{property_type}/{date}.json`)을 100% 반영하여 데이터 수집 스크립트(`data_collector_selenium.py` 또는 `",
+      "completedAt": "2026-06-29T02:39:35.755Z"
+    },
+    {
+      "id": "20260629023837-bqcg",
+      "title": "선택자 검증 함수가 테스트 브라우저로 페이지를 로드하고 요소의 존재 여부를 확인합니다.",
+      "description": "자동 등록 (Researcher 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "researcher"
+      ],
+      "createdAt": "2026-06-29T02:38:37.574Z",
+      "status": "done",
+      "sessionDir": "2026-06-29T02-33",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-29T02-33/_report.md\n- 코다리: Researcher가 제공한 크롤러 개발 가이드라인과 파일 경로 규칙(`{region}/{property_type}/{date}.json`)을 \n- Researcher: 코다리가 데이터 수집 스크립트를 실행하는 과정에서 발생할 수 있는 모든 파일 경로 및 선택자 관련 오류 처리 로직(Error Handling &\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Researcher가 제공한 크롤러 개발 가이드라인과 파일 경로 규칙(`{region}/{property_type}/{date}.json`)을 100% 반영하여 데이터 수집 스크립트(`data_collector_selenium.py` 또는 `",
+      "completedAt": "2026-06-29T02:39:35.756Z"
+    },
+    {
+      "id": "20260629023837-v8r7",
+      "title": "대체 로직 (선택자 Fallback) 이 정의되어 있고, 실패 시에도 스크립트가 중단되지 않습니다.",
+      "description": "자동 등록 (Researcher 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "researcher"
+      ],
+      "createdAt": "2026-06-29T02:38:37.575Z",
+      "status": "done",
+      "sessionDir": "2026-06-29T02-33",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-29T02-33/_report.md\n- 코다리: Researcher가 제공한 크롤러 개발 가이드라인과 파일 경로 규칙(`{region}/{property_type}/{date}.json`)을 \n- Researcher: 코다리가 데이터 수집 스크립트를 실행하는 과정에서 발생할 수 있는 모든 파일 경로 및 선택자 관련 오류 처리 로직(Error Handling &\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Researcher가 제공한 크롤러 개발 가이드라인과 파일 경로 규칙(`{region}/{property_type}/{date}.json`)을 100% 반영하여 데이터 수집 스크립트(`data_collector_selenium.py` 또는 `",
+      "completedAt": "2026-06-29T02:39:35.757Z"
+    },
+    {
+      "id": "20260629023837-lzim",
+      "title": "요청 타임아웃이 5 초이고, 재시도 횟수가 3 회로 설정되었습니다.",
+      "description": "자동 등록 (Researcher 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "researcher"
+      ],
+      "createdAt": "2026-06-29T02:38:37.576Z",
+      "status": "done",
+      "sessionDir": "2026-06-29T02-33",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-29T02-33/_report.md\n- 코다리: Researcher가 제공한 크롤러 개발 가이드라인과 파일 경로 규칙(`{region}/{property_type}/{date}.json`)을 \n- Researcher: 코다리가 데이터 수집 스크립트를 실행하는 과정에서 발생할 수 있는 모든 파일 경로 및 선택자 관련 오류 처리 로직(Error Handling &\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Researcher가 제공한 크롤러 개발 가이드라인과 파일 경로 규칙(`{region}/{property_type}/{date}.json`)을 100% 반영하여 데이터 수집 스크립트(`data_collector_selenium.py` 또는 `",
+      "completedAt": "2026-06-29T02:39:35.758Z"
+    },
+    {
+      "id": "20260705041835-smj0",
+      "title": "`pipeline_flow.md`: 전체 데이터 흐름 및 각 단계 책임 모듈 설명",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-07-05T04:18:35.590Z",
+      "status": "done",
+      "sessionDir": "2026-07-05T04-08",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-07-05T04-08/_report.md\n- Writer: MS-01에 기반하여 인스타 릴스 스크립트(후크, 본문, CTA) 초안을 작성하고 다음 단계로 넘길 준비를 하라.\n- 코다리: Writer가 제공할 것으로 예상되는 스크립트 구조(MS-01)를 기반으로 자동화된 영상 스크립트 생성 파이프라인의 첫 단계를 실행하고 결과물을\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: MS-01에 기반하여 인스타 릴스 스크립트(후크, 본문, CTA) 초안을 작성하고 다음 단계로 넘길 준비를 하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵심 산출**: ✍️ Writer: MS-01(회사 정",
+      "completedAt": "2026-07-05T04:19:20.060Z"
+    },
+    {
+      "id": "20260705041835-nxlc",
+      "title": "`video_generator_stub.py`: 영상 생성 Stub (Placeholder)",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-07-05T04:18:35.592Z",
+      "status": "done",
+      "sessionDir": "2026-07-05T04-08",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-07-05T04-08/_report.md\n- Writer: MS-01에 기반하여 인스타 릴스 스크립트(후크, 본문, CTA) 초안을 작성하고 다음 단계로 넘길 준비를 하라.\n- 코다리: Writer가 제공할 것으로 예상되는 스크립트 구조(MS-01)를 기반으로 자동화된 영상 스크립트 생성 파이프라인의 첫 단계를 실행하고 결과물을\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: MS-01에 기반하여 인스타 릴스 스크립트(후크, 본문, CTA) 초안을 작성하고 다음 단계로 넘길 준비를 하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵심 산출**: ✍️ Writer: MS-01(회사 정",
+      "completedAt": "2026-07-05T04:19:20.061Z"
+    },
+    {
+      "id": "20260705041835-fn9i",
+      "title": "파서 (Parser) 가 Markdown 테이블을 정상적으로 읽는가? → **확인됨** (`script_parser.py` 테스트 통과)",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-07-05T04:18:35.592Z",
+      "status": "done",
+      "sessionDir": "2026-07-05T04-08",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-07-05T04-08/_report.md\n- Writer: MS-01에 기반하여 인스타 릴스 스크립트(후크, 본문, CTA) 초안을 작성하고 다음 단계로 넘길 준비를 하라.\n- 코다리: Writer가 제공할 것으로 예상되는 스크립트 구조(MS-01)를 기반으로 자동화된 영상 스크립트 생성 파이프라인의 첫 단계를 실행하고 결과물을\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: MS-01에 기반하여 인스타 릴스 스크립트(후크, 본문, CTA) 초안을 작성하고 다음 단계로 넘길 준비를 하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵심 산출**: ✍️ Writer: MS-01(회사 정",
+      "completedAt": "2026-07-05T04:19:20.062Z"
+    },
+    {
+      "id": "20260705041835-v6iv",
+      "title": "템플릿 (Template) 이 실제 영상 생성 모듈과 호환되는가? → **다음 단계에서 확인**",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-07-05T04:18:35.593Z",
+      "status": "done",
+      "sessionDir": "2026-07-05T04-08",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-07-05T04-08/_report.md\n- Writer: MS-01에 기반하여 인스타 릴스 스크립트(후크, 본문, CTA) 초안을 작성하고 다음 단계로 넘길 준비를 하라.\n- 코다리: Writer가 제공할 것으로 예상되는 스크립트 구조(MS-01)를 기반으로 자동화된 영상 스크립트 생성 파이프라인의 첫 단계를 실행하고 결과물을\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: MS-01에 기반하여 인스타 릴스 스크립트(후크, 본문, CTA) 초안을 작성하고 다음 단계로 넘길 준비를 하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵심 산출**: ✍️ Writer: MS-01(회사 정",
+      "completedAt": "2026-07-05T04:19:20.062Z"
+    },
+    {
+      "id": "20260705041835-m2zx",
+      "title": "데이터 흐름 문서가 명확한가? → **작성 중**",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-07-05T04:18:35.594Z",
+      "status": "done",
+      "sessionDir": "2026-07-05T04-08",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-07-05T04-08/_report.md\n- Writer: MS-01에 기반하여 인스타 릴스 스크립트(후크, 본문, CTA) 초안을 작성하고 다음 단계로 넘길 준비를 하라.\n- 코다리: Writer가 제공할 것으로 예상되는 스크립트 구조(MS-01)를 기반으로 자동화된 영상 스크립트 생성 파이프라인의 첫 단계를 실행하고 결과물을\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: MS-01에 기반하여 인스타 릴스 스크립트(후크, 본문, CTA) 초안을 작성하고 다음 단계로 넘길 준비를 하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵심 산출**: ✍️ Writer: MS-01(회사 정",
+      "completedAt": "2026-07-05T04:19:20.063Z"
+    },
+    {
+      "id": "20260708021106-zjou",
+      "title": "가격 번들 옵션별 수익성 시뮬레이션 완료 (Excel + Python)",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-07-08T02:11:06.353Z",
+      "status": "done",
+      "sessionDir": "2026-07-08T02-02",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-07-08T02-02/_report.md\n- 코다리: YouTube Data API 연동에 필요한 API 키 및 채널 ID가 포함된 `youtube_account.json` 파일의 경로와 생성 방식\n- Researcher: API 정보 확보를 위한 환경 변수 설정 절차 가이드라인을 검토하고, 데이터 접근 환경 구축에 필요한 기술적 요구사항 및 잠재적 문제점을 분석하\n- 현빈: 데이터 접근 환경 구축이 완료된 후, 확보된 데이터를 기반으로 KPI 자동화 파이프라인 구동을 위한 초기 지표 정의를 재검토하고 다음 단계의 전\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: YouTube Data API 연동에 필요한 API 키 및 채널 ID가 포함된 `youtube_account.json` 파일의 경로와 생성 방식을 확인하고, 환경 변수 설정 절차 가이드라인을 검토하여 확보를 위한 즉각적인 실행 계획을 수립하라",
+      "completedAt": "2026-07-08T02:11:44.005Z"
+    },
+    {
+      "id": "20260708021106-c64x",
+      "title": "MVP 프로토타입에 KPI 대시보드 연동 구현",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-07-08T02:11:06.354Z",
+      "status": "done",
+      "sessionDir": "2026-07-08T02-02",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-07-08T02-02/_report.md\n- 코다리: YouTube Data API 연동에 필요한 API 키 및 채널 ID가 포함된 `youtube_account.json` 파일의 경로와 생성 방식\n- Researcher: API 정보 확보를 위한 환경 변수 설정 절차 가이드라인을 검토하고, 데이터 접근 환경 구축에 필요한 기술적 요구사항 및 잠재적 문제점을 분석하\n- 현빈: 데이터 접근 환경 구축이 완료된 후, 확보된 데이터를 기반으로 KPI 자동화 파이프라인 구동을 위한 초기 지표 정의를 재검토하고 다음 단계의 전\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: YouTube Data API 연동에 필요한 API 키 및 채널 ID가 포함된 `youtube_account.json` 파일의 경로와 생성 방식을 확인하고, 환경 변수 설정 절차 가이드라인을 검토하여 확보를 위한 즉각적인 실행 계획을 수립하라",
+      "completedAt": "2026-07-08T02:11:44.006Z"
+    },
+    {
+      "id": "20260708021106-9egm",
+      "title": "공인중개사 타겟 A/B 테스트 기획서 작성",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-07-08T02:11:06.355Z",
+      "status": "done",
+      "sessionDir": "2026-07-08T02-02",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-07-08T02-02/_report.md\n- 코다리: YouTube Data API 연동에 필요한 API 키 및 채널 ID가 포함된 `youtube_account.json` 파일의 경로와 생성 방식\n- Researcher: API 정보 확보를 위한 환경 변수 설정 절차 가이드라인을 검토하고, 데이터 접근 환경 구축에 필요한 기술적 요구사항 및 잠재적 문제점을 분석하\n- 현빈: 데이터 접근 환경 구축이 완료된 후, 확보된 데이터를 기반으로 KPI 자동화 파이프라인 구동을 위한 초기 지표 정의를 재검토하고 다음 단계의 전\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: YouTube Data API 연동에 필요한 API 키 및 채널 ID가 포함된 `youtube_account.json` 파일의 경로와 생성 방식을 확인하고, 환경 변수 설정 절차 가이드라인을 검토하여 확보를 위한 즉각적인 실행 계획을 수립하라",
+      "completedAt": "2026-07-08T02:11:44.007Z"
+    },
+    {
+      "id": "20260708021106-6md2",
+      "title": "수익화 모듈(예: Pro 번들)의 초기 고객 50 명 확보",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-07-08T02:11:06.356Z",
+      "status": "done",
+      "sessionDir": "2026-07-08T02-02",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-07-08T02-02/_report.md\n- 코다리: YouTube Data API 연동에 필요한 API 키 및 채널 ID가 포함된 `youtube_account.json` 파일의 경로와 생성 방식\n- Researcher: API 정보 확보를 위한 환경 변수 설정 절차 가이드라인을 검토하고, 데이터 접근 환경 구축에 필요한 기술적 요구사항 및 잠재적 문제점을 분석하\n- 현빈: 데이터 접근 환경 구축이 완료된 후, 확보된 데이터를 기반으로 KPI 자동화 파이프라인 구동을 위한 초기 지표 정의를 재검토하고 다음 단계의 전\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: YouTube Data API 연동에 필요한 API 키 및 채널 ID가 포함된 `youtube_account.json` 파일의 경로와 생성 방식을 확인하고, 환경 변수 설정 절차 가이드라인을 검토하여 확보를 위한 즉각적인 실행 계획을 수립하라",
+      "completedAt": "2026-07-08T02:11:44.008Z"
+    },
+    {
+      "id": "20260708021106-snlr",
+      "title": "KPI 자동화 파이프라인 DB 스키마 설계 완료 (코다리 담당)",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-07-08T02:11:06.357Z",
+      "status": "done",
+      "sessionDir": "2026-07-08T02-02",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-07-08T02-02/_report.md\n- 코다리: YouTube Data API 연동에 필요한 API 키 및 채널 ID가 포함된 `youtube_account.json` 파일의 경로와 생성 방식\n- Researcher: API 정보 확보를 위한 환경 변수 설정 절차 가이드라인을 검토하고, 데이터 접근 환경 구축에 필요한 기술적 요구사항 및 잠재적 문제점을 분석하\n- 현빈: 데이터 접근 환경 구축이 완료된 후, 확보된 데이터를 기반으로 KPI 자동화 파이프라인 구동을 위한 초기 지표 정의를 재검토하고 다음 단계의 전\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: YouTube Data API 연동에 필요한 API 키 및 채널 ID가 포함된 `youtube_account.json` 파일의 경로와 생성 방식을 확인하고, 환경 변수 설정 절차 가이드라인을 검토하여 확보를 위한 즉각적인 실행 계획을 수립하라",
+      "completedAt": "2026-07-08T02:11:44.009Z"
     }
   ]
 }
