@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "components": [
+    {
+      "id": "progress_bar",
+      "type": "bar",
+      "color": "#2E6CAA"
+    },
+    {
+      "id": "input_field",
+      "type": "text",
+      "font_size": 14,
+      "placeholder": "지식 유형 입력 (예: 법령, 계약서)"
+    }
+  ]
+}

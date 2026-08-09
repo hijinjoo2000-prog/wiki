@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "components": [
+    {
+      "id": "data_card",
+      "type": "card",
+      "border_color": "#5DADE2"
+    },
+    {
+      "id": "example_text",
+      "type": "label",
+      "content": "법령 > 민사소송법"
+    }
+  ]
+}

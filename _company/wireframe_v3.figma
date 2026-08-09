@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "components": [
+    {
+      "id": "sliding_card",
+      "type": "card",
+      "transition_time": 0.3
+    },
+    {
+      "id": "retry_button",
+      "type": "button",
+      "label": "다시 입력"
+    }
+  ]
+}
