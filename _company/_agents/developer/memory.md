@@ -305,3 +305,7 @@ _코다리 에이전트만 읽고 쓰는 개인 노트. 학습·교훈·자주 �
 - [2026-08-10] PayPal API 연동 후 데이터 흐름의 기술적 안정성을 검증하고, 지식 저장소 백엔드 초기 프레임워크를 완성하라 → 산출물 sessions/2026-08-10T03-51/developer.md
 - [2026-08-10] 지식 저장소 백엔드 초기 프레임워크를 PostgreSQL 연동하여 구축하고, PayPal API 데이터 흐름을 완전히 검증하세요. → 산출물 sessions/2026-08-10T05-21/developer.md
 - [2026-08-10] PostgreSQL과 PayPal API 간 데이터 흐름의 실시간 유효성 검증 스크립트를 개발하고, 메모리 누수 방지를 위한 모델 오케스트레이션 전략 수립 → 산출물 sessions/2026-08-10T06-51/developer.md
+- [2026-08-10] PostgreSQL과 PayPal API 간 데이터 흐름의 실시간 유효성 검증 스크립트를 개발하고, 메모리 누수 방지를 위한 모델 오케스트레이션 전략 수립 → 산출물 sessions/2026-08-10T07-51/developer.md
+- [2026-08-10] PostgreSQL과 PayPal API 간 데이터 흐름의 실시간 유효성 검증 스크립트를 개발하고, 자동 백업 기능의 서버サイ드 로직을 구현하세요. → 산출물 sessions/2026-08-10T20-49/developer.md
+- [2026-08-10] realtime_validation.py 스크립트에 PostgreSQL-PayPal 데이터 흐름의 메모리 누수 방지 로직을 추가하고, 10초 간격 실행 시스템의 안정성을 테스트합니다. 환경 변수 관리(.env)를 기반으로 결제 인증 흐름을 재검증합니다. → 산출물 sessions/2026-08-10T20-49/developer.md
+- [2026-08-11] realtime_validation.py에 PayPal 인증 정보를 환경 변수(.env)로 관리하도록 수정하고, PostgreSQL-PayPal 데이터 흐름의 메모리 누수 방지 로직을 재검증하세요. → 산출물 sessions/2026-08-11T01-35/developer.md
