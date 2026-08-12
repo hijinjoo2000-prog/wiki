@@ -309,3 +309,16 @@ _코다리 에이전트만 읽고 쓰는 개인 노트. 학습·교훈·자주 �
 - [2026-08-10] PostgreSQL과 PayPal API 간 데이터 흐름의 실시간 유효성 검증 스크립트를 개발하고, 자동 백업 기능의 서버サイ드 로직을 구현하세요. → 산출물 sessions/2026-08-10T20-49/developer.md
 - [2026-08-10] realtime_validation.py 스크립트에 PostgreSQL-PayPal 데이터 흐름의 메모리 누수 방지 로직을 추가하고, 10초 간격 실행 시스템의 안정성을 테스트합니다. 환경 변수 관리(.env)를 기반으로 결제 인증 흐름을 재검증합니다. → 산출물 sessions/2026-08-10T20-49/developer.md
 - [2026-08-11] realtime_validation.py에 PayPal 인증 정보를 환경 변수(.env)로 관리하도록 수정하고, PostgreSQL-PayPal 데이터 흐름의 메모리 누수 방지 로직을 재검증하세요. → 산출물 sessions/2026-08-11T01-35/developer.md
+- [2026-08-11] .env 파일 기반의 PayPal/PostgreSQL 인증 흐름을 realtime_validation.py에 재구현하고, 메모리 누수 방지 로직과 지식 저장소 데이터 흐름 검증을 동시에 수행하세요 → 산출물 sessions/2026-08-11T02-05/developer.md
+- [2026-08-11] .env 기반 realtime_validation.py 실행 테스트 및 메모리 누수 방지 로직 검증 → 산출물 sessions/2026-08-11T02-35/developer.md
+- [2026-08-12] PostgreSQL-PayPal 데이터 흐름에 지식 저장소 모듈을 API 연동하여 메모리 누수 방지 로직 추가 → 산출물 sessions/2026-08-12T00-48/developer.md
+- [2026-08-12] knowledge_api.py의 PostgreSQL-PayPal 연동 테스트 및 메모리 누수 경고 임계값(80%) 검증 → 산출물 sessions/2026-08-12T01-18/developer.md
+- [2026-08-12] realtime_validation.py에 지식 저장소 모듈을 PostgreSQL-PayPal 데이터 흐름과 완전히 통합하고, SHA-256 해시 검증 기법을 적용해 데이터 중복/손실 방지 로직 구현 → 산출물 sessions/2026-08-12T02-48/developer.md
+- [2026-08-12] validation_hashes 테이블에 중복 트랜잭션 ID 처리 컬럼 추가하고, PostgreSQL-PayPal 데이터 흐름에서 예외 처리 로직을 강화해줘. SHA-256 해시 검증과 연동된 스키마 설계 시 유의사항도 포함 → 산출물 sessions/2026-08-12T03-03/developer.md
+- [2026-08-12] realtime_validation.py에 SHA-256 해시 검증 모듈을 확장하여 PostgreSQL-PayPal 데이터 흐름의 중복/손실 방지 로직을 개선하고, 메모리 누수 경고 임계값(80%) 기준에 맞춘 최적화 코드를 작성 → 산출물 sessions/2026-08-12T05-18/developer.md
+- [2026-08-12] SHA-256 해시 검증 모듈을 지식 저장소 데이터 흐름에 강제 적용하고, PostgreSQL 유니크 제약 조건과 메모리 누수 감지 로직을 재검토해 최적화 코드 작성 → 산출물 sessions/2026-08-12T05-48/developer.md
+- [2026-08-12] SHA-256 해시 검증 모듈을 지식 저장소 데이터 흐름에 강제 적용하고, PostgreSQL 유니크 제약 조건과 메모리 누수 감지 로직을 재검토하여 최적화 코드 작성 → 산출물 sessions/2026-08-12T07-03/developer.md
+- [2026-08-12] LM Studio에서 gemma2:2b 모델로 전환하거나 connectAiLab.streamFirstTokenTimeoutSec 값을 600으로 증가시키고, PostgreSQL-PayPal 흐름의 SHA-256 검증 모듈과 메모리 누수 감지 로직을 재검토해 최적화 코드 작성 → 산출물 sessions/2026-08-12T09-19/developer.md
+- [2026-08-12] connectAiLab.streamFirstTokenTimeoutSec 값을 600초로 설정하거나 gemma2:2b 모델로 전환하여 LLM 호출 실패 문제 해결 → 산출물 sessions/2026-08-12T10-19/developer.md
+- [2026-08-12] /Users/seopro/에이전트 학교/_company 경로의 파일 시스템 구조를 점검하고, trend_sniper.py 실행에 필요한 의존성 및 설정 파일이 올바르게 배치되었는지 확인해주세요. 경로 오류가 발생한 원인을 분석하고 수정 방안을 제시하세요. → 산출물 sessions/2026-08-12T11-04/developer.md
+- [2026-08-12] 모델 오케스트레이션 모달에서 gemma2:2b로 전환하거나 connectAiLab.streamFirstTokenTimeoutSec 값을 600으로 설정해 LLM 타임아웃 문제 해결. Ollama/LM Studio 서버 실행 상태 확인 및 Context Length(8192 미만) 검증 → 산출물 sessions/2026-08-12T11-34/developer.md

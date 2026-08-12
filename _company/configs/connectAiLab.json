@@ -1,0 +1,1 @@
+{"model_settings": {"primary_model": "gemma2:2b", "stream_first_token_timeout": 600, "context_length_limit": 8192}, "real_time_validation": {"interval_seconds": 10, "hash_verification_enabled": true, "memory_monitoring_threshold": 80}}
