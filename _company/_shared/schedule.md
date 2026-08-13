@@ -1,27 +1,27 @@
 # 📋 통합 스케줄
-_업데이트: 2026. 8. 12. 오후 8:39:26_
+_업데이트: 2026. 8. 13. 오후 3:02:08_
 
 ## 🤖 에이전트 최근 활동
 ### 📺 레오
-- [2026-07-30] YouTube API 키 및 채널 ID 확보 작업을 즉시 진행하고, 확보되는 즉시 코다리(developer)가 다음 단계(영상 스크립트 작성 준비)를 시작할 수 있도록 정보를 제공하라. → 자격증명 부족으로 차단됨
-- [2026-07-30] 사용자에게 YouTube API 키 및 채널 ID를 입력하도록 안내하고, 정보가 제공될 때까지 다음 단계(영상 스크립트 작성 준비) 실행을 보류한다. → 자격증명 부족으로 차단됨
-- [2026-07-30] 사용자에게 YouTube API 키와 채널 ID를 입력하도록 안내하고, 정보가 제공될 때까지 다음 단계(영상 스크립트 작성 준비) 실행을 보류한다. → 자격증명 부족으로 차단됨
+- [2026-08-13] developer와 협업해 trend_sniper.py의 키워드 설정 및 YouTube API 인증 정보가 올바르게 적용되었는지 점검하고, 영상 기획 데이터 수집 흐름을 재시도하세요. → 자격증명 부족으로 차단됨
+- [2026-08-13] 사용자에게 youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID 입력을 재차 요청하고, 제공 시 영상 스크립트 작성 준비를 시작하도록 안내하세요 → 산출물 sessions/2026-08-13T03-27/youtube.md
+- [2026-08-13] 사용자에게 youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID 입력을 3회차로 재요청하고, 입력 완료 시 자동으로 auto_planner.py 실행을 허용하도록 설정하세요. 이전 요청 시도 기록(2026-08-13 13:43, 13:57, 14:13)을 기반으로 프롬프트를 최적화해주세요. → 자격증명 부족으로 차단됨
 ### 🎨 Designer
 - [2026-08-11] Figma 와이어프레임에 실시간 데이터 검증 시각 요소(3단계 바, 원형 차트) 업데이트 → 산출물 sessions/2026-08-11T02-35/designer.md
 - [2026-08-12] Figma 와이어프레임에 '데이터 무결성 상태' 실시간 알림 UI 요소(색상 변환, 아이콘 애니메이션)를 추가하고, SHA-256 검증 실패 시 즉시 사용자 알림 기능 구현 → 산출물 sessions/2026-08-12T05-48/designer.md
 - [2026-08-12] Figma 와이어프레임에 '데이터 무결성 상태' 실시간 알림 UI 요소(색상 변환, 아이콘 애니메이션)를 추가하고, SHA-256 검증 실패 시 즉시 사용자 알림 기능 구현 → 산출물 sessions/2026-08-12T07-03/designer.md
 ### 💻 코다리
-- [2026-08-12] connectAiLab.streamFirstTokenTimeoutSec 값을 600초로 설정하거나 gemma2:2b 모델로 전환하여 LLM 호출 실패 문제 해결 → 산출물 sessions/2026-08-12T10-19/developer.md
-- [2026-08-12] /Users/seopro/에이전트 학교/_company 경로의 파일 시스템 구조를 점검하고, trend_sniper.py 실행에 필요한 의존성 및 설정 파일이 올바르게 배치되었는지 확인해주세요. 경로 오류가 발생한 원인을 분석하고 수정 방안을 제시하세요. → 산출물 sessions/2026-08-12T11-04/developer.md
-- [2026-08-12] 모델 오케스트레이션 모달에서 gemma2:2b로 전환하거나 connectAiLab.streamFirstTokenTimeoutSec 값을 600으로 설정해 LLM 타임아웃 문제 해결. Ollama/LM Studio 서버 실행 상태 확인 및 Context Length(8192 미만) 검증 → 산출물 sessions/2026-08-12T11-34/developer.md
+- [2026-08-12] connectAiLab.json과 orchestration.json 파일을 /Users/seopro/에이전트 학교/_company/configs/ 경로에 생성하고, 모델 설정 및 실시간 검증 파라미터를 JSON 형식으로 정의해주세요. 기존 파일이 없으므로 신규 생성 후, 레오(Youtube)와 디자이너(Designer)에게 시스템 설정 정보를 공유하세요. → 산출물 sessions/2026-08-12T12-19/developer.md
+- [2026-08-13] trend_sniper.py와 auto_planner.py의 실패 원인을 분석하고, LLM 연결 및 설정 오류를 수정해 실행 가능하도록 개선하세요. 기존 에러 로그(/Users/seopro/에이전트 학교/_company/logs/)를 참고하여 코드 수정 및 테스트를 수행하세요. → 산출물 sessions/2026-08-13T02-42/developer.md
+- [2026-08-13] /Users/seopro/에이전트 학교/_company 경로에 trend_sniper.py와 auto_planner.py 파일이 생성되지 않은 원인을 분석하고, 파일 생성 및 경로 설정 오류를 수정해 실행 가능한 상태로 만드세요 → 산출물 sessions/2026-08-13T03-27/developer.md
 ### 💼 현빈
 - [2026-08-10] 회사 목표와 에이전트별 개인 목표, 최근 의사결정 데이터를 분석해 가장 가치 있는 단일 작업을 선정하고 실행 전략을 수립하세요. → 자격증명 부족으로 차단됨
 - [2026-08-11] 지식 저장소 수익화 전략을 분석하고, KPI와 연동된 데이터 구조를 설계하세요. API 인증 문제 해결을 위한 비즈니스 우선순위도 검토합니다. → 자격증명 부족으로 차단됨
 - [2026-08-11] paypal_revenue.py 스크립트에 CLIENT_ID와 SECRET 값을 입력하고 API 인증 흐름을 유효성 검증 시스템과 연동하세요. 수익화 KPI 계층 구조와 실시간 데이터 흐름 검증 결과를 반영해 실행합니다. → 산출물 sessions/2026-08-11T01-35/business.md
 ### 📱 영숙
-- [2026-08-12] 파일 경로 오류 해결을 위해 /Users/seopro/에이전트 학교/_company/_agents/secretary/tools/daily_briefing_template.md 파일을 생성하고, 기존 작업 흐름에 맞게 브리핑 템플릿을 재구성해주세요. 기존에 존재하지 않는 파일 생성 시 기본 템플릿 구조를 다음과 같이 설계해주세요: [오늘 날짜] [주요 진행 사항 1~3개] [다음 단계] → 산출물 sessions/2026-08-12T09-34/secretary.md
 - [2026-08-12] 데일리 브리핑에 LLM 호출 문제 해결 작업을 우선순위로 추가하고 진행 상황 추적 → 산출물 sessions/2026-08-12T10-19/secretary.md
 - [2026-08-12] trend_sniper.py 실행에 필요한 파일이 _company 디렉토리에 존재하는지 확인하고, 누락된 파일이나 설정값이 있는 경우 즉시 보고서로 상세히 기록해주세요. 경로 검증 결과를 developer에 공유하세요. → 산출물 sessions/2026-08-12T11-04/secretary.md
+- [2026-08-13] 사용자에게 youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID 입력을 3회차로 재요청하고, 14:30까지 완료 시 auto_planner.py 실행 허용 설정. 이전 요청 기록(13:43, 13:57, 14:13)을 반영해 프롬프트 최적화 → 산출물 sessions/2026-08-13T05-57/secretary.md
 ### ✍️ Writer
 - [2026-08-08] business 에이전트가 제공한 수익화 전략과 KPI를 바탕으로 공인중개사 결제 100건 달성을 위한 실행 가능한 마케팅 메시지 초안을 작성하세요. → 산출물 sessions/2026-08-08T17-47/writer.md
 - [2026-08-09] 수익화 모델에 맞춰 잠재 고객(공인중개사)에게 어필할 수 있는 핵심 마케팅 메시지 초안 및 초기 지식 저장소의 목차를 작성하라. → 산출물 sessions/2026-08-09T01-34/writer.md

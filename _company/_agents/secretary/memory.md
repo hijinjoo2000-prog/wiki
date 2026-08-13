@@ -391,3 +391,4 @@ _영숙 에이전트만 읽고 쓰는 개인 노트. 학습·교훈·자주 쓰�
 - [2026-08-12] 파일 경로 오류 해결을 위해 /Users/seopro/에이전트 학교/_company/_agents/secretary/tools/daily_briefing_template.md 파일을 생성하고, 기존 작업 흐름에 맞게 브리핑 템플릿을 재구성해주세요. 기존에 존재하지 않는 파일 생성 시 기본 템플릿 구조를 다음과 같이 설계해주세요: [오늘 날짜] [주요 진행 사항 1~3개] [다음 단계] → 산출물 sessions/2026-08-12T09-34/secretary.md
 - [2026-08-12] 데일리 브리핑에 LLM 호출 문제 해결 작업을 우선순위로 추가하고 진행 상황 추적 → 산출물 sessions/2026-08-12T10-19/secretary.md
 - [2026-08-12] trend_sniper.py 실행에 필요한 파일이 _company 디렉토리에 존재하는지 확인하고, 누락된 파일이나 설정값이 있는 경우 즉시 보고서로 상세히 기록해주세요. 경로 검증 결과를 developer에 공유하세요. → 산출물 sessions/2026-08-12T11-04/secretary.md
+- [2026-08-13] 사용자에게 youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID 입력을 3회차로 재요청하고, 14:30까지 완료 시 auto_planner.py 실행 허용 설정. 이전 요청 기록(13:43, 13:57, 14:13)을 반영해 프롬프트 최적화 → 산출물 sessions/2026-08-13T05-57/secretary.md

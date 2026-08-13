@@ -322,3 +322,6 @@ _코다리 에이전트만 읽고 쓰는 개인 노트. 학습·교훈·자주 �
 - [2026-08-12] connectAiLab.streamFirstTokenTimeoutSec 값을 600초로 설정하거나 gemma2:2b 모델로 전환하여 LLM 호출 실패 문제 해결 → 산출물 sessions/2026-08-12T10-19/developer.md
 - [2026-08-12] /Users/seopro/에이전트 학교/_company 경로의 파일 시스템 구조를 점검하고, trend_sniper.py 실행에 필요한 의존성 및 설정 파일이 올바르게 배치되었는지 확인해주세요. 경로 오류가 발생한 원인을 분석하고 수정 방안을 제시하세요. → 산출물 sessions/2026-08-12T11-04/developer.md
 - [2026-08-12] 모델 오케스트레이션 모달에서 gemma2:2b로 전환하거나 connectAiLab.streamFirstTokenTimeoutSec 값을 600으로 설정해 LLM 타임아웃 문제 해결. Ollama/LM Studio 서버 실행 상태 확인 및 Context Length(8192 미만) 검증 → 산출물 sessions/2026-08-12T11-34/developer.md
+- [2026-08-12] connectAiLab.json과 orchestration.json 파일을 /Users/seopro/에이전트 학교/_company/configs/ 경로에 생성하고, 모델 설정 및 실시간 검증 파라미터를 JSON 형식으로 정의해주세요. 기존 파일이 없으므로 신규 생성 후, 레오(Youtube)와 디자이너(Designer)에게 시스템 설정 정보를 공유하세요. → 산출물 sessions/2026-08-12T12-19/developer.md
+- [2026-08-13] trend_sniper.py와 auto_planner.py의 실패 원인을 분석하고, LLM 연결 및 설정 오류를 수정해 실행 가능하도록 개선하세요. 기존 에러 로그(/Users/seopro/에이전트 학교/_company/logs/)를 참고하여 코드 수정 및 테스트를 수행하세요. → 산출물 sessions/2026-08-13T02-42/developer.md
+- [2026-08-13] /Users/seopro/에이전트 학교/_company 경로에 trend_sniper.py와 auto_planner.py 파일이 생성되지 않은 원인을 분석하고, 파일 생성 및 경로 설정 오류를 수정해 실행 가능한 상태로 만드세요 → 산출물 sessions/2026-08-13T03-27/developer.md
