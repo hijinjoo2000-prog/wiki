@@ -393,3 +393,8 @@ _영숙 에이전트만 읽고 쓰는 개인 노트. 학습·교훈·자주 쓰�
 - [2026-08-12] trend_sniper.py 실행에 필요한 파일이 _company 디렉토리에 존재하는지 확인하고, 누락된 파일이나 설정값이 있는 경우 즉시 보고서로 상세히 기록해주세요. 경로 검증 결과를 developer에 공유하세요. → 산출물 sessions/2026-08-12T11-04/secretary.md
 - [2026-08-13] 사용자에게 youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID 입력을 3회차로 재요청하고, 14:30까지 완료 시 auto_planner.py 실행 허용 설정. 이전 요청 기록(13:43, 13:57, 14:13)을 반영해 프롬프트 최적화 → 산출물 sessions/2026-08-13T05-57/secretary.md
 - [2026-08-18] 사장님께 youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID를 즉시 입력하도록 요청하고, SHA-256 해시 검증 후 python3 youtube_account.py 실행 여부를 재확인해주세요. → 자격증명 부족으로 차단됨
+- [2026-08-19] youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID가 유효한 값으로 입력되었는지 검증하고, SHA-256 해시 검증 후 python3 youtube_account.py 실행 여부를 14:30까지 완료 확인. 이전 요청과 차별화하여 입력값 형식(32자 키, 24자 ID) 및 Google Cloud Console 발급 여부를 추가로 점검. → 산출물 sessions/2026-08-19T11-36/secretary.md
+- [2026-08-19] 사장님께 youtube_account.json 파일의 YOUTUBE_API_KEY 및 MY_CHANNEL_ID 입력을 3회차로 재요청하고, 입력 후 python3 youtube_account.py 실행 여부를 즉시 확인해 주세요. → 자격증명 부족으로 차단됨
+- [2026-08-19] youtube_account.json의 YOUTUBE_API_KEY(32자)와 MY_CHANNEL_ID(24자)가 정확히 입력되었는지 검증하고, 형식 오류 시 즉시 수정 요청 → 자격증명 부족으로 차단됨
+- [2026-08-19] youtube_account.json의 YOUTUBE_API_KEY(32자)와 MY_CHANNEL_ID(24자)가 유효한 값인지 검증하고, 파일 경로 오류 시 즉시 수정 요청 → 자격증명 부족으로 차단됨
+- [2026-08-19] youtube_account.json의 YOUTUBE_API_KEY(32자)와 MY_CHANNEL_ID(24자)가 유효한 값으로 입력되었는지 3회차 검증하고, 형식 오류 시 즉시 수정 요청 → 산출물 sessions/2026-08-19T14-51/secretary.md
