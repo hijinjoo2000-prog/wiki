@@ -402,3 +402,4 @@ _영숙 에이전트만 읽고 쓰는 개인 노트. 학습·교훈·자주 쓰�
 - [2026-08-19] youtube_account.json의 YOUTUBE_API_KEY(32자)와 MY_CHANNEL_ID(24자)가 유효한 값인지 3회차 검증하고, 형식 오류 시 즉시 수정 요청 → 자격증명 부족으로 차단됨
 - [2026-08-19] youtube_account.json의 YOUTUBE_API_KEY(32자) 및 MY_CHANNEL_ID(24자) 형식 검증 후 재입력 요청, SHA-256 해시 검증 동기화 → 자격증명 부족으로 차단됨
 - [2026-08-19] youtube_account.json의 YOUTUBE_API_KEY(32자) 및 MY_CHANNEL_ID(24자) 형식 검증 후 재입력 요청 → 자격증명 부족으로 차단됨
+- [2026-08-19] youtube_account.json 파일에 YOUTUBE_API_KEY(32자)와 MY_CHANNEL_ID(24자)가 유효한 값인지 3회차 검증하고, 형식 오류 시 즉시 수정 요청 → 자격증명 부족으로 차단됨
