@@ -106,3 +106,11 @@ _레오 에이전트만 읽고 쓰는 개인 노트. 학습·교훈·자주 쓰�
 - [2026-08-19] 사장님께 YOUTUBE_API_KEY와 MY_CHANNEL_ID 입력 요청 및 SHA-256 해시 검증 절차 재시도 → 자격증명 부족으로 차단됨
 - [2026-08-19] 사장님께서 youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID를 즉시 입력하고, SHA-256 해시 검증 후 python3 youtube_account.py 실행 여부를 확인해주세요. → 자격증명 부족으로 차단됨
 - [2026-08-19] 사장님께서 youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID를 즉시 입력하고, SHA-256 해시 검증 후 python3 youtube_account.py 실행 여부를 확인해주세요. → 산출물 sessions/2026-08-19T01-48/youtube.md
+- [2026-08-19] 사장님께서 youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID를 즉시 입력하고, SHA-256 해시 검증 후 python3 youtube_account.py 실행 여부를 확인해주세요. → 자격증명 부족으로 차단됨
+- [2026-08-19] youtube_account.json에 YOUTUBE_API_KEY 및 MY_CHANNEL_ID 입력 상태를 확인하고, SHA-256 해시 검증을 진행하세요. 입력되지 않았다면 사용자에게 즉시 재요청하여 설정 완료 후 python3 youtube_account.py 실행 여부를 확인합니다. → 자격증명 부족으로 차단됨
+- [2026-08-19] youtube_account.json에 YOUTUBE_API_KEY 및 MY_CHANNEL_ID 입력하고 SHA-256 해시 검증 후 python3 youtube_account.py 실행 여부 확인 → 산출물 sessions/2026-08-19T03-34/youtube.md
+- [2026-08-19] youtube_account.json에 YOUTUBE_API_KEY 및 MY_CHANNEL_ID 입력하고 SHA-256 해시 검증 후 python3 youtube_account.py 실행 여부 확인 → 자격증명 부족으로 차단됨
+- [2026-08-19] youtube_account.json에 YOUTUBE_API_KEY 및 MY_CHANNEL_ID 입력하고 SHA-256 해시 검증 후 python3 youtube_account.py 실행 여부 확인 → 자격증명 부족으로 차단됨
+- [2026-08-19] youtube_account.json에 YOUTUBE_API_KEY 및 MY_CHANNEL_ID 입력하고 SHA-256 해시 검증 후 python3 youtube_account.py 실행 여부 확인 → 자격증명 부족으로 차단됨
+- [2026-08-19] youtube_account.json에 YOUTUBE_API_KEY 및 MY_CHANNEL_ID 입력하고 SHA-256 해시 검증 후 python3 youtube_account.py 실행 여부 확인 → 자격증명 부족으로 차단됨
+- [2026-08-19] youtube_account.json에 YOUTUBE_API_KEY 및 MY_CHANNEL_ID 입력하고 SHA-256 해시 검증 후 python3 youtube_account.py 실행 여부 확인 → 자격증명 부족으로 차단됨
