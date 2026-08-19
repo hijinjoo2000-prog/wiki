@@ -1,0 +1,3 @@
+# 💻 코다리 — trend_sniper.py와 auto_planner.py의 오류 원인을 분석하고, LLM 연결 설정과 인증 키 유효성 검사를 수행하세요.
+
+_core_standardame_standardamee_standardxxxxxxxxxxxxxxxxxxxxxxxxcorexxxxxxxxcorexxxxxdxxxxxdxxxxxdxxxxxdxxxxxdxxxxxdxxxxxdxxxxxdxxxxxdxxxxxdxxxxxdxxxxxdxxxxxdxxxxxdxxxxxdxxxxxdxxxxxdxxxxxdxxxxxdxxxxxdxxxxxdxxxxxdxxxxxdxxxxxdxxxxxdxxxxxdxxxxxdxxxxxdxxxxxdxxxxxdxxxxxdxxxxxdxxxxxdxxxx

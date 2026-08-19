@@ -1,33 +1,33 @@
 # 📋 통합 스케줄
-_업데이트: 2026. 8. 13. 오후 3:02:08_
+_업데이트: 2026. 8. 19. 오전 10:51:58_
 
 ## 🤖 에이전트 최근 활동
 ### 📺 레오
-- [2026-08-13] developer와 협업해 trend_sniper.py의 키워드 설정 및 YouTube API 인증 정보가 올바르게 적용되었는지 점검하고, 영상 기획 데이터 수집 흐름을 재시도하세요. → 자격증명 부족으로 차단됨
-- [2026-08-13] 사용자에게 youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID 입력을 재차 요청하고, 제공 시 영상 스크립트 작성 준비를 시작하도록 안내하세요 → 산출물 sessions/2026-08-13T03-27/youtube.md
-- [2026-08-13] 사용자에게 youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID 입력을 3회차로 재요청하고, 입력 완료 시 자동으로 auto_planner.py 실행을 허용하도록 설정하세요. 이전 요청 시도 기록(2026-08-13 13:43, 13:57, 14:13)을 기반으로 프롬프트를 최적화해주세요. → 자격증명 부족으로 차단됨
+- [2026-08-19] 사장님께 YOUTUBE_API_KEY와 MY_CHANNEL_ID 입력 요청 및 SHA-256 해시 검증 절차 재시도 → 자격증명 부족으로 차단됨
+- [2026-08-19] 사장님께서 youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID를 즉시 입력하고, SHA-256 해시 검증 후 python3 youtube_account.py 실행 여부를 확인해주세요. → 자격증명 부족으로 차단됨
+- [2026-08-19] 사장님께서 youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID를 즉시 입력하고, SHA-256 해시 검증 후 python3 youtube_account.py 실행 여부를 확인해주세요. → 산출물 sessions/2026-08-19T01-48/youtube.md
 ### 🎨 Designer
 - [2026-08-11] Figma 와이어프레임에 실시간 데이터 검증 시각 요소(3단계 바, 원형 차트) 업데이트 → 산출물 sessions/2026-08-11T02-35/designer.md
 - [2026-08-12] Figma 와이어프레임에 '데이터 무결성 상태' 실시간 알림 UI 요소(색상 변환, 아이콘 애니메이션)를 추가하고, SHA-256 검증 실패 시 즉시 사용자 알림 기능 구현 → 산출물 sessions/2026-08-12T05-48/designer.md
 - [2026-08-12] Figma 와이어프레임에 '데이터 무결성 상태' 실시간 알림 UI 요소(색상 변환, 아이콘 애니메이션)를 추가하고, SHA-256 검증 실패 시 즉시 사용자 알림 기능 구현 → 산출물 sessions/2026-08-12T07-03/designer.md
 ### 💻 코다리
-- [2026-08-12] connectAiLab.json과 orchestration.json 파일을 /Users/seopro/에이전트 학교/_company/configs/ 경로에 생성하고, 모델 설정 및 실시간 검증 파라미터를 JSON 형식으로 정의해주세요. 기존 파일이 없으므로 신규 생성 후, 레오(Youtube)와 디자이너(Designer)에게 시스템 설정 정보를 공유하세요. → 산출물 sessions/2026-08-12T12-19/developer.md
-- [2026-08-13] trend_sniper.py와 auto_planner.py의 실패 원인을 분석하고, LLM 연결 및 설정 오류를 수정해 실행 가능하도록 개선하세요. 기존 에러 로그(/Users/seopro/에이전트 학교/_company/logs/)를 참고하여 코드 수정 및 테스트를 수행하세요. → 산출물 sessions/2026-08-13T02-42/developer.md
-- [2026-08-13] /Users/seopro/에이전트 학교/_company 경로에 trend_sniper.py와 auto_planner.py 파일이 생성되지 않은 원인을 분석하고, 파일 생성 및 경로 설정 오류를 수정해 실행 가능한 상태로 만드세요 → 산출물 sessions/2026-08-13T03-27/developer.md
+- [2026-08-16] trend_sniper.py의 LLM 연결 설정 및 API 키 검증 후 재실행 시도 (SHA-256 해시 검증 포함) → 산출물 sessions/2026-08-16T06-48/developer.md
+- [2026-08-16] trend_sniper.py와 auto_planner.py의 오류 원인을 분석하고, LLM 연결 설정과 인증 키 유효성 검사를 수행하세요. → 산출물 sessions/2026-08-16T22-25/developer.md
+- [2026-08-17] trend_sniper.py와 auto_planner.py의 오류 원인을 분석하고, LLM 연결 설정 및 인증 키 유효성을 검사해 실행 가능한 상태로 수정하세요. → 산출물 sessions/2026-08-17T04-22/developer.md
 ### 💼 현빈
-- [2026-08-10] 회사 목표와 에이전트별 개인 목표, 최근 의사결정 데이터를 분석해 가장 가치 있는 단일 작업을 선정하고 실행 전략을 수립하세요. → 자격증명 부족으로 차단됨
-- [2026-08-11] 지식 저장소 수익화 전략을 분석하고, KPI와 연동된 데이터 구조를 설계하세요. API 인증 문제 해결을 위한 비즈니스 우선순위도 검토합니다. → 자격증명 부족으로 차단됨
-- [2026-08-11] paypal_revenue.py 스크립트에 CLIENT_ID와 SECRET 값을 입력하고 API 인증 흐름을 유효성 검증 시스템과 연동하세요. 수익화 KPI 계층 구조와 실시간 데이터 흐름 검증 결과를 반영해 실행합니다. → 산출물 sessions/2026-08-11T01-35/business.md
+- [2026-08-13] 지식 저장소 수익화 전략을 재분석하고, 현재 실패 중인 자동화 스크립트가 회사 목표 달성에 기여할 수 있는 방식으로 우선순위를 재설정하세요 → 자격증명 부족으로 차단됨
+- [2026-08-14] paypal_api_integration_verification.md 파일을 검토해 CLIENT_ID와 SECRET 값의 입력 여부를 확인하고, 미입력 시 사용자에게 재요청 프로세스 최적화를 위해 3회차 시도 후 차단 예외 처리 로직 추가 → 산출물 sessions/2026-08-14T02-48/business.md
+- [2026-08-16] 연구팀의 신규 데이터를 기반으로 수익화 전략을 수정하고, 현재 에이전트 목표와 맞춤형 KPI를 재설정 → 산출물 sessions/2026-08-16T00-54/business.md
 ### 📱 영숙
-- [2026-08-12] 데일리 브리핑에 LLM 호출 문제 해결 작업을 우선순위로 추가하고 진행 상황 추적 → 산출물 sessions/2026-08-12T10-19/secretary.md
 - [2026-08-12] trend_sniper.py 실행에 필요한 파일이 _company 디렉토리에 존재하는지 확인하고, 누락된 파일이나 설정값이 있는 경우 즉시 보고서로 상세히 기록해주세요. 경로 검증 결과를 developer에 공유하세요. → 산출물 sessions/2026-08-12T11-04/secretary.md
 - [2026-08-13] 사용자에게 youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID 입력을 3회차로 재요청하고, 14:30까지 완료 시 auto_planner.py 실행 허용 설정. 이전 요청 기록(13:43, 13:57, 14:13)을 반영해 프롬프트 최적화 → 산출물 sessions/2026-08-13T05-57/secretary.md
+- [2026-08-18] 사장님께 youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID를 즉시 입력하도록 요청하고, SHA-256 해시 검증 후 python3 youtube_account.py 실행 여부를 재확인해주세요. → 자격증명 부족으로 차단됨
 ### ✍️ Writer
 - [2026-08-08] business 에이전트가 제공한 수익화 전략과 KPI를 바탕으로 공인중개사 결제 100건 달성을 위한 실행 가능한 마케팅 메시지 초안을 작성하세요. → 산출물 sessions/2026-08-08T17-47/writer.md
 - [2026-08-09] 수익화 모델에 맞춰 잠재 고객(공인중개사)에게 어필할 수 있는 핵심 마케팅 메시지 초안 및 초기 지식 저장소의 목차를 작성하라. → 산출물 sessions/2026-08-09T01-34/writer.md
 - [2026-08-12] 지식 저장소 첫 번째 모듈(공인중개사 수수료 계약서 작성 가이드)의 영상 스크립트와 블로그 키워드맵을 생성, PostgreSQL 데이터 흐름과 연동된 형식으로 제안 → 산출물 sessions/2026-08-12T07-48/writer.md
 ### 🔍 Researcher
-- [2026-08-12] competitor_analysis_collector.py 실행하여 경쟁사 데이터 수집 및 지식 카테고리 확장 분석 (시장 트렌드, 수익모델 등) → 산출물 sessions/2026-08-12T01-18/researcher.md
-- [2026-08-12] 현재 지식 저장소 데이터 흐름의 취약점을 분석하고, 실시간 유효성 검증 시각 요소(3단계 바, 원형 차트)의 UX/UX 개선 방향성을 제시 → 산출물 sessions/2026-08-12T02-48/researcher.md
-- [2026-08-12] 2026년 공인중개사 시장 트렌드 데이터를 수집하고, SHA-256 검증 흐름과 연동된 데이터 구조 설계를 위한 분석 보고서 작성 → 산출물 sessions/2026-08-12T07-48/researcher.md
+- [2026-08-16] 최근 24시간 내 반복된 작업 기록을 메모리에서 필터링한 후, 새로운 트렌드와 경쟁사 데이터를 수집해 분석 보고서로 정리 → 산출물 sessions/2026-08-16T00-54/researcher.md
+- [2026-08-16] 회사 목표, 에이전트 개인 목표(_agents/{id}/goal.md), 최근 의사결정, 메모리 데이터를 분석해 24시간 내 중복되지 않은 최고 우선순위 작업을 제안하세요. → 자격증명 부족으로 차단됨
+- [2026-08-16] youtube_account.json의 YOUTUBE_API_KEY와 MY_CHANNEL_ID 유효성 검증 후 사용자 재입력 요청. auto_planner.py 실행 시 인증 오류 로그 분석 → 산출물 sessions/2026-08-16T01-39/researcher.md
 

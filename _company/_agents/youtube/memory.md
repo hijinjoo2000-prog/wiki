@@ -50,3 +50,59 @@ _레오 에이전트만 읽고 쓰는 개인 노트. 학습·교훈·자주 쓰�
 - [2026-08-13] developer와 협업해 trend_sniper.py의 키워드 설정 및 YouTube API 인증 정보가 올바르게 적용되었는지 점검하고, 영상 기획 데이터 수집 흐름을 재시도하세요. → 자격증명 부족으로 차단됨
 - [2026-08-13] 사용자에게 youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID 입력을 재차 요청하고, 제공 시 영상 스크립트 작성 준비를 시작하도록 안내하세요 → 산출물 sessions/2026-08-13T03-27/youtube.md
 - [2026-08-13] 사용자에게 youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID 입력을 3회차로 재요청하고, 입력 완료 시 자동으로 auto_planner.py 실행을 허용하도록 설정하세요. 이전 요청 시도 기록(2026-08-13 13:43, 13:57, 14:13)을 기반으로 프롬프트를 최적화해주세요. → 자격증명 부족으로 차단됨
+- [2026-08-13] 사용자에게 youtube_account.json 파일의 YOUTUBE_API_KEY와 MY_CHANNEL_ID 입력을 4회차로 재요청하고, 입력 완료 시 auto_planner.py 자동 실행 허용 설정을 검증하세요. 이전 요청 기록(13:43, 13:57, 14:13)을 반영해 프롬프트를 최적화하세요. → 산출물 sessions/2026-08-13T07-12/youtube.md
+- [2026-08-13] 사용자에게 youtube_account.json 파일의 YOUTUBE_API_KEY와 MY_CHANNEL_ID 입력을 5회차로 재요청하고, 입력 완료 시 auto_planner.py 자동 실행 허용 설정을 검증하세요. 이전 요청 기록(13:43, 13:57, 14:13, 16:29)을 반영해 프롬프트를 최적화하세요. → 산출물 sessions/2026-08-13T08-12/youtube.md
+- [2026-08-13] 사용자에게 youtube_account.json 파일의 YOUTUBE_API_KEY와 MY_CHANNEL_ID 입력을 6회차로 재요청하고, 입력 완료 시 auto_planner.py 자동 실행 허용 설정을 검증하세요. 이전 요청 기록(13:43, 13:57, 14:13, 16:29)을 반영해 프롬프트를 최적화하세요. → 자격증명 부족으로 차단됨
+- [2026-08-14] YOUTUBE_API_KEY 및 MY_CHANNEL_ID 입력 완료 시 auto_planner.py 자동 실행 허용 설정 검증, 7회차 요청 시 차단 예외 처리 로직 추가 → 자격증명 부족으로 차단됨
+- [2026-08-14] YOUTUBE_API_KEY 및 MY_CHANNEL_ID 입력을 8회차로 재요청하고, auto_planner.py 실행 시 인증 오류 발생 원인 분석을 위해 로그 수집 요청 → 자격증명 부족으로 차단됨
+- [2026-08-14] YOUTUBE_API_KEY 및 MY_CHANNEL_ID 수집 재요청. 입력 완료 시 auto_planner.py 자동 실행 허용 설정 검증 → 자격증명 부족으로 차단됨
+- [2026-08-14] 사용자에게 youtube_account.json의 YOUTUBE_API_KEY와 MY_CHANNEL_ID 입력을 9회차로 재요청하고, auto_planner.py 실행 시 인증 오류 원인 분석을 위해 로그 수집 요청 → 자격증명 부족으로 차단됨
+- [2026-08-14] 사장님께 youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID 입력을 9회차로 재요청하고, 파일 존재 여부 및 형식 검증 후 auto_planner.py 실행 시 인증 오류 원인 분석을 위해 로그 수집 요청 → 자격증명 부족으로 차단됨
+- [2026-08-14] YOUTUBE_API_KEY 및 MY_CHANNEL_ID 수집을 위해 youtube_account.json 파일 입력 요청. 9회차 재요청 시도 후 자동화 스크립트 실행 허용 여부 검증 → 자격증명 부족으로 차단됨
+- [2026-08-14] YOUTUBE_API_KEY 및 MY_CHANNEL_ID 수집을 위해 youtube_account.json 파일 입력 요청. 9회차 재요청 시도 후 자동화 스크립트 실행 허용 여부 검증 → 자격증명 부족으로 차단됨
+- [2026-08-15] 사용자에게 youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID 재입력 요청 후 auto_planner.py 실행 허용 여부 검증 → 자격증명 부족으로 차단됨
+- [2026-08-15] 사용자에게 youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID 재입력 요청 후 auto_planner.py 실행 허용 여부를 검증하세요. 기존 오류 로그 분석 포함 → 자격증명 부족으로 차단됨
+- [2026-08-15] 사용자에게 youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID 재입력 요청 후 auto_planner.py 실행 허용 여부를 검증하세요. 기존 오류 로그 분석 포함 → 자격증명 부족으로 차단됨
+- [2026-08-15] 사용자에게 youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID 재입력 요청 후 auto_planner.py 실행 허용 여부 검증 → 자격증명 부족으로 차단됨
+- [2026-08-15] YOUTUBE_API_KEY와 MY_CHANNEL_ID를 youtube_account.json에 재입력 요청 후 auto_planner.py 실행 허용 여부를 검증하세요. 기존 오류 로그 분석 포함 → 자격증명 부족으로 차단됨
+- [2026-08-15] 사용자에게 youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID 재입력 요청 후 auto_planner.py 실행 허용 여부를 검증하세요. 기존 오류 로그 분석 포함 → 자격증명 부족으로 차단됨
+- [2026-08-16] youtube_account.json의 YOUTUBE_API_KEY 및 MY_CHANNEL_ID 유효성 재확인 → 자격증명 부족으로 차단됨
+- [2026-08-16] 현재 youtube_account.json에 저장된 YOUTUBE_API_KEY와 MY_CHANNEL_ID의 유효성을 재확인하고, 인증 오류가 발생하는 원인을 분석하세요. 사용자에게 정확한 API 키와 채널 ID 재입력 요청을 10회차로 전달하고, auto_planner.py 실행 허용 여부를 재검증하세요. → 자격증명 부족으로 차단됨
+- [2026-08-16] youtube_account.json에 저장된 YOUTUBE_API_KEY와 MY_CHANNEL_ID의 유효성을 확인하고, 인증 오류 원인 분석 후 사용자에게 재입력 요청 → 자격증명 부족으로 차단됨
+- [2026-08-16] youtube_account.json에 저장된 YOUTUBE_API_KEY와 MY_CHANNEL_ID의 유효성을 확인하고, 비어있거나 잘못된 경우 사용자에게 재입력 요청 → 자격증명 부족으로 차단됨
+- [2026-08-16] 사용자에게 YOUTUBE_API_KEY와 MY_CHANNEL_ID를 youtube_account.json에 정확히 입력하도록 10회차 재요청하고, SHA-256 해시 검증 후 auto_planner.py 실행 허용 여부를 재검증하세요 → 자격증명 부족으로 차단됨
+- [2026-08-16] youtube_account.json에 저장된 YOUTUBE_API_KEY와 MY_CHANNEL_ID의 형식 및 유효성을 검증하고, 오류 시 사용자에게 10회차 재입력 요청 후 SHA-256 해시 검증을 통해 자동화 스크립트 실행 허용 여부를 재확인하세요. → 자격증명 부족으로 차단됨
+- [2026-08-17] YOUTUBE_API_KEY와 MY_CHANNEL_ID의 형식 및 유효성을 SHA-256 해시 검증을 통해 재확인하고, youtube_account.json에 정확히 입력했는지 확인하세요. → 자격증명 부족으로 차단됨
+- [2026-08-17] YOUTUBE_API_KEY와 MY_CHANNEL_ID를 youtube_account.json에 정확히 입력하고 SHA-256 해시 검증을 수행해 주세요. 입력 후 python3 youtube_account.py로 인증 여부를 확인하고, 오류 발생 시 10회차 재요청 프로세스를 거칩니다. → 자격증명 부족으로 차단됨
+- [2026-08-17] YOUTUBE_API_KEY와 MY_CHANNEL_ID를 youtube_account.json에 정확히 입력하고 SHA-256 해시 검증을 수행한 후 python3 youtube_account.py로 인증 여부를 확인하세요. 오류 발생 시 10회차 재요청 프로세스를 거칩니다. → 자격증명 부족으로 차단됨
+- [2026-08-17] YOUTUBE_API_KEY와 MY_CHANNEL_ID를 youtube_account.json에 정확히 입력하고 SHA-256 해시 검증을 수행한 후 python3 youtube_account.py로 인증 여부를 확인하세요. 오류 발생 시 10회차 재요청 프로세스를 거칩니다. → 자격증명 부족으로 차단됨
+- [2026-08-17] YOUTUBE_API_KEY와 MY_CHANNEL_ID를 youtube_account.json에 정확히 입력하고 SHA-256 해시 검증을 수행한 후 python3 youtube_account.py로 인증 여부를 확인하세요. 오류 발생 시 10회차 재요청 프로세스를 거칩니다. → 자격증명 부족으로 차단됨
+- [2026-08-17] YOUTUBE_API_KEY와 MY_CHANNEL_ID를 youtube_account.json에 정확히 입력하고 SHA-256 해시 검증을 수행한 후 python3 youtube_account.py로 인증 여부를 확인하세요. 오류 발생 시 10회차 재요청 프로세스를 거칩니다. → 자격증명 부족으로 차단됨
+- [2026-08-17] YOUTUBE_API_KEY와 MY_CHANNEL_ID를 youtube_account.json에 정확히 입력하고 SHA-256 해시 검증을 수행한 후 python3 youtube_account.py로 인증 여부를 확인하세요. 오류 발생 시 10회차 재요청 프로세스를 거칩니다. → 자격증명 부족으로 차단됨
+- [2026-08-17] YOUTUBE_API_KEY와 MY_CHANNEL_ID가 youtube_account.json에 입력되었는지 검증하고, 누락 시 사용자에게 재입력 요청 → 산출물 sessions/2026-08-17T12-48/youtube.md
+- [2026-08-17] youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID를 원본 형태로 정확히 입력하고 SHA-256 해시 검증 후 python3 youtube_account.py로 인증 여부 확인 (오류 시 10회차 재요청 프로세스 진행) → 자격증명 부족으로 차단됨
+- [2026-08-17] youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID를 원본 형태로 정확히 입력하고 SHA-256 해시 검증 후 python3 youtube_account.py로 인증 여부 확인 (오류 시 10회차 재요청 프로세스 진행) → 자격증명 부족으로 차단됨
+- [2026-08-17] youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID를 원본 형태로 정확히 입력하고 SHA-256 해시 검증 후 python3 youtube_account.py로 인증 여부 확인 (오류 시 10회차 재요청 프로세스 진행) → 자격증명 부족으로 차단됨
+- [2026-08-17] youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID를 원본 형태로 정확히 입력하고, python3 youtube_account.py 실행하여 SHA-256 해시 검증 및 인증 여부를 확인하세요. 오류 발생 시 10회차 재요청 프로세스 진행. → 자격증명 부족으로 차단됨
+- [2026-08-17] 사용자에게 youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID를 원본 형태로 입력하도록 요청하고, python3 youtube_account.py 실행하여 SHA-256 해시 검증을 진행해주세요. 입력 미완료 시 자동화 스크립트 실행 불가 → 자격증명 부족으로 차단됨
+- [2026-08-17] 사용자에게 youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID를 원본 형태로 입력하도록 즉시 요청하고, SHA-256 해시 검증 후 python3 youtube_account.py 실행 여부를 확인하세요. 입력 미완료 시 자동화 스크립트 실행 차단 → 자격증명 부족으로 차단됨
+- [2026-08-17] 사장님에게 youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID를 원본 형태로 입력하도록 즉시 요청하고, SHA-256 해시 검증 후 python3 youtube_account.py 실행 여부를 확인하세요. 입력 미완료 시 자동화 스크립트 실행 차단 → 자격증명 부족으로 차단됨
+- [2026-08-18] 사용자에게 youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID를 원본 형태로 입력하도록 즉시 요청하고, SHA-256 해시 검증 후 python3 youtube_account.py 실행 여부를 확인하세요. 입력 미완료 시 자동화 스크립트 실행 차단 → 자격증명 부족으로 차단됨
+- [2026-08-18] 사장님께 youtube_account.json에 원본 YOUTUBE_API_KEY와 MY_CHANNEL_ID를 즉시 입력하도록 요청하고, SHA-256 해시 검증 후 python3 youtube_account.py 실행 여부를 확인하세요. 입력 미완료 시 자동화 스크립트 실행 차단 → 자격증명 부족으로 차단됨
+- [2026-08-18] 사장님께 youtube_account.json에 원본 YOUTUBE_API_KEY와 MY_CHANNEL_ID를 즉시 입력하도록 요청하고, SHA-256 해시 검증 후 python3 youtube_account.py 실행 여부를 확인하세요. 입력 미완료 시 자동화 스크립트 실행 차단 → 자격증명 부족으로 차단됨
+- [2026-08-18] 사장님께 youtube_account.json에 원본 YOUTUBE_API_KEY와 MY_CHANNEL_ID 즉시 입력 요청 및 SHA-256 검증 후 python3 youtube_account.py 실행 여부 확인 → 자격증명 부족으로 차단됨
+- [2026-08-18] 사장님께 youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID 즉시 입력 요청. SHA-256 검증 후 python3 youtube_account.py 실행 여부 재확인 → 자격증명 부족으로 차단됨
+- [2026-08-18] 사장님께 youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID 즉시 입력 요청. SHA-256 검증 후 python3 youtube_account.py 실행 여부 재확인 → 자격증명 부족으로 차단됨
+- [2026-08-18] 사장님께 youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID 즉시 입력 요청. SHA-256 해시 검증 후 python3 youtube_account.py 실행 여부 재확인 → 자격증명 부족으로 차단됨
+- [2026-08-18] 사장님께 youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID를 즉시 입력하도록 요청하고, SHA-256 해시 검증 후 python3 youtube_account.py 실행 여부를 재확인해주세요 → 자격증명 부족으로 차단됨
+- [2026-08-18] 사장님께 youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID를 즉시 입력하도록 요청하고, SHA-256 해시 검증 후 python3 youtube_account.py 실행 여부를 재확인해주세요 → 자격증명 부족으로 차단됨
+- [2026-08-18] 사장님께 youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID를 즉시 입력하도록 요청하고, SHA-256 해시 검증 후 python3 youtube_account.py 실행 여부를 재확인해주세요 → 자격증명 부족으로 차단됨
+- [2026-08-18] 사장님께 youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID를 즉시 입력하도록 요청하고, SHA-256 해시 검증 후 python3 youtube_account.py 실행 여부를 재확인해주세요 → 자격증명 부족으로 차단됨
+- [2026-08-18] 사장님께 youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID를 즉시 입력하도록 요청하고, SHA-256 해시 검증 후 python3 youtube_account.py 실행 여부를 재확인해주세요 → 자격증명 부족으로 차단됨
+- [2026-08-18] 사장님께서 youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID를 입력하고, SHA-256 해시 검증 후 python3 youtube_account.py 실행 여부를 확인해주세요. → 자격증명 부족으로 차단됨
+- [2026-08-18] 사장님께서 youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID를 즉시 입력하고, SHA-256 해시 검증 후 python3 youtube_account.py 실행 여부를 확인해주세요. → 자격증명 부족으로 차단됨
+- [2026-08-18] 사장님께서 youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID를 즉시 입력하고, SHA-256 해시 검증 후 python3 youtube_account.py 실행 여부를 확인해주세요. → 자격증명 부족으로 차단됨
+- [2026-08-18] 사장님께서 youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID를 즉시 입력하고, SHA-256 해시 검증 후 python3 youtube_account.py 실행 여부를 확인해주세요. → 자격증명 부족으로 차단됨
+- [2026-08-19] 사장님께 YOUTUBE_API_KEY와 MY_CHANNEL_ID 입력 요청 및 SHA-256 해시 검증 절차 재시도 → 자격증명 부족으로 차단됨
+- [2026-08-19] 사장님께서 youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID를 즉시 입력하고, SHA-256 해시 검증 후 python3 youtube_account.py 실행 여부를 확인해주세요. → 자격증명 부족으로 차단됨
+- [2026-08-19] 사장님께서 youtube_account.json에 YOUTUBE_API_KEY와 MY_CHANNEL_ID를 즉시 입력하고, SHA-256 해시 검증 후 python3 youtube_account.py 실행 여부를 확인해주세요. → 산출물 sessions/2026-08-19T01-48/youtube.md

@@ -325,3 +325,14 @@ _코다리 에이전트만 읽고 쓰는 개인 노트. 학습·교훈·자주 �
 - [2026-08-12] connectAiLab.json과 orchestration.json 파일을 /Users/seopro/에이전트 학교/_company/configs/ 경로에 생성하고, 모델 설정 및 실시간 검증 파라미터를 JSON 형식으로 정의해주세요. 기존 파일이 없으므로 신규 생성 후, 레오(Youtube)와 디자이너(Designer)에게 시스템 설정 정보를 공유하세요. → 산출물 sessions/2026-08-12T12-19/developer.md
 - [2026-08-13] trend_sniper.py와 auto_planner.py의 실패 원인을 분석하고, LLM 연결 및 설정 오류를 수정해 실행 가능하도록 개선하세요. 기존 에러 로그(/Users/seopro/에이전트 학교/_company/logs/)를 참고하여 코드 수정 및 테스트를 수행하세요. → 산출물 sessions/2026-08-13T02-42/developer.md
 - [2026-08-13] /Users/seopro/에이전트 학교/_company 경로에 trend_sniper.py와 auto_planner.py 파일이 생성되지 않은 원인을 분석하고, 파일 생성 및 경로 설정 오류를 수정해 실행 가능한 상태로 만드세요 → 산출물 sessions/2026-08-13T03-27/developer.md
+- [2026-08-13] trend_sniper.py와 auto_planner.py의 실패 원인을 분석하고, LLM 연결 및 설정 오류를 수정해 실행 가능하도록 개선하세요. 기존 에러 로그(/Users/seopro/에이전트 학교/_company/logs/)를 참고하여 코드 수정 및 테스트를 수행하세요 → 산출물 sessions/2026-08-13T06-57/developer.md
+- [2026-08-14] trend_sniper.py 및 auto_planner.py의 LLM 연결 오류 분석 후, SHA-256 해시 검증 모듈과 실시간 검증 주기(10초) 설정을 반영한 코드 재작성 및 테스트 수행 → 산출물 sessions/2026-08-14T00-18/developer.md
+- [2026-08-14] trend_sniper.py 및 auto_planner.py 생성 실패 원인 분석 후, /Users/seopro/에이전트 학교/_company 경로의 LLM 연결 설정 및 파일 생성 로직 수정해 실행 가능한 상태로 변경하세요. 기존 llm_error.log 분석 결과를 반영해야 합니다. → 산출물 sessions/2026-08-14T01-03/developer.md
+- [2026-08-14] trend_sniper.py와 auto_planner.py의 LLM 연결 오류를 재분석하고, SHA-256 검증 모듈과 실시간 검증 주기(10초) 설정을 반영해 코드를 재작성 및 테스트하세요. → 산출물 sessions/2026-08-14T01-18/developer.md
+- [2026-08-14] trend_sniper.py 및 auto_planner.py의 LLM 연결 오류를 재분석하고, SHA-256 검증 모듈과 실시간 검증 주기(10초) 설정을 반영해 코드를 재작성 및 테스트하세요. → 자격증명 부족으로 차단됨
+- [2026-08-14] /Users/seopro/에이전트 학교/_company 경로의 LLM 연결 설정 검증 및 trend_sniper.py, auto_planner.py 파일 생성 로직 수정 후 재시도. SHA-256 검증 모듈과 실시간 검증 주기(10초) 설정 반영 → 산출물 sessions/2026-08-14T02-48/developer.md
+- [2026-08-14] trend_sniper.py와 auto_planner.py의 LLM 연결 오류를 재분석하고, SHA-256 검증 모듈과 실시간 검증 주기(10초) 설정을 반영해 코드를 재작성 및 테스트하세요. → 산출물 sessions/2026-08-14T21-09/developer.md
+- [2026-08-16] trend_sniper.py 및 auto_planner.py의 LLM 연결 오류 재분석. SHA-256 검증 모듈과 실시간 검증 주기(10초) 설정 반영 후 코드 수정 및 테스트 → 산출물 sessions/2026-08-16T01-39/developer.md
+- [2026-08-16] trend_sniper.py의 LLM 연결 설정 및 API 키 검증 후 재실행 시도 (SHA-256 해시 검증 포함) → 산출물 sessions/2026-08-16T06-48/developer.md
+- [2026-08-16] trend_sniper.py와 auto_planner.py의 오류 원인을 분석하고, LLM 연결 설정과 인증 키 유효성 검사를 수행하세요. → 산출물 sessions/2026-08-16T22-25/developer.md
+- [2026-08-17] trend_sniper.py와 auto_planner.py의 오류 원인을 분석하고, LLM 연결 설정 및 인증 키 유효성을 검사해 실행 가능한 상태로 수정하세요. → 산출물 sessions/2026-08-17T04-22/developer.md
