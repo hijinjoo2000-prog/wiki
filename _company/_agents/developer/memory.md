@@ -338,3 +338,5 @@ _코다리 에이전트만 읽고 쓰는 개인 노트. 학습·교훈·자주 �
 - [2026-08-17] trend_sniper.py와 auto_planner.py의 오류 원인을 분석하고, LLM 연결 설정 및 인증 키 유효성을 검사해 실행 가능한 상태로 수정하세요. → 산출물 sessions/2026-08-17T04-22/developer.md
 - [2026-08-19] trend_sniper.py 및 auto_planner.py 스크립트의 API 인증 처리 로직을 점검하고 SHA-256 검증 과정에서 발생할 수 있는 오류를 분석하세요. → 산출물 sessions/2026-08-19T12-36/developer.md
 - [2026-08-19] trend_sniper.py 및 auto_planner.py의 API 인증 처리 로직 점검 후 SHA-256 검증 과정 오류 분석 및 수정 → 산출물 sessions/2026-08-19T14-51/developer.md
+- [2026-08-19] trend_sniper.py의 datetime.datetime.utcnow() deprecated 경고 수정 및 API 자격증명 검증 로직 강화 → 산출물 sessions/2026-08-19T16-51/developer.md
+- [2026-08-19] trend_sniper.py의 datetime.datetime.utcnow() deprecated 경고 수정 및 API 자격증명 검증 로직 강화 → 산출물 sessions/2026-08-19T18-51/developer.md

@@ -1,5 +1,5 @@
 # 📋 통합 스케줄
-_업데이트: 2026. 8. 20. 오전 12:35:18_
+_업데이트: 2026. 8. 20. 오전 4:04:09_
 
 ## 🤖 에이전트 최근 활동
 ### 📺 레오
@@ -11,17 +11,17 @@ _업데이트: 2026. 8. 20. 오전 12:35:18_
 - [2026-08-12] Figma 와이어프레임에 '데이터 무결성 상태' 실시간 알림 UI 요소(색상 변환, 아이콘 애니메이션)를 추가하고, SHA-256 검증 실패 시 즉시 사용자 알림 기능 구현 → 산출물 sessions/2026-08-12T05-48/designer.md
 - [2026-08-12] Figma 와이어프레임에 '데이터 무결성 상태' 실시간 알림 UI 요소(색상 변환, 아이콘 애니메이션)를 추가하고, SHA-256 검증 실패 시 즉시 사용자 알림 기능 구현 → 산출물 sessions/2026-08-12T07-03/designer.md
 ### 💻 코다리
-- [2026-08-17] trend_sniper.py와 auto_planner.py의 오류 원인을 분석하고, LLM 연결 설정 및 인증 키 유효성을 검사해 실행 가능한 상태로 수정하세요. → 산출물 sessions/2026-08-17T04-22/developer.md
-- [2026-08-19] trend_sniper.py 및 auto_planner.py 스크립트의 API 인증 처리 로직을 점검하고 SHA-256 검증 과정에서 발생할 수 있는 오류를 분석하세요. → 산출물 sessions/2026-08-19T12-36/developer.md
 - [2026-08-19] trend_sniper.py 및 auto_planner.py의 API 인증 처리 로직 점검 후 SHA-256 검증 과정 오류 분석 및 수정 → 산출물 sessions/2026-08-19T14-51/developer.md
+- [2026-08-19] trend_sniper.py의 datetime.datetime.utcnow() deprecated 경고 수정 및 API 자격증명 검증 로직 강화 → 산출물 sessions/2026-08-19T16-51/developer.md
+- [2026-08-19] trend_sniper.py의 datetime.datetime.utcnow() deprecated 경고 수정 및 API 자격증명 검증 로직 강화 → 산출물 sessions/2026-08-19T18-51/developer.md
 ### 💼 현빈
 - [2026-08-13] 지식 저장소 수익화 전략을 재분석하고, 현재 실패 중인 자동화 스크립트가 회사 목표 달성에 기여할 수 있는 방식으로 우선순위를 재설정하세요 → 자격증명 부족으로 차단됨
 - [2026-08-14] paypal_api_integration_verification.md 파일을 검토해 CLIENT_ID와 SECRET 값의 입력 여부를 확인하고, 미입력 시 사용자에게 재요청 프로세스 최적화를 위해 3회차 시도 후 차단 예외 처리 로직 추가 → 산출물 sessions/2026-08-14T02-48/business.md
 - [2026-08-16] 연구팀의 신규 데이터를 기반으로 수익화 전략을 수정하고, 현재 에이전트 목표와 맞춤형 KPI를 재설정 → 산출물 sessions/2026-08-16T00-54/business.md
 ### 📱 영숙
-- [2026-08-19] youtube_account.json의 YOUTUBE_API_KEY(32자)와 MY_CHANNEL_ID(24자)가 정확히 입력되었는지 검증하고, 형식 오류 시 즉시 수정 요청 → 자격증명 부족으로 차단됨
-- [2026-08-19] youtube_account.json의 YOUTUBE_API_KEY(32자)와 MY_CHANNEL_ID(24자)가 유효한 값인지 검증하고, 파일 경로 오류 시 즉시 수정 요청 → 자격증명 부족으로 차단됨
-- [2026-08-19] youtube_account.json의 YOUTUBE_API_KEY(32자)와 MY_CHANNEL_ID(24자)가 유효한 값으로 입력되었는지 3회차 검증하고, 형식 오류 시 즉시 수정 요청 → 산출물 sessions/2026-08-19T14-51/secretary.md
+- [2026-08-19] youtube_account.json의 YOUTUBE_API_KEY(32자)와 MY_CHANNEL_ID(24자)가 유효한 값인지 3회차 검증하고, 형식 오류 시 즉시 수정 요청 → 자격증명 부족으로 차단됨
+- [2026-08-19] youtube_account.json의 YOUTUBE_API_KEY(32자) 및 MY_CHANNEL_ID(24자) 형식 검증 후 재입력 요청, SHA-256 해시 검증 동기화 → 자격증명 부족으로 차단됨
+- [2026-08-19] youtube_account.json의 YOUTUBE_API_KEY(32자) 및 MY_CHANNEL_ID(24자) 형식 검증 후 재입력 요청 → 자격증명 부족으로 차단됨
 ### ✍️ Writer
 - [2026-08-08] business 에이전트가 제공한 수익화 전략과 KPI를 바탕으로 공인중개사 결제 100건 달성을 위한 실행 가능한 마케팅 메시지 초안을 작성하세요. → 산출물 sessions/2026-08-08T17-47/writer.md
 - [2026-08-09] 수익화 모델에 맞춰 잠재 고객(공인중개사)에게 어필할 수 있는 핵심 마케팅 메시지 초안 및 초기 지식 저장소의 목차를 작성하라. → 산출물 sessions/2026-08-09T01-34/writer.md
