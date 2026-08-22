@@ -345,3 +345,4 @@ _코다리 에이전트만 읽고 쓰는 개인 노트. 학습·교훈·자주 �
 - [2026-08-20] SHA-256 검증 로직 수정 및 테스트 수행하여 API 인증 키 유효성 검사 강화 → 산출물 sessions/2026-08-20T01-49/developer.md
 - [2026-08-20] youtube_account.json의 YOUTUBE_API_KEY(32자) 및 MY_CHANNEL_ID(24자) 형식 검증 후 SHA-256 해시 재확인하고, 유효하지 않을 경우 사장에게 즉시 수정 요청 → 산출물 sessions/2026-08-20T11-47/developer.md
 - [2026-08-20] trend_sniper.py의 datetime.datetime.utcnow() deprecated 경고 수정 및 API 자격증명 검증 로직 재검토 후 pytest로 테스트 실행 → 자격증명 부족으로 차단됨
+- [2026-08-22] youtube_account.json의 YOUTUBE_API_KEY(32자) 및 MY_CHANNEL_ID(24자) 형식 검증 후 SHA-256 해시 재확인하고, 유효하지 않을 경우 사장님께 즉시 수정 요청 → 자격증명 부족으로 차단됨

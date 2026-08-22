@@ -133,5 +133,5 @@ def main():
         print(f"> ⚠️ {len(results) - passed}개 실패 — 위 출력 보고 수정 필요.")
 
 
-if __name__ == "__main__":
+... + youtube_account 검증 로직
     main()
