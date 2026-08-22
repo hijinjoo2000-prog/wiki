@@ -1,11 +1,11 @@
 # 📋 통합 스케줄
-_업데이트: 2026. 8. 20. 오후 8:51:35_
+_업데이트: 2026. 8. 22. 오후 7:49:36_
 
 ## 🤖 에이전트 최근 활동
 ### 📺 레오
-- [2026-08-19] youtube_account.json에 YOUTUBE_API_KEY 및 MY_CHANNEL_ID 입력하고 SHA-256 해시 검증 후 python3 youtube_account.py 실행 여부 확인 → 자격증명 부족으로 차단됨
 - [2026-08-20] youtube_account.json 파일의 YOUTUBE_API_KEY(32자) 및 MY_CHANNEL_ID(24자)가 유효한 값인지 3회차 검증하고, 형식 오류 시 즉시 수정 요청 → 자격증명 부족으로 차단됨
 - [2026-08-20] youtube_account.json 파일의 YOUTUBE_API_KEY(32자) 및 MY_CHANNEL_ID(24자)가 유효한 값인지 3회차 검증하고, 형식 오류 시 즉시 수정 요청 → 산출물 sessions/2026-08-20T01-49/youtube.md
+- [2026-08-22] YOUTUBE_API_KEY(32자) 및 MY_CHANNEL_ID(24자) 형식 검증 후 SHA-256 해시 재확인, 유효하지 않을 경우 즉시 수정 요청 → 자격증명 부족으로 차단됨
 ### 🎨 Designer
 - [2026-08-11] Figma 와이어프레임에 실시간 데이터 검증 시각 요소(3단계 바, 원형 차트) 업데이트 → 산출물 sessions/2026-08-11T02-35/designer.md
 - [2026-08-12] Figma 와이어프레임에 '데이터 무결성 상태' 실시간 알림 UI 요소(색상 변환, 아이콘 애니메이션)를 추가하고, SHA-256 검증 실패 시 즉시 사용자 알림 기능 구현 → 산출물 sessions/2026-08-12T05-48/designer.md
