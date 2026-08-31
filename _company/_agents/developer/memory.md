@@ -346,3 +346,9 @@ _코다리 에이전트만 읽고 쓰는 개인 노트. 학습·교훈·자주 �
 - [2026-08-20] youtube_account.json의 YOUTUBE_API_KEY(32자) 및 MY_CHANNEL_ID(24자) 형식 검증 후 SHA-256 해시 재확인하고, 유효하지 않을 경우 사장에게 즉시 수정 요청 → 산출물 sessions/2026-08-20T11-47/developer.md
 - [2026-08-20] trend_sniper.py의 datetime.datetime.utcnow() deprecated 경고 수정 및 API 자격증명 검증 로직 재검토 후 pytest로 테스트 실행 → 자격증명 부족으로 차단됨
 - [2026-08-22] youtube_account.json의 YOUTUBE_API_KEY(32자) 및 MY_CHANNEL_ID(24자) 형식 검증 후 SHA-256 해시 재확인하고, 유효하지 않을 경우 사장님께 즉시 수정 요청 → 자격증명 부족으로 차단됨
+- [2026-08-22] youtube_account.json 파일의 YOUTUBE_API_KEY(32자) 및 MY_CHANNEL_ID(24자) 형식 검증 후 SHA-256 해시 재확인, 유효하지 않을 경우 즉시 수정 요청 → 자격증명 부족으로 차단됨
+- [2026-08-22] trend_sniper.py의 datetime.datetime.utcnow()을 datetime.now(UTC)로 대체하고, youtube_account.json의 YOUTUBE_API_KEY(32자) 및 MY_CHANNEL_ID(24자) 형식 검증 후 SHA-256 해시 재확인 → 산출물 sessions/2026-08-22T11-46/developer.md
+- [2026-08-26] tools/lint_test.py의 경로 오류 수정 및 재실행: '/Users/seopro/에이전트 학교/_company' 디렉토리 존재 여부 확인 후 경로 설정 재검증 → 산출물 sessions/2026-08-26T01-26/developer.md
+- [2026-08-31] trend_sniper.py 오류 원인 분석 및 youtube_account.json 파일 생성 여부 확인, 형식 검증 후 SHA-256 해시 재확인 → 산출물 sessions/2026-08-31T03-56/developer.md
+- [2026-08-31] youtube_account.json의 'YOUTUBE_API_KEY' 및 'MY_CHANNEL_ID' 필드에 대해 JSON 구문 오류(인용 부족)를 수정하고, python3 youtube_account.py를 재실행해 유효성 검증을 수행하세요. 기존 SyntaxError 원인을 분석해 빠진 쌍따옴표 처리 및 SHA-256 해시 재검증을 진행합니다. → 산출물 sessions/2026-08-31T04-26/developer.md
+- [2026-08-31] trend_sniper.py 스크립트의 오류 원인을 분석하고, youtube_account.json의 API 키/채널 ID 형식 검증 후 SHA-256 해시 재확인 → 자격증명 부족으로 차단됨

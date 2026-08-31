@@ -406,3 +406,4 @@ _영숙 에이전트만 읽고 쓰는 개인 노트. 학습·교훈·자주 쓰�
 - [2026-08-19] 사장님께 youtube_account.json 파일 생성 및 YOUTUBE_API_KEY(32자), MY_CHANNEL_ID(24자) 입력 요청. 형식 예시: {"YOUTUBE_API_KEY": "YOUR_32_CHAR_KEY", "MY_CHANNEL_ID": "YOUR_24_CHAR_ID"} → 자격증명 부족으로 차단됨
 - [2026-08-20] 사장님께 youtube_account.json 파일 생성 및 YOUTUBE_API_KEY(32자), MY_CHANNEL_ID(24자) 재입력 요청. 형식 예시 제공 → 자격증명 부족으로 차단됨
 - [2026-08-20] 사장님께 youtube_account.json 파일 생성 및 YOUTUBE_API_KEY(32자), MY_CHANNEL_ID(24자) 입력 요청. 형식 예시: {"YOUTUBE_API_KEY": "YOUR_32_CHAR_KEY", "MY_CHANNEL_ID": "YOUR_24_CHAR_ID"} → 자격증명 부족으로 차단됨
+- [2026-08-22] 최근 24시간 내 반복된 작업 기록과 메모리 데이터를 검토해 중복 여부 확인 → 산출물 sessions/2026-08-22T11-54/secretary.md
